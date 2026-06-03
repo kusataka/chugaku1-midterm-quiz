@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>中1中間テスト対策 四択模試 振り返りシート</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif; line-height: 1.6; padding: 24px; color: #222; }
+h1 { font-size: 22px; border-bottom: 3px solid #333; padding-bottom: 8px; }
+h2 { font-size: 18px; margin-top: 24px; border-left: 6px solid #555; padding-left: 10px; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0 18px; }
+th, td { border: 1px solid #999; padding: 8px; font-size: 13px; }
+th { background: #f2f2f2; }
+.box { border: 1px solid #999; min-height: 70px; padding: 10px; margin-top: 8px; }
+.small { font-size: 12px; color: #555; }
+@media print { body { padding: 12mm; } }
+</style>
+</head>
+<body>
+<h1>中1中間テスト対策 四択模試 振り返りシート</h1>
+<p>生徒名：＿＿＿＿＿＿＿＿　実施日：＿＿年＿＿月＿＿日　目標：5教科450点・10位以内</p>
+
+<h2>1. 総合結果</h2>
+<table>
+<tr><th>総問題数</th><th>正答数</th><th>正答率</th><th>500点換算</th><th>目標との差</th></tr>
+<tr><td>{{totalQuestions}}</td><td>{{correctCount}}</td><td>{{accuracy}}%</td><td>{{convertedScore}}</td><td>{{diffFromTarget}}</td></tr>
+</table>
+
+<h2>2. 教科別結果</h2>
+<table>
+<tr><th>教科</th><th>正答数</th><th>問題数</th><th>正答率</th><th>判定</th></tr>
+{{subjectRows}}
+</table>
+
+<h2>3. 単元・分野別の得意苦手</h2>
+<table>
+<tr><th>教科</th><th>単元</th><th>分野</th><th>正答率</th><th>判定</th></tr>
+{{topicRows}}
+</table>
+
+<h2>4. 苦手分野ランキング</h2>
+<table>
+<tr><th>順位</th><th>教科</th><th>単元</th><th>分野</th><th>正答率</th><th>誤答数</th></tr>
+{{weaknessRows}}
+</table>
+
+<h2>5. 間違えた問題一覧</h2>
+<table>
+<tr><th>ID</th><th>教科</th><th>分野</th><th>問題</th><th>選んだ答え</th><th>正解</th></tr>
+{{wrongRows}}
+</table>
+
+<h2>6. 次にやること</h2>
+<div class="box">{{nextActions}}</div>
+
+<h2>7. 保護者コメント</h2>
+<div class="box"></div>
+
+<h2>8. 次回学習日メモ</h2>
+<div class="box"></div>
+<p class="small">判定目安：90%以上=得意、80〜89%=概ねOK、60〜79%=要復習、60%未満=苦手</p>
+</body>
+</html>

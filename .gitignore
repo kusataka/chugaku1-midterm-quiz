@@ -1,0 +1,11 @@
+node_modules/
+.env
+.credentials.json
+*.token
+*.key
+*.pem
+id_rsa*
+credentials*
+.DS_Store
+Thumbs.db
+tmp/

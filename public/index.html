@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中1中間テスト対策 四択模試</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">中1 第1回 中間テスト</p>
+      <h1>5教科 四択模試</h1>
+    </div>
+    <div class="score-goal">
+      <span>目標</span>
+      <strong>450点</strong>
+    </div>
+  </header>
+
+  <main>
+    <section id="setupView" class="view is-active" aria-labelledby="setupTitle">
+      <div class="panel intro-panel">
+        <div>
+          <h2 id="setupTitle">今日の練習を選ぶ</h2>
+          <p id="dataStatus">問題データを読み込み中です。</p>
+        </div>
+        <button id="resumeButton" class="secondary-button hidden" type="button">中断した模試を再開</button>
+      </div>
+
+      <form id="setupForm" class="panel setup-grid">
+        <label>
+          教科
+          <select id="subjectFilter" name="subject"></select>
+        </label>
+        <label>
+          単元
+          <select id="unitFilter" name="unit"></select>
+        </label>
+        <label>
+          分野
+          <select id="topicFilter" name="topic"></select>
+        </label>
+        <label>
+          難易度
+          <select id="difficultyFilter" name="difficulty"></select>
+        </label>
+        <label>
+          技能
+          <select id="targetSkillFilter" name="targetSkill"></select>
+        </label>
+        <label>
+          出題数
+          <select id="questionLimit" name="limit">
+            <option value="10">10問</option>
+            <option value="20" selected>20問</option>
+            <option value="50">50問</option>
+            <option value="100">100問</option>
+            <option value="all">すべて</option>
+          </select>
+        </label>
+        <label class="check-row">
+          <input id="shuffleQuestions" type="checkbox" checked>
+          問題順をシャッフル
+        </label>
+        <label class="check-row">
+          <input id="shuffleChoiceOrder" type="checkbox" checked>
+          選択肢をシャッフル
+        </label>
+        <button class="primary-button" type="submit">模試を始める</button>
+      </form>
+
+      <section class="panel resource-panel" aria-label="印刷教材">
+        <h2>紙で解く</h2>
+        <div class="resource-links">
+          <a href="./prints/chugaku1_midterm_questions.pdf">問題PDF</a>
+          <a href="./prints/chugaku1_midterm_answers.pdf">解答・解説PDF</a>
+        </div>
+      </section>
+    </section>
+
+    <section id="quizView" class="view" aria-live="polite">
+      <div class="quiz-head">
+        <button id="backToSetupButton" class="icon-button" type="button" aria-label="設定に戻る">←</button>
+        <div class="progress-wrap">
+          <div class="progress-copy"><span id="progressText">1 / 20</span><span id="currentSubject"></span></div>
+          <div class="progress-bar"><span id="progressBar"></span></div>
+        </div>
+      </div>
+
+      <article class="question-card">
+        <div class="tags" id="questionTags"></div>
+        <h2 id="questionText"></h2>
+        <div id="choicesList" class="choices-list"></div>
+        <div id="feedbackPanel" class="feedback-panel hidden"></div>
+      </article>
+
+      <div class="quiz-actions">
+        <button id="nextButton" class="primary-button hidden" type="button">次の問題へ</button>
+        <button id="finishButton" class="secondary-button hidden" type="button">ここまでで結果を見る</button>
+      </div>
+    </section>
+
+    <section id="resultView" class="view">
+      <div class="panel result-hero">
+        <div>
+          <p class="eyebrow">結果</p>
+          <h2 id="resultTitle">おつかれさま</h2>
+          <p id="resultSummary"></p>
+        </div>
+        <div class="big-score" id="convertedScore">0</div>
+      </div>
+
+      <div class="panel action-panel">
+        <label>
+          生徒名
+          <input id="studentName" type="text" placeholder="名前を入力">
+        </label>
+        <button id="printReflectionButton" class="secondary-button" type="button">振り返りシートを印刷</button>
+        <button id="retryWrongButton" class="primary-button" type="button">間違えた問題だけ復習</button>
+        <button id="newQuizButton" class="ghost-button" type="button">新しく始める</button>
+      </div>
+
+      <div class="result-grid">
+        <section class="panel">
+          <h3>教科別</h3>
+          <div id="subjectResults" class="table-list"></div>
+        </section>
+        <section class="panel">
+          <h3>苦手分野ランキング</h3>
+          <div id="weaknessResults" class="rank-list"></div>
+        </section>
+        <section class="panel">
+          <h3>技能別</h3>
+          <div id="skillResults" class="table-list"></div>
+        </section>
+        <section class="panel">
+          <h3>間違えた問題</h3>
+          <div id="wrongResults" class="wrong-list"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
