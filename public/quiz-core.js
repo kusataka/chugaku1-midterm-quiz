@@ -1,4 +1,10 @@
 const FILTER_KEYS = ["subject", "unit", "topic", "difficulty", "targetSkill"];
+const DEFAULT_THRESHOLDS = [
+  { min: 90, label: "得意" },
+  { min: 80, label: "概ねOK" },
+  { min: 60, label: "要復習" },
+  { min: 0, label: "苦手" }
+];
 
 export function filterQuestions(questions, filters = {}) {
   return questions.filter((question) =>
@@ -45,17 +51,18 @@ export function buildAnswerLog(question, selectedAnswer, now = new Date()) {
   };
 }
 
-export function summarizeResults(questions, logs) {
+export function summarizeResults(questions, logs, options = {}) {
   const questionById = new Map(questions.map((question) => [question.id, question]));
   const answered = logs.filter((log) => questionById.has(log.questionId));
+  const thresholds = options.thresholds ?? DEFAULT_THRESHOLDS;
 
   return {
-    overall: buildStats(answered),
-    bySubject: groupStats(answered, (log) => log.subject),
-    byUnit: groupStats(answered, (log) => `${log.subject} / ${log.unit}`),
-    byTopic: groupStats(answered, (log) => `${log.subject} / ${log.unit} / ${log.topic}`),
-    byDifficulty: groupStats(answered, (log) => log.difficulty),
-    byTargetSkill: groupStats(answered, (log) => log.targetSkill)
+    overall: buildStats(answered, thresholds),
+    bySubject: groupStats(answered, (log) => log.subject, thresholds),
+    byUnit: groupStats(answered, (log) => `${log.subject} / ${log.unit}`, thresholds),
+    byTopic: groupStats(answered, (log) => `${log.subject} / ${log.unit} / ${log.topic}`, thresholds),
+    byDifficulty: groupStats(answered, (log) => log.difficulty, thresholds),
+    byTargetSkill: groupStats(answered, (log) => log.targetSkill, thresholds)
   };
 }
 
@@ -76,6 +83,16 @@ export function convertToScore(correct, total, maxScore = 500) {
   return Math.round((correct / total) * maxScore);
 }
 
+export function scoreAttempt(overall, maxScore = 500, targetScore = 450) {
+  const convertedScore = convertToScore(overall.correct, overall.total, maxScore);
+  return {
+    rawScore: overall.correct,
+    maxRawScore: overall.total,
+    convertedScore,
+    diffFromTarget: convertedScore - targetScore
+  };
+}
+
 export function getStudyAdvice(summary) {
   const topicWeaknesses = Object.entries(summary.byTopic)
     .map(([key, value]) => ({ key, ...value }))
@@ -90,7 +107,7 @@ export function getStudyAdvice(summary) {
   return { topicWeaknesses, unitWeaknesses, skillWeaknesses };
 }
 
-function groupStats(logs, keyFn) {
+function groupStats(logs, keyFn, thresholds) {
   const groups = {};
   for (const log of logs) {
     const key = keyFn(log);
@@ -98,10 +115,10 @@ function groupStats(logs, keyFn) {
     groups[key].push(log);
   }
 
-  return Object.fromEntries(Object.entries(groups).map(([key, groupLogs]) => [key, buildStats(groupLogs)]));
+  return Object.fromEntries(Object.entries(groups).map(([key, groupLogs]) => [key, buildStats(groupLogs, thresholds)]));
 }
 
-function buildStats(logs) {
+function buildStats(logs, thresholds) {
   const total = logs.length;
   const correct = logs.filter((log) => log.isCorrect).length;
   const wrong = total - correct;
@@ -112,13 +129,10 @@ function buildStats(logs) {
     correct,
     wrong,
     accuracy,
-    label: judgeAccuracy(accuracy)
+    label: judgeAccuracy(accuracy, thresholds)
   };
 }
 
-function judgeAccuracy(accuracy) {
-  if (accuracy >= 90) return "得意";
-  if (accuracy >= 80) return "概ねOK";
-  if (accuracy >= 60) return "要復習";
-  return "苦手";
+function judgeAccuracy(accuracy, thresholds = DEFAULT_THRESHOLDS) {
+  return thresholds.find((threshold) => accuracy >= threshold.min)?.label ?? "苦手";
 }

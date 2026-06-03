@@ -12,16 +12,27 @@ const require = createRequire(import.meta.url);
 const { chromium } = require("playwright");
 
 const root = resolve(".");
-const data = JSON.parse(readFileSync(resolve(root, "public/data/mock_exam_5subjects_500questions.json"), "utf8"));
 const outDir = resolve(root, "public/prints");
+const datasets = [
+  {
+    title: "中1中間テスト対策 第1回 基礎確認",
+    file: "public/data/mock_exam_5subjects_500questions.json",
+    questionsHtml: "chugaku1_midterm_questions.html",
+    answersHtml: "chugaku1_midterm_answers.html",
+    questionsPdf: "chugaku1_midterm_questions.pdf",
+    answersPdf: "chugaku1_midterm_answers.pdf"
+  },
+  {
+    title: "中1中間テスト対策 第2回 高難度",
+    file: "public/data/mock_exam_5subjects_500questions_hard.json",
+    questionsHtml: "chugaku1_midterm_hard_questions.html",
+    answersHtml: "chugaku1_midterm_hard_answers.html",
+    questionsPdf: "chugaku1_midterm_hard_questions.pdf",
+    answersPdf: "chugaku1_midterm_hard_answers.pdf"
+  }
+];
 
 mkdirSync(outDir, { recursive: true });
-
-const questionsHtml = buildDocument("中1中間テスト対策 四択模試 問題", buildQuestionBody(data.questions, false));
-const answersHtml = buildDocument("中1中間テスト対策 四択模試 解答・解説", buildQuestionBody(data.questions, true));
-
-writeFileSync(resolve(outDir, "chugaku1_midterm_questions.html"), questionsHtml, "utf8");
-writeFileSync(resolve(outDir, "chugaku1_midterm_answers.html"), answersHtml, "utf8");
 
 const browser = await chromium.launch({
   executablePath: findBrowser(),
@@ -29,13 +40,21 @@ const browser = await chromium.launch({
 });
 const page = await browser.newPage();
 
-await renderPdf(page, questionsHtml, resolve(outDir, "chugaku1_midterm_questions.pdf"));
-await renderPdf(page, answersHtml, resolve(outDir, "chugaku1_midterm_answers.pdf"));
+for (const dataset of datasets) {
+  const data = JSON.parse(readFileSync(resolve(root, dataset.file), "utf8"));
+  const questionsHtml = buildDocument(`${dataset.title} 問題`, buildQuestionBody(dataset.title, data.questions, false));
+  const answersHtml = buildDocument(`${dataset.title} 解答・解説`, buildQuestionBody(dataset.title, data.questions, true));
+
+  writeFileSync(resolve(outDir, dataset.questionsHtml), questionsHtml, "utf8");
+  writeFileSync(resolve(outDir, dataset.answersHtml), answersHtml, "utf8");
+  await renderPdf(page, questionsHtml, resolve(outDir, dataset.questionsPdf));
+  await renderPdf(page, answersHtml, resolve(outDir, dataset.answersPdf));
+
+  console.log(`created public/prints/${dataset.questionsPdf}`);
+  console.log(`created public/prints/${dataset.answersPdf}`);
+}
 
 await browser.close();
-
-console.log("created public/prints/chugaku1_midterm_questions.pdf");
-console.log("created public/prints/chugaku1_midterm_answers.pdf");
 
 async function renderPdf(page, html, path) {
   await page.setContent(html, { waitUntil: "load" });
@@ -165,16 +184,16 @@ ${body}
 </html>`;
 }
 
-function buildQuestionBody(questions, withAnswers) {
+function buildQuestionBody(title, questions, withAnswers) {
   const grouped = groupBy(questions, (question) => question.subject);
   const subjectOrder = ["数学", "英語", "国語", "理科", "社会"];
-  const title = withAnswers ? "中1中間テスト対策 四択模試 解答・解説" : "中1中間テスト対策 四択模試 問題";
+  const heading = withAnswers ? `${title} 解答・解説` : `${title} 問題`;
   const meta = withAnswers
     ? "<p>各問題の正解と解説です。解き直しのときは、間違えた理由を一言で書き足してください。</p>"
     : `<div class="sheet-space"><div class="box">名前</div><div class="box">実施日</div><div class="box">点数</div></div>`;
 
-  return `<h1>${title}</h1>
-<div class="meta"><span>5教科500問</span><span>目標: 450点 / 学年10位以内</span></div>
+  return `<h1>${heading}</h1>
+<div class="meta"><span>5教科500問 / 1問1点</span><span>目標: 450点 / 学年10位以内</span></div>
 ${meta}
 ${subjectOrder.map((subject) => buildSubject(subject, grouped[subject] ?? [], withAnswers)).join("")}`;
 }

@@ -30,6 +30,13 @@
 
       <form id="setupForm" class="panel setup-grid">
         <label>
+          模試
+          <select id="examSelect" name="exam">
+            <option value="basic">第1回 基礎確認</option>
+            <option value="hard">第2回 高難度</option>
+          </select>
+        </label>
+        <label>
           教科
           <select id="subjectFilter" name="subject"></select>
         </label>
@@ -73,9 +80,19 @@
       <section class="panel resource-panel" aria-label="印刷教材">
         <h2>紙で解く</h2>
         <div class="resource-links">
-          <a href="./prints/chugaku1_midterm_questions.pdf">問題PDF</a>
-          <a href="./prints/chugaku1_midterm_answers.pdf">解答・解説PDF</a>
+          <a href="./prints/chugaku1_midterm_questions.pdf">第1回 問題PDF</a>
+          <a href="./prints/chugaku1_midterm_answers.pdf">第1回 解答・解説PDF</a>
+          <a href="./prints/chugaku1_midterm_hard_questions.pdf">第2回 問題PDF</a>
+          <a href="./prints/chugaku1_midterm_hard_answers.pdf">第2回 解答・解説PDF</a>
         </div>
+      </section>
+
+      <section class="panel history-panel" aria-label="過去の解答履歴">
+        <div class="panel-heading">
+          <h2>過去の解答履歴</h2>
+          <button id="clearHistoryButton" class="ghost-button" type="button">履歴を消す</button>
+        </div>
+        <div id="historyList" class="history-list"></div>
       </section>
     </section>
 
@@ -139,6 +156,11 @@
           <div id="wrongResults" class="wrong-list"></div>
         </section>
       </div>
+
+      <section class="panel history-panel">
+        <h3>保存された履歴</h3>
+        <div id="resultHistoryList" class="history-list"></div>
+      </section>
     </section>
   </main>
 

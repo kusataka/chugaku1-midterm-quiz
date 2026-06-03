@@ -5,6 +5,7 @@ import {
   filterQuestions,
   getWrongQuestions,
   rankWeaknesses,
+  scoreAttempt,
   shuffleChoices,
   summarizeResults
 } from "../public/quiz-core.js";
@@ -122,4 +123,36 @@ test("getWrongQuestionsは間違えた問題だけ返す", () => {
   ];
 
   assert.deepEqual(getWrongQuestions(sampleQuestions, logs).map((q) => q.id), ["soc-001"]);
+});
+
+test("scoreAttemptは1問1点で得点を返し500点換算も併記する", () => {
+  const score = scoreAttempt({ correct: 7, total: 10 }, 500);
+
+  assert.deepEqual(score, {
+    rawScore: 7,
+    maxRawScore: 10,
+    convertedScore: 350,
+    diffFromTarget: -100
+  });
+});
+
+test("summarizeResultsは応用編の判定基準を使える", () => {
+  const logs = [
+    buildAnswerLog(sampleQuestions[0], 1, new Date()),
+    buildAnswerLog(sampleQuestions[1], 0, new Date()),
+    buildAnswerLog(sampleQuestions[2], 2, new Date())
+  ];
+
+  const summary = summarizeResults(sampleQuestions, logs, {
+    thresholds: [
+      { min: 90, label: "非常に得意" },
+      { min: 75, label: "得意" },
+      { min: 60, label: "標準" },
+      { min: 40, label: "要復習" },
+      { min: 0, label: "苦手" }
+    ]
+  });
+
+  assert.equal(summary.overall.accuracy, 67);
+  assert.equal(summary.overall.label, "標準");
 });
