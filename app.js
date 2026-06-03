@@ -1,23 +1,52 @@
 import {
   buildAnswerLog,
-  convertToScore,
   filterQuestions,
   getStudyAdvice,
   getWrongQuestions,
   rankWeaknesses,
+  scoreAttempt,
   shuffleArray,
   shuffleChoices,
   summarizeResults
 } from "./quiz-core.js";
 
-const DATA_URL = "./data/mock_exam_5subjects_500questions.json";
+const EXAMS = {
+  basic: {
+    id: "basic",
+    title: "第1回 基礎確認",
+    url: "./data/mock_exam_5subjects_500questions.json",
+    thresholds: [
+      { min: 90, label: "得意" },
+      { min: 80, label: "概ねOK" },
+      { min: 60, label: "要復習" },
+      { min: 0, label: "苦手" }
+    ]
+  },
+  hard: {
+    id: "hard",
+    title: "第2回 高難度",
+    url: "./data/mock_exam_5subjects_500questions_hard.json",
+    thresholds: [
+      { min: 90, label: "非常に得意" },
+      { min: 75, label: "得意" },
+      { min: 60, label: "標準" },
+      { min: 40, label: "要復習" },
+      { min: 0, label: "苦手" }
+    ]
+  }
+};
+
 const STORAGE_KEY = "chugaku1-midterm-session";
-const HISTORY_KEY = "chugaku1-midterm-history";
+const HISTORY_KEY = "chugaku1-midterm-history-v2";
+const OLD_HISTORY_KEY = "chugaku1-midterm-history";
 const TARGET_SCORE = 450;
 
+let datasets = {};
 let allQuestions = [];
+let currentExam = EXAMS.basic;
 let session = null;
 let latestSummary = null;
+let latestScore = null;
 
 const views = {
   setup: document.querySelector("#setupView"),
@@ -25,6 +54,7 @@ const views = {
   result: document.querySelector("#resultView")
 };
 
+const examSelect = document.querySelector("#examSelect");
 const fields = {
   subject: document.querySelector("#subjectFilter"),
   unit: document.querySelector("#unitFilter"),
@@ -37,11 +67,13 @@ const fields = {
 document.querySelector("#setupForm").addEventListener("submit", startQuiz);
 document.querySelector("#resumeButton").addEventListener("click", resumeQuiz);
 document.querySelector("#nextButton").addEventListener("click", nextQuestion);
-document.querySelector("#finishButton").addEventListener("click", showResults);
+document.querySelector("#finishButton").addEventListener("click", () => showResults({ saveHistory: true }));
 document.querySelector("#backToSetupButton").addEventListener("click", () => showView("setup"));
 document.querySelector("#newQuizButton").addEventListener("click", resetToSetup);
 document.querySelector("#retryWrongButton").addEventListener("click", retryWrongQuestions);
 document.querySelector("#printReflectionButton").addEventListener("click", printReflectionSheet);
+document.querySelector("#clearHistoryButton").addEventListener("click", clearHistory);
+examSelect.addEventListener("change", switchExam);
 
 for (const field of Object.values(fields)) {
   field.addEventListener("change", refreshDependentOptions);
@@ -50,12 +82,25 @@ for (const field of Object.values(fields)) {
 loadData();
 
 async function loadData() {
-  const response = await fetch(DATA_URL);
-  const data = await response.json();
-  allQuestions = data.questions;
-  document.querySelector("#dataStatus").textContent = `5教科 ${allQuestions.length}問を読み込みました。`;
-  populateFilters();
+  const entries = await Promise.all(
+    Object.values(EXAMS).map(async (exam) => {
+      const response = await fetch(exam.url);
+      const data = await response.json();
+      return [exam.id, data.questions.map((question) => ({ ...question, examId: exam.id, examTitle: exam.title }))];
+    })
+  );
+
+  datasets = Object.fromEntries(entries);
+  switchExam();
   updateResumeButton();
+  renderHistoryLists();
+}
+
+function switchExam() {
+  currentExam = EXAMS[examSelect.value] ?? EXAMS.basic;
+  allQuestions = datasets[currentExam.id] ?? [];
+  document.querySelector("#dataStatus").textContent = `${currentExam.title}: 5教科 ${allQuestions.length}問を読み込みました。`;
+  populateFilters();
 }
 
 function populateFilters() {
@@ -94,6 +139,8 @@ function startQuiz(event) {
   }
 
   session = {
+    examId: currentExam.id,
+    examTitle: currentExam.title,
     startedAt: new Date().toISOString(),
     questions,
     currentIndex: 0,
@@ -106,7 +153,11 @@ function startQuiz(event) {
 
 function resumeQuiz() {
   session = readSession();
-  if (session) showQuestion();
+  if (!session) return;
+  currentExam = EXAMS[session.examId] ?? EXAMS.basic;
+  examSelect.value = currentExam.id;
+  allQuestions = datasets[currentExam.id] ?? allQuestions;
+  showQuestion();
 }
 
 function showQuestion() {
@@ -117,9 +168,9 @@ function showQuestion() {
   const percent = Math.round((session.currentIndex / total) * 100);
 
   document.querySelector("#progressText").textContent = `${index} / ${total}`;
-  document.querySelector("#currentSubject").textContent = question.subject;
+  document.querySelector("#currentSubject").textContent = `${session.examTitle} / ${question.subject}`;
   document.querySelector("#progressBar").style.width = `${percent}%`;
-  document.querySelector("#questionTags").innerHTML = [question.subject, question.unit, question.topic, question.difficulty, question.targetSkill]
+  document.querySelector("#questionTags").innerHTML = [session.examTitle, question.subject, question.unit, question.topic, question.difficulty, question.targetSkill]
     .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
     .join("");
   document.querySelector("#questionText").textContent = question.question;
@@ -139,7 +190,11 @@ function answerQuestion(selectedAnswer) {
   if (session.answeredCurrent) return;
 
   const question = session.questions[session.currentIndex];
-  const log = buildAnswerLog(question, selectedAnswer, new Date());
+  const log = {
+    ...buildAnswerLog(question, selectedAnswer, new Date()),
+    examId: session.examId,
+    examTitle: session.examTitle
+  };
   session.logs.push(log);
   session.answeredCurrent = true;
   saveSession();
@@ -165,7 +220,7 @@ function answerQuestion(selectedAnswer) {
 
 function nextQuestion() {
   if (session.currentIndex >= session.questions.length - 1) {
-    showResults();
+    showResults({ saveHistory: true });
     return;
   }
 
@@ -175,35 +230,65 @@ function nextQuestion() {
   showQuestion();
 }
 
-function showResults() {
-  if (!session || session.logs.length === 0) return;
+function showResults({ saveHistory = false, attempt = null } = {}) {
+  if (attempt) {
+    session = attempt.session;
+    latestSummary = attempt.summary;
+    latestScore = attempt.score;
+    renderResult(attempt);
+    showView("result");
+    return;
+  }
 
-  latestSummary = summarizeResults(session.questions, session.logs);
-  const score = convertToScore(latestSummary.overall.correct, latestSummary.overall.total, 500);
-  const diff = score - TARGET_SCORE;
+  if (!session || session.logs.length === 0) return;
+  latestSummary = summarizeResults(session.questions, session.logs, { thresholds: getExam(session.examId).thresholds });
+  latestScore = scoreAttempt(latestSummary.overall, 500, TARGET_SCORE);
+  const resultAttempt = {
+    id: crypto.randomUUID(),
+    examId: session.examId,
+    examTitle: session.examTitle,
+    startedAt: session.startedAt,
+    finishedAt: new Date().toISOString(),
+    session: structuredClone(session),
+    summary: latestSummary,
+    score: latestScore
+  };
+
+  if (saveHistory) {
+    saveAttemptHistory(resultAttempt);
+    localStorage.removeItem(STORAGE_KEY);
+    updateResumeButton();
+  }
+
+  renderResult(resultAttempt);
+  renderHistoryLists();
+  showView("result");
+}
+
+function renderResult(attempt) {
   const wrongQuestions = getWrongQuestions(session.questions, session.logs);
   const weaknesses = rankWeaknesses(latestSummary);
+  const diff = latestScore.diffFromTarget;
 
-  document.querySelector("#convertedScore").textContent = score;
-  document.querySelector("#resultTitle").textContent = `${latestSummary.overall.label}です`;
+  document.querySelector("#convertedScore").textContent = latestScore.rawScore;
+  document.querySelector("#resultTitle").textContent = `${attempt.examTitle}：${latestSummary.overall.label}`;
   document.querySelector("#resultSummary").textContent =
-    `${latestSummary.overall.correct}/${latestSummary.overall.total}問 正解率${latestSummary.overall.accuracy}% 500点換算${score}点 目標との差${diff >= 0 ? "+" : ""}${diff}点`;
+    `${latestScore.rawScore}点 / ${latestScore.maxRawScore}点（1問1点） 正答率${latestSummary.overall.accuracy}% 500点換算${latestScore.convertedScore}点 目標との差${diff >= 0 ? "+" : ""}${diff}点`;
   document.querySelector("#subjectResults").innerHTML = renderStats(latestSummary.bySubject);
   document.querySelector("#skillResults").innerHTML = renderStats(latestSummary.byTargetSkill);
   document.querySelector("#weaknessResults").innerHTML = weaknesses.slice(0, 10).map(renderWeakness).join("") || "<p>大きな苦手分野はありません。</p>";
   document.querySelector("#wrongResults").innerHTML = wrongQuestions.slice(0, 30).map(renderWrongQuestion).join("") || "<p>間違えた問題はありません。</p>";
   document.querySelector("#retryWrongButton").disabled = wrongQuestions.length === 0;
-
-  localStorage.removeItem(STORAGE_KEY);
-  localStorage.setItem(HISTORY_KEY, JSON.stringify({ session, summary: latestSummary, finishedAt: new Date().toISOString() }));
-  updateResumeButton();
-  showView("result");
+  renderHistoryLists();
 }
 
 function retryWrongQuestions() {
   const wrongQuestions = getWrongQuestions(session.questions, session.logs);
   if (!wrongQuestions.length) return;
+  const exam = getExam(session.examId);
   session = {
+    examId: exam.id,
+    examTitle: exam.title,
     startedAt: new Date().toISOString(),
     questions: wrongQuestions.map((question) => shuffleChoices(question)),
     currentIndex: 0,
@@ -215,10 +300,9 @@ function retryWrongQuestions() {
 }
 
 function printReflectionSheet() {
-  if (!session || !latestSummary) return;
+  if (!session || !latestSummary || !latestScore) return;
 
   const studentName = document.querySelector("#studentName").value || "＿＿＿＿＿＿";
-  const score = convertToScore(latestSummary.overall.correct, latestSummary.overall.total, 500);
   const weaknesses = rankWeaknesses(latestSummary);
   const advice = getStudyAdvice(latestSummary);
   const wrongQuestions = getWrongQuestions(session.questions, session.logs);
@@ -233,10 +317,10 @@ function printReflectionSheet() {
   table{width:100%;border-collapse:collapse;margin:10px 0 18px}th,td{border:1px solid #999;padding:7px;font-size:12px;vertical-align:top}th{background:#f2f2f2}.box{border:1px solid #999;min-height:70px;padding:10px}@media print{body{padding:12mm}}
   </style></head><body>
   <h1>中1中間テスト対策 四択模試 振り返りシート</h1>
-  <p>生徒名：${escapeHtml(studentName)}　実施日：${date}　目標：5教科450点・10位以内</p>
+  <p>模試：${escapeHtml(session.examTitle)}　生徒名：${escapeHtml(studentName)}　実施日：${date}　目標：5教科450点・10位以内</p>
   <h2>1. 総合結果</h2>
-  <table><tr><th>総問題数</th><th>正答数</th><th>正答率</th><th>500点換算</th><th>目標との差</th></tr>
-  <tr><td>${latestSummary.overall.total}</td><td>${latestSummary.overall.correct}</td><td>${latestSummary.overall.accuracy}%</td><td>${score}</td><td>${score - TARGET_SCORE}</td></tr></table>
+  <table><tr><th>得点</th><th>総問題数</th><th>正答率</th><th>500点換算</th><th>目標との差</th></tr>
+  <tr><td>${latestScore.rawScore}点 / ${latestScore.maxRawScore}点</td><td>${latestSummary.overall.total}</td><td>${latestSummary.overall.accuracy}%</td><td>${latestScore.convertedScore}</td><td>${latestScore.diffFromTarget}</td></tr></table>
   <h2>2. 教科別結果</h2>${tableFromStats(latestSummary.bySubject, "教科")}
   <h2>3. 単元別結果</h2>${tableFromStats(latestSummary.byUnit, "単元")}
   <h2>4. 苦手分野ランキング</h2><table><tr><th>順位</th><th>分野</th><th>正答率</th><th>誤答数</th></tr>${weaknesses.slice(0, 10).map((w, i) => `<tr><td>${i + 1}</td><td>${escapeHtml(w.key)}</td><td>${w.accuracy}%</td><td>${w.wrong}</td></tr>`).join("")}</table>
@@ -259,7 +343,7 @@ function renderStats(stats) {
     .map(([key, value]) => `
       <div class="table-row">
         <div><strong>${escapeHtml(key)}</strong><div class="label">${value.label}</div></div>
-        <div class="metric">${value.correct}/${value.total} (${value.accuracy}%)</div>
+        <div class="metric">${value.correct}点 / ${value.total}点 (${value.accuracy}%)</div>
       </div>
     `)
     .join("");
@@ -284,8 +368,34 @@ function renderWrongQuestion(question) {
   `;
 }
 
+function renderHistoryLists() {
+  const history = readHistory();
+  const html = history.length ? history.map(renderHistoryItem).join("") : "<p>まだ保存された履歴はありません。</p>";
+  document.querySelector("#historyList").innerHTML = html;
+  document.querySelector("#resultHistoryList").innerHTML = html;
+  document.querySelectorAll("[data-history-index]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const attempt = readHistory()[Number(button.dataset.historyIndex)];
+      if (attempt) showResults({ attempt });
+    });
+  });
+}
+
+function renderHistoryItem(attempt, index) {
+  const date = new Date(attempt.finishedAt).toLocaleString("ja-JP");
+  return `
+    <div class="history-item">
+      <div>
+        <strong>${escapeHtml(attempt.examTitle)} ${attempt.score.rawScore}点/${attempt.score.maxRawScore}点</strong>
+        <div class="history-meta">${date} / 正答率${attempt.summary.overall.accuracy}% / 500点換算${attempt.score.convertedScore}点</div>
+      </div>
+      <button class="secondary-button" type="button" data-history-index="${index}">見直す</button>
+    </div>
+  `;
+}
+
 function tableFromStats(stats, title) {
-  return `<table><tr><th>${title}</th><th>正答数</th><th>問題数</th><th>正答率</th><th>判定</th></tr>${
+  return `<table><tr><th>${title}</th><th>得点</th><th>満点</th><th>正答率</th><th>判定</th></tr>${
     Object.entries(stats).map(([key, value]) =>
       `<tr><td>${escapeHtml(key)}</td><td>${value.correct}</td><td>${value.total}</td><td>${value.accuracy}%</td><td>${value.label}</td></tr>`
     ).join("")
@@ -302,6 +412,45 @@ function renderAdviceText(advice) {
 
 function readFilters() {
   return Object.fromEntries(Object.entries(fields).filter(([key]) => key !== "limit").map(([key, field]) => [key, field.value]));
+}
+
+function saveAttemptHistory(attempt) {
+  const history = readHistory().filter((item) => item.id !== attempt.id);
+  history.unshift(attempt);
+  localStorage.setItem(HISTORY_KEY, JSON.stringify(history.slice(0, 30)));
+}
+
+function readHistory() {
+  const current = localStorage.getItem(HISTORY_KEY);
+  if (current) return JSON.parse(current);
+
+  const old = localStorage.getItem(OLD_HISTORY_KEY);
+  if (!old) return [];
+
+  try {
+    const parsed = JSON.parse(old);
+    if (!parsed.session || !parsed.summary) return [];
+    const score = scoreAttempt(parsed.summary.overall, 500, TARGET_SCORE);
+    return [{
+      id: "legacy-latest",
+      examId: parsed.session.examId ?? "basic",
+      examTitle: parsed.session.examTitle ?? "第1回 基礎確認",
+      startedAt: parsed.session.startedAt,
+      finishedAt: parsed.finishedAt,
+      session: parsed.session,
+      summary: parsed.summary,
+      score
+    }];
+  } catch {
+    return [];
+  }
+}
+
+function clearHistory() {
+  if (!confirm("過去の解答履歴をすべて削除しますか。")) return;
+  localStorage.removeItem(HISTORY_KEY);
+  localStorage.removeItem(OLD_HISTORY_KEY);
+  renderHistoryLists();
 }
 
 function setOptions(select, values, allLabel) {
@@ -341,9 +490,15 @@ function updateResumeButton() {
 function resetToSetup() {
   session = null;
   latestSummary = null;
+  latestScore = null;
   localStorage.removeItem(STORAGE_KEY);
   updateResumeButton();
+  renderHistoryLists();
   showView("setup");
+}
+
+function getExam(examId) {
+  return EXAMS[examId] ?? EXAMS.basic;
 }
 
 function escapeHtml(value) {

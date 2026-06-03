@@ -1,0 +1,8522 @@
+{
+  "meta": {
+    "title": "中1中間テスト対策 第2回・高難度四択模試",
+    "version": "v2_hard_50pct_target",
+    "grade": "中学1年",
+    "exam": "中間テスト",
+    "questionCount": 500,
+    "subjects": [
+      "数学",
+      "英語",
+      "国語",
+      "理科",
+      "社会"
+    ],
+    "questionsPerSubject": 100,
+    "designPolicy": "一般的な正答率50%前後を狙い、明らかに消去できる選択肢を避けた高難度版。基礎知識を問う場合も、似た概念・似た語句・よくある誤答を選択肢に混ぜる。",
+    "scoring": "各教科100問。1問1点で教科別100点換算、5教科500点換算。",
+    "createdBy": "ChatGPT"
+  },
+  "questions": [
+    {
+      "id": "math-001",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -7 + (12)",
+      "choices": [
+        "-5",
+        "15",
+        "-19",
+        "5"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると 5。"
+    },
+    {
+      "id": "math-002",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 15 + (-23)",
+      "choices": [
+        "-8",
+        "-18",
+        "8",
+        "38"
+      ],
+      "answer": 0,
+      "explanation": "符号に注意して計算すると -8。"
+    },
+    {
+      "id": "math-003",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -18 - (-9)",
+      "choices": [
+        "27",
+        "-7",
+        "9",
+        "-9"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると -9。"
+    },
+    {
+      "id": "math-004",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 6 - (-17)",
+      "choices": [
+        "該当なし",
+        "25",
+        "-23",
+        "23"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると 23。"
+    },
+    {
+      "id": "math-005",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -14 + (25)",
+      "choices": [
+        "-11",
+        "-39",
+        "11",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "符号に注意して計算すると 11。"
+    },
+    {
+      "id": "math-006",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -31 + (18)",
+      "choices": [
+        "13",
+        "49",
+        "-14",
+        "-13"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると -13。"
+    },
+    {
+      "id": "math-007",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 22 - (-35)",
+      "choices": [
+        "56",
+        "57",
+        "該当なし",
+        "-57"
+      ],
+      "answer": 1,
+      "explanation": "符号に注意して計算すると 57。"
+    },
+    {
+      "id": "math-008",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -40 - (16)",
+      "choices": [
+        "該当なし",
+        "56",
+        "-56",
+        "-57"
+      ],
+      "answer": 2,
+      "explanation": "符号に注意して計算すると -56。"
+    },
+    {
+      "id": "math-009",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -5 + (-28)",
+      "choices": [
+        "-35",
+        "該当なし",
+        "33",
+        "-33"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると -33。"
+    },
+    {
+      "id": "math-010",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 13 + (-29)",
+      "choices": [
+        "-16",
+        "-17",
+        "42",
+        "16"
+      ],
+      "answer": 0,
+      "explanation": "符号に注意して計算すると -16。"
+    },
+    {
+      "id": "math-011",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -21 - (34)",
+      "choices": [
+        "55",
+        "-54",
+        "-55",
+        "該当なし"
+      ],
+      "answer": 2,
+      "explanation": "符号に注意して計算すると -55。"
+    },
+    {
+      "id": "math-012",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 7 + (-26)",
+      "choices": [
+        "33",
+        "-21",
+        "19",
+        "-19"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると -19。"
+    },
+    {
+      "id": "math-013",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -12 - (-19)",
+      "choices": [
+        "-7",
+        "-3",
+        "7",
+        "-31"
+      ],
+      "answer": 2,
+      "explanation": "符号に注意して計算すると 7。"
+    },
+    {
+      "id": "math-014",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 45 + (-27)",
+      "choices": [
+        "18",
+        "28",
+        "-18",
+        "-72"
+      ],
+      "answer": 0,
+      "explanation": "符号に注意して計算すると 18。"
+    },
+    {
+      "id": "math-015",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -56 + (32)",
+      "choices": [
+        "88",
+        "-25",
+        "24",
+        "-24"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると -24。"
+    },
+    {
+      "id": "math-016",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 18 - (-41)",
+      "choices": [
+        "59",
+        "該当なし",
+        "-59",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "符号に注意して計算すると 59。"
+    },
+    {
+      "id": "math-017",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -33 + (-12)",
+      "choices": [
+        "-43",
+        "45",
+        "-45",
+        "該当なし"
+      ],
+      "answer": 2,
+      "explanation": "符号に注意して計算すると -45。"
+    },
+    {
+      "id": "math-018",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 29 + (-47)",
+      "choices": [
+        "-18",
+        "18",
+        "-28",
+        "76"
+      ],
+      "answer": 0,
+      "explanation": "符号に注意して計算すると -18。"
+    },
+    {
+      "id": "math-019",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -25 - (38)",
+      "choices": [
+        "-65",
+        "-63",
+        "該当なし",
+        "63"
+      ],
+      "answer": 1,
+      "explanation": "符号に注意して計算すると -63。"
+    },
+    {
+      "id": "math-020",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 11 - (-36)",
+      "choices": [
+        "45",
+        "-47",
+        "該当なし",
+        "47"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると 47。"
+    },
+    {
+      "id": "math-021",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -48 + (19)",
+      "choices": [
+        "29",
+        "67",
+        "-27",
+        "-29"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると -29。"
+    },
+    {
+      "id": "math-022",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 32 - (-15)",
+      "choices": [
+        "-47",
+        "49",
+        "該当なし",
+        "47"
+      ],
+      "answer": 3,
+      "explanation": "符号に注意して計算すると 47。"
+    },
+    {
+      "id": "math-023",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -9 - (27)",
+      "choices": [
+        "-36",
+        "36",
+        "該当なし",
+        "-38"
+      ],
+      "answer": 0,
+      "explanation": "符号に注意して計算すると -36。"
+    },
+    {
+      "id": "math-024",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 14 + (-39)",
+      "choices": [
+        "53",
+        "-25",
+        "25",
+        "-35"
+      ],
+      "answer": 1,
+      "explanation": "符号に注意して計算すると -25。"
+    },
+    {
+      "id": "math-025",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "加法・減法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -60 - (-25)",
+      "choices": [
+        "-34",
+        "35",
+        "-35",
+        "85"
+      ],
+      "answer": 2,
+      "explanation": "符号に注意して計算すると -35。"
+    },
+    {
+      "id": "math-026",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -6 × (7)",
+      "choices": [
+        "該当なし",
+        "42",
+        "-41",
+        "-42"
+      ],
+      "answer": 3,
+      "explanation": "同符号なら正、異符号なら負。答えは -42。"
+    },
+    {
+      "id": "math-027",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -9 × (-8)",
+      "choices": [
+        "73",
+        "該当なし",
+        "72",
+        "-72"
+      ],
+      "answer": 2,
+      "explanation": "同符号なら正、異符号なら負。答えは 72。"
+    },
+    {
+      "id": "math-028",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 12 × (-5)",
+      "choices": [
+        "-60",
+        "60",
+        "-61",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは -60。"
+    },
+    {
+      "id": "math-029",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -42 ÷ (7)",
+      "choices": [
+        "該当なし",
+        "6",
+        "-5",
+        "-6"
+      ],
+      "answer": 3,
+      "explanation": "同符号なら正、異符号なら負。答えは -6。"
+    },
+    {
+      "id": "math-030",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 56 ÷ (-8)",
+      "choices": [
+        "-7",
+        "7",
+        "-9",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは -7。"
+    },
+    {
+      "id": "math-031",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -72 ÷ (-9)",
+      "choices": [
+        "-8",
+        "6",
+        "8",
+        "該当なし"
+      ],
+      "answer": 2,
+      "explanation": "同符号なら正、異符号なら負。答えは 8。"
+    },
+    {
+      "id": "math-032",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -11 × (6)",
+      "choices": [
+        "該当なし",
+        "-66",
+        "66",
+        "-64"
+      ],
+      "answer": 1,
+      "explanation": "同符号なら正、異符号なら負。答えは -66。"
+    },
+    {
+      "id": "math-033",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 15 × (-4)",
+      "choices": [
+        "-59",
+        "60",
+        "該当なし",
+        "-60"
+      ],
+      "answer": 3,
+      "explanation": "同符号なら正、異符号なら負。答えは -60。"
+    },
+    {
+      "id": "math-034",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -64 ÷ (-8)",
+      "choices": [
+        "8",
+        "-8",
+        "6",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは 8。"
+    },
+    {
+      "id": "math-035",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 81 ÷ (-9)",
+      "choices": [
+        "-9",
+        "該当なし",
+        "9",
+        "-11"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは -9。"
+    },
+    {
+      "id": "math-036",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -13 × (-5)",
+      "choices": [
+        "該当なし",
+        "-65",
+        "65",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "同符号なら正、異符号なら負。答えは 65。"
+    },
+    {
+      "id": "math-037",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -14 × (3)",
+      "choices": [
+        "-42",
+        "該当なし",
+        "42",
+        "-41"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは -42。"
+    },
+    {
+      "id": "math-038",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 96 ÷ (-12)",
+      "choices": [
+        "該当なし",
+        "-8",
+        "-6",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "同符号なら正、異符号なら負。答えは -8。"
+    },
+    {
+      "id": "math-039",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -84 ÷ (-7)",
+      "choices": [
+        "-12",
+        "12",
+        "13",
+        "該当なし"
+      ],
+      "answer": 1,
+      "explanation": "同符号なら正、異符号なら負。答えは 12。"
+    },
+    {
+      "id": "math-040",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -16 × (-4)",
+      "choices": [
+        "62",
+        "64",
+        "-64",
+        "該当なし"
+      ],
+      "answer": 1,
+      "explanation": "同符号なら正、異符号なら負。答えは 64。"
+    },
+    {
+      "id": "math-041",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 18 × (-3)",
+      "choices": [
+        "-54",
+        "-53",
+        "54",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは -54。"
+    },
+    {
+      "id": "math-042",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -105 ÷ (15)",
+      "choices": [
+        "-6",
+        "7",
+        "該当なし",
+        "-7"
+      ],
+      "answer": 3,
+      "explanation": "同符号なら正、異符号なら負。答えは -7。"
+    },
+    {
+      "id": "math-043",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 144 ÷ (-12)",
+      "choices": [
+        "-12",
+        "該当なし",
+        "-10",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは -12。"
+    },
+    {
+      "id": "math-044",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -7 × (-9)",
+      "choices": [
+        "該当なし",
+        "-63",
+        "61",
+        "63"
+      ],
+      "answer": 3,
+      "explanation": "同符号なら正、異符号なら負。答えは 63。"
+    },
+    {
+      "id": "math-045",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "乗法・除法",
+      "difficulty": "standard",
+      "targetSkill": "符号計算",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -120 ÷ (-10)",
+      "choices": [
+        "12",
+        "-12",
+        "該当なし",
+        "13"
+      ],
+      "answer": 0,
+      "explanation": "同符号なら正、異符号なら負。答えは 12。"
+    },
+    {
+      "id": "math-046",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -3 + 5 × (-4)",
+      "choices": [
+        "該当なし",
+        "-23",
+        "23",
+        "-20"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -23。"
+    },
+    {
+      "id": "math-047",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 18 ÷ (-3) - (-7)",
+      "choices": [
+        "-2",
+        "1",
+        "該当なし",
+        "-1"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 1。"
+    },
+    {
+      "id": "math-048",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-2)^3 + 4 × (-5)",
+      "choices": [
+        "該当なし",
+        "-27",
+        "28",
+        "-28"
+      ],
+      "answer": 3,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -28。"
+    },
+    {
+      "id": "math-049",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -6 × (3 - 8)",
+      "choices": [
+        "-30",
+        "該当なし",
+        "30",
+        "33"
+      ],
+      "answer": 2,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 30。"
+    },
+    {
+      "id": "math-050",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-5)^2 - 4 × 7",
+      "choices": [
+        "3",
+        "-2",
+        "該当なし",
+        "-3"
+      ],
+      "answer": 3,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -3。"
+    },
+    {
+      "id": "math-051",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 36 ÷ (-6) + (-2)^3",
+      "choices": [
+        "-14",
+        "-11",
+        "14",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -14。"
+    },
+    {
+      "id": "math-052",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -4 × 6 + 30 ÷ (-5)",
+      "choices": [
+        "30",
+        "-30",
+        "該当なし",
+        "-33"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -30。"
+    },
+    {
+      "id": "math-053",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-12 + 5) × (-3)",
+      "choices": [
+        "21",
+        "-21",
+        "該当なし",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 21。"
+    },
+    {
+      "id": "math-054",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -2 × (-7) - 5^2",
+      "choices": [
+        "-8",
+        "-11",
+        "該当なし",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -11。"
+    },
+    {
+      "id": "math-055",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 48 ÷ (-8) × (-3)",
+      "choices": [
+        "15",
+        "該当なし",
+        "-18",
+        "18"
+      ],
+      "answer": 3,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 18。"
+    },
+    {
+      "id": "math-056",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-9) + (-6) × (-2)",
+      "choices": [
+        "4",
+        "-3",
+        "3",
+        "該当なし"
+      ],
+      "answer": 2,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 3。"
+    },
+    {
+      "id": "math-057",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 7 - 3 × (-5)",
+      "choices": [
+        "該当なし",
+        "22",
+        "-22",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 22。"
+    },
+    {
+      "id": "math-058",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-4)^2 + (-3)^2",
+      "choices": [
+        "-25",
+        "該当なし",
+        "25",
+        "24"
+      ],
+      "answer": 2,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 25。"
+    },
+    {
+      "id": "math-059",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -1 - 2 - 3 - 4",
+      "choices": [
+        "該当なし",
+        "-11",
+        "-10",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -10。"
+    },
+    {
+      "id": "math-060",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-30) ÷ 5 + 2 × (-6)",
+      "choices": [
+        "-18",
+        "該当なし",
+        "-15",
+        "18"
+      ],
+      "answer": 0,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -18。"
+    },
+    {
+      "id": "math-061",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 5 × (-2)^2 - 18",
+      "choices": [
+        "5",
+        "該当なし",
+        "2",
+        "-2"
+      ],
+      "answer": 2,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 2。"
+    },
+    {
+      "id": "math-062",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -20 ÷ (-4) - 7",
+      "choices": [
+        "2",
+        "-3",
+        "該当なし",
+        "-2"
+      ],
+      "answer": 3,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -2。"
+    },
+    {
+      "id": "math-063",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 6 + (-3) × 8",
+      "choices": [
+        "18",
+        "-18",
+        "該当なし",
+        "-21"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -18。"
+    },
+    {
+      "id": "math-064",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-7 + 10) × (-6)",
+      "choices": [
+        "-17",
+        "-18",
+        "該当なし",
+        "18"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -18。"
+    },
+    {
+      "id": "math-065",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -5^2 + 3",
+      "choices": [
+        "22",
+        "該当なし",
+        "-25",
+        "-22"
+      ],
+      "answer": 3,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -22。"
+    },
+    {
+      "id": "math-066",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-5)^2 + 3",
+      "choices": [
+        "該当なし",
+        "-28",
+        "29",
+        "28"
+      ],
+      "answer": 3,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 28。"
+    },
+    {
+      "id": "math-067",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 12 - (-4)^2",
+      "choices": [
+        "-4",
+        "該当なし",
+        "-3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -4。"
+    },
+    {
+      "id": "math-068",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-2)^4 - 20",
+      "choices": [
+        "-4",
+        "4",
+        "該当なし",
+        "-3"
+      ],
+      "answer": 0,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -4。"
+    },
+    {
+      "id": "math-069",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 -8 × (-3) ÷ 6",
+      "choices": [
+        "該当なし",
+        "4",
+        "7",
+        "-4"
+      ],
+      "answer": 1,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると 4。"
+    },
+    {
+      "id": "math-070",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "四則混合計算",
+      "difficulty": "hard",
+      "targetSkill": "計算順序",
+      "question": "次の計算の答えとして正しいものを選びなさい。 (-15) ÷ 3 + (-2) × 4",
+      "choices": [
+        "-13",
+        "13",
+        "-16",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "累乗、かっこ、乗除、加減の順で計算すると -13。"
+    },
+    {
+      "id": "math-071",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "絶対値が5より小さい整数はいくつあるか。",
+      "choices": [
+        "10",
+        "11",
+        "5",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "-4から4までの9個。"
+    },
+    {
+      "id": "math-072",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "絶対値が4以上7未満の整数はいくつあるか。",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "-6,-5,-4,4,5,6 の6個。"
+    },
+    {
+      "id": "math-073",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "-10より大きく、-2より小さい整数はいくつあるか。",
+      "choices": [
+        "8",
+        "9",
+        "6",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "-9から-3までの7個。"
+    },
+    {
+      "id": "math-074",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "a=-3, b=5 のとき、|a|-|b| の値はどれか。",
+      "choices": [
+        "-8",
+        "-2",
+        "8",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "3-5=-2。"
+    },
+    {
+      "id": "math-075",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "数直線上で -7 から 4 までの距離はどれか。",
+      "choices": [
+        "11",
+        "-3",
+        "3",
+        "-11"
+      ],
+      "answer": 0,
+      "explanation": "距離は 4-(-7)=11。"
+    },
+    {
+      "id": "math-076",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "次の不等号で正しいものはどれか。",
+      "choices": [
+        "-3 > -7",
+        "0 < -2",
+        "-1 < -4",
+        "-7 > -3"
+      ],
+      "answer": 0,
+      "explanation": "負の数は0に近いほど大きい。"
+    },
+    {
+      "id": "math-077",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "絶対値が最も大きい数はどれか。",
+      "choices": [
+        "-12",
+        "9",
+        "-10",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "絶対値12が最大。"
+    },
+    {
+      "id": "math-078",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "次のうち、-5以上1未満の整数はどれか。",
+      "choices": [
+        "-5, -4, -3, -2, -1",
+        "-5, -4, -3, -2, -1, 0",
+        "-6, -5, -4, -3, -2, -1, 0",
+        "-4, -3, -2, -1, 0, 1"
+      ],
+      "answer": 1,
+      "explanation": "以上は含み、未満は含まない。"
+    },
+    {
+      "id": "math-079",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "|-9| と |4| の差はどれか。",
+      "choices": [
+        "-5",
+        "-13",
+        "5",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "9と4の差は5。"
+    },
+    {
+      "id": "math-080",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "数直線・絶対値・大小",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "絶対値が3である数について正しいものはどれか。",
+      "choices": [
+        "0と3",
+        "-3だけ",
+        "3と-3の2つ",
+        "3だけ"
+      ],
+      "answer": 2,
+      "explanation": "0からの距離が3の数。"
+    },
+    {
+      "id": "math-081",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "東へ7mを+7m、西へ進むことを負で表す。+7mの地点から西へ12m進んだ地点はどれか。",
+      "choices": [
+        "+19m",
+        "-19m",
+        "-5m",
+        "+5m"
+      ],
+      "answer": 2,
+      "explanation": "+7+(-12)=-5。"
+    },
+    {
+      "id": "math-082",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "平均点との差で、Aさんは+12点、Bさんは-7点。AさんはBさんより何点高いか。",
+      "choices": [
+        "19点",
+        "12点",
+        "5点",
+        "-19点"
+      ],
+      "answer": 0,
+      "explanation": "12-(-7)=19。"
+    },
+    {
+      "id": "math-083",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "海面を0mとし、-15mの位置から8m上がった位置はどれか。",
+      "choices": [
+        "+23m",
+        "+7m",
+        "-23m",
+        "-7m"
+      ],
+      "answer": 3,
+      "explanation": "-15+8=-7。"
+    },
+    {
+      "id": "math-084",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "収入を正、支出を負で表す。500円の収入、800円の支出、300円の収入があったとき合計はどれか。",
+      "choices": [
+        "0円",
+        "+1000円",
+        "-600円",
+        "+1600円"
+      ],
+      "answer": 0,
+      "explanation": "500-800+300=0。"
+    },
+    {
+      "id": "math-085",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "ある数に-6を加えると-2になった。ある数はどれか。",
+      "choices": [
+        "8",
+        "-8",
+        "4",
+        "-4"
+      ],
+      "answer": 2,
+      "explanation": "x-6=-2なのでx=4。"
+    },
+    {
+      "id": "math-086",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "ある数から-9をひくと3になった。ある数はどれか。",
+      "choices": [
+        "6",
+        "-12",
+        "-6",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "x+9=3なのでx=-6。"
+    },
+    {
+      "id": "math-087",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "気温が朝-2℃、昼に7℃上がり、夜に5℃下がった。夜の気温はどれか。",
+      "choices": [
+        "0℃",
+        "-4℃",
+        "+10℃",
+        "-14℃"
+      ],
+      "answer": 0,
+      "explanation": "-2+7-5=0。"
+    },
+    {
+      "id": "math-088",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "現在地を0、右へ進むことを正とする。+6の地点から左へ9進み、さらに右へ2進むとどこか。",
+      "choices": [
+        "+1",
+        "+17",
+        "-1",
+        "-17"
+      ],
+      "answer": 2,
+      "explanation": "6-9+2=-1。"
+    },
+    {
+      "id": "math-089",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "数直線で、ある点から7だけ左へ動くと-3になった。もとの点はどれか。",
+      "choices": [
+        "-4",
+        "4",
+        "-10",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "x-7=-3なのでx=4。"
+    },
+    {
+      "id": "math-090",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "反対の量・文章題",
+      "difficulty": "hard",
+      "targetSkill": "立式",
+      "question": "正負の数を使う利点として最も適切なものはどれか。",
+      "choices": [
+        "すべての量を必ず正の数だけで表せる",
+        "0を使わなくてよくなる",
+        "計算で符号を考える必要がなくなる",
+        "反対の性質をもつ量を、基準からの差としてまとめて表せる"
+      ],
+      "answer": 3,
+      "explanation": "基準との差や向きを表せる。"
+    },
+    {
+      "id": "math-091",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "(-4)の反対の数はどれか。",
+      "choices": [
+        "0",
+        "8",
+        "-4",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "反対の数は符号を変える。"
+    },
+    {
+      "id": "math-092",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "絶対値が0である数はどれか。",
+      "choices": [
+        "1",
+        "存在しない",
+        "-1",
+        "0"
+      ],
+      "answer": 3,
+      "explanation": "0の絶対値だけが0。"
+    },
+    {
+      "id": "math-093",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "(-3)×□=18 の□に当てはまる数はどれか。",
+      "choices": [
+        "15",
+        "6",
+        "-15",
+        "-6"
+      ],
+      "answer": 3,
+      "explanation": "18÷(-3)=-6。"
+    },
+    {
+      "id": "math-094",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "□-(-5)=2 の□に当てはまる数はどれか。",
+      "choices": [
+        "7",
+        "-7",
+        "3",
+        "-3"
+      ],
+      "answer": 3,
+      "explanation": "□+5=2なので-3。"
+    },
+    {
+      "id": "math-095",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "(-2)^3 と -2^3 の関係として正しいものはどれか。",
+      "choices": [
+        "どちらも-8",
+        "どちらも8",
+        "前者は8、後者は-8",
+        "前者は-8、後者は8"
+      ],
+      "answer": 0,
+      "explanation": "(-2)^3=-8、-2^3も-8。"
+    },
+    {
+      "id": "math-096",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "(-4)の反対の数はどれか。",
+      "choices": [
+        "-4",
+        "4",
+        "8",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "反対の数は符号を変える。"
+    },
+    {
+      "id": "math-097",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "絶対値が0である数はどれか。",
+      "choices": [
+        "1",
+        "存在しない",
+        "-1",
+        "0"
+      ],
+      "answer": 3,
+      "explanation": "0の絶対値だけが0。"
+    },
+    {
+      "id": "math-098",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "(-3)×□=18 の□に当てはまる数はどれか。",
+      "choices": [
+        "-15",
+        "-6",
+        "15",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "18÷(-3)=-6。"
+    },
+    {
+      "id": "math-099",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "□-(-5)=2 の□に当てはまる数はどれか。",
+      "choices": [
+        "-7",
+        "3",
+        "-3",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "□+5=2なので-3。"
+    },
+    {
+      "id": "math-100",
+      "subject": "数学",
+      "unit": "正の数・負の数",
+      "topic": "総合確認",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "(-2)^3 と -2^3 の関係として正しいものはどれか。",
+      "choices": [
+        "前者は8、後者は-8",
+        "前者は-8、後者は8",
+        "どちらも-8",
+        "どちらも8"
+      ],
+      "answer": 2,
+      "explanation": "(-2)^3=-8、-2^3も-8。"
+    },
+    {
+      "id": "eng-001",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "「私はケンタです。」として正しい英文はどれか。",
+      "choices": [
+        "I are Kenta.",
+        "Am I Kenta.",
+        "You am Kenta.",
+        "I am Kenta."
+      ],
+      "answer": 3,
+      "explanation": "Iにはam。"
+    },
+    {
+      "id": "eng-002",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "「あなたはエマですか。」として正しい英文はどれか。",
+      "choices": [
+        "Am you Emma?",
+        "You are Emma?",
+        "Are you Emma?",
+        "Are I Emma?"
+      ],
+      "answer": 2,
+      "explanation": "You areの疑問文はAre you...?"
+    },
+    {
+      "id": "eng-003",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "Are you from Chiba? に対する自然な答えはどれか。",
+      "choices": [
+        "Yes, I am.",
+        "Yes, I'm.",
+        "Yes, you are.",
+        "No, I are not."
+      ],
+      "answer": 0,
+      "explanation": "Are you...?にはIで答える。"
+    },
+    {
+      "id": "eng-004",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "「私は東京出身ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I not am from Tokyo.",
+        "I from Tokyo am not.",
+        "I am not from Tokyo.",
+        "Am I not from Tokyo."
+      ],
+      "answer": 2,
+      "explanation": "否定はbe動詞＋not。"
+    },
+    {
+      "id": "eng-005",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "「あなたの名前は何ですか。」として正しい英文はどれか。",
+      "choices": [
+        "What is your name?",
+        "Who is your name?",
+        "What are your name?",
+        "What your name is?"
+      ],
+      "answer": 0,
+      "explanation": "定型表現。"
+    },
+    {
+      "id": "eng-006",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "「私の名前はミカです。」として正しい英文はどれか。",
+      "choices": [
+        "My name is Mika.",
+        "I name is Mika.",
+        "My name are Mika.",
+        "Me name is Mika."
+      ],
+      "answer": 0,
+      "explanation": "私のはmy。"
+    },
+    {
+      "id": "eng-007",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "初対面で「はじめまして。」に近い表現はどれか。",
+      "choices": [
+        "Good night.",
+        "I'm fine.",
+        "See you later.",
+        "Nice to meet you."
+      ],
+      "answer": 3,
+      "explanation": "初対面の挨拶。"
+    },
+    {
+      "id": "eng-008",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "How are you? への自然な返答はどれか。",
+      "choices": [
+        "I'm good, thank you.",
+        "I'm Kenta.",
+        "I'm from Japan.",
+        "You're welcome."
+      ],
+      "answer": 0,
+      "explanation": "調子を答える。"
+    },
+    {
+      "id": "eng-009",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "「私は中学生です。」として最も自然な英文はどれか。",
+      "choices": [
+        "I am a junior high school student.",
+        "I are a junior high school student.",
+        "I am junior high school student.",
+        "I am an junior high school student."
+      ],
+      "answer": 0,
+      "explanation": "単数名詞にはa。"
+    },
+    {
+      "id": "eng-010",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞・基本表現",
+      "difficulty": "hard",
+      "targetSkill": "文法選択",
+      "question": "「あなたは新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "You are a new teacher.",
+        "You are new teacher?",
+        "You am a new teacher.",
+        "Are you a new teacher."
+      ],
+      "answer": 0,
+      "explanation": "Youにはare。"
+    },
+    {
+      "id": "eng-011",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「先生」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "taacher",
+        "teache",
+        "Teacher",
+        "teacher"
+      ],
+      "answer": 3,
+      "explanation": "「先生」は teacher。"
+    },
+    {
+      "id": "eng-012",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「生徒」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Student",
+        "studant",
+        "student",
+        "studen"
+      ],
+      "answer": 2,
+      "explanation": "「生徒」は student。"
+    },
+    {
+      "id": "eng-013",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「友達」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "frien",
+        "Friend",
+        "friend",
+        "friand"
+      ],
+      "answer": 2,
+      "explanation": "「友達」は friend。"
+    },
+    {
+      "id": "eng-014",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「クラスメート」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "classmate",
+        "classmata",
+        "Classmate",
+        "classmat"
+      ],
+      "answer": 0,
+      "explanation": "「クラスメート」は classmate。"
+    },
+    {
+      "id": "eng-015",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「みなさん」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Everyone",
+        "everyone",
+        "everyon",
+        "averyone"
+      ],
+      "answer": 1,
+      "explanation": "「みなさん」は everyone。"
+    },
+    {
+      "id": "eng-016",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「お気に入りの」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "favorite",
+        "favorit",
+        "Favorite",
+        "favorita"
+      ],
+      "answer": 0,
+      "explanation": "「お気に入りの」は favorite。"
+    },
+    {
+      "id": "eng-017",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「教科」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "subjact",
+        "subject",
+        "Subject",
+        "subjec"
+      ],
+      "answer": 1,
+      "explanation": "「教科」は subject。"
+    },
+    {
+      "id": "eng-018",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「バスケットボール」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "basketbal",
+        "baskatball",
+        "Basketball",
+        "basketball"
+      ],
+      "answer": 3,
+      "explanation": "「バスケットボール」は basketball。"
+    },
+    {
+      "id": "eng-019",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「野球」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "basaball",
+        "basebal",
+        "baseball",
+        "Baseball"
+      ],
+      "answer": 2,
+      "explanation": "「野球」は baseball。"
+    },
+    {
+      "id": "eng-020",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「音楽」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "musica",
+        "musi",
+        "Music",
+        "music"
+      ],
+      "answer": 3,
+      "explanation": "「音楽」は music。"
+    },
+    {
+      "id": "eng-021",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「英語」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Englis",
+        "english",
+        "Englisha",
+        "English"
+      ],
+      "answer": 3,
+      "explanation": "「英語」は English。"
+    },
+    {
+      "id": "eng-022",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「国語・日本語」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Japanese",
+        "Japanase",
+        "japanese",
+        "Japanes"
+      ],
+      "answer": 0,
+      "explanation": "「国語・日本語」は Japanese。"
+    },
+    {
+      "id": "eng-023",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「〜出身で」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "from",
+        "From",
+        "frome",
+        "froma"
+      ],
+      "answer": 0,
+      "explanation": "「〜出身で」は from。"
+    },
+    {
+      "id": "eng-024",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「名前」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Name",
+        "name",
+        "namee",
+        "nama"
+      ],
+      "answer": 1,
+      "explanation": "「名前」は name。"
+    },
+    {
+      "id": "eng-025",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「すてきな」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "nicee",
+        "nice",
+        "Nice",
+        "nica"
+      ],
+      "answer": 1,
+      "explanation": "「すてきな」は nice。"
+    },
+    {
+      "id": "eng-026",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「こんにちは」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Hello",
+        "hello",
+        "hallo",
+        "hell"
+      ],
+      "answer": 1,
+      "explanation": "「こんにちは」は hello。"
+    },
+    {
+      "id": "eng-027",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「会う」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Meet",
+        "meet",
+        "meete",
+        "maet"
+      ],
+      "answer": 1,
+      "explanation": "「会う」は meet。"
+    },
+    {
+      "id": "eng-028",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「新しい」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "New",
+        "newe",
+        "naw",
+        "new"
+      ],
+      "answer": 3,
+      "explanation": "「新しい」は new。"
+    },
+    {
+      "id": "eng-029",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「学校」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "School",
+        "schoola",
+        "schoo",
+        "school"
+      ],
+      "answer": 3,
+      "explanation": "「学校」は school。"
+    },
+    {
+      "id": "eng-030",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「朝」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "mornin",
+        "Morning",
+        "morning",
+        "morninga"
+      ],
+      "answer": 2,
+      "explanation": "「朝」は morning。"
+    },
+    {
+      "id": "eng-031",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「午後」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "afternoo",
+        "aftarnoon",
+        "Afternoon",
+        "afternoon"
+      ],
+      "answer": 3,
+      "explanation": "「午後」は afternoon。"
+    },
+    {
+      "id": "eng-032",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「さようなら」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "goodby",
+        "goodbye",
+        "goodbya",
+        "Goodbye"
+      ],
+      "answer": 1,
+      "explanation": "「さようなら」は goodbye。"
+    },
+    {
+      "id": "eng-033",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「元気な」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "Fine",
+        "fine",
+        "fina",
+        "finee"
+      ],
+      "answer": 1,
+      "explanation": "「元気な」は fine。"
+    },
+    {
+      "id": "eng-034",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「感謝する」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "thanka",
+        "thank",
+        "Thank",
+        "than"
+      ],
+      "answer": 1,
+      "explanation": "「感謝する」は thank。"
+    },
+    {
+      "id": "eng-035",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "単語スペル",
+      "difficulty": "standard",
+      "targetSkill": "語彙",
+      "question": "「あなた」を表す英単語として正しいつづりはどれか。",
+      "choices": [
+        "You",
+        "youa",
+        "youe",
+        "you"
+      ],
+      "answer": 3,
+      "explanation": "「あなた」は you。"
+    },
+    {
+      "id": "eng-036",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "英文のルール",
+      "difficulty": "hard",
+      "targetSkill": "表記判断",
+      "question": "大文字・小文字・符号が正しい英文はどれか。",
+      "choices": [
+        "I am from Japan.",
+        "I am from japan.",
+        "i am from Japan.",
+        "I am from Japan?"
+      ],
+      "answer": 0,
+      "explanation": "文頭と国名は大文字。"
+    },
+    {
+      "id": "eng-037",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "英文のルール",
+      "difficulty": "hard",
+      "targetSkill": "表記判断",
+      "question": "疑問文として正しいものはどれか。",
+      "choices": [
+        "are you Saki?",
+        "Are you Saki?",
+        "Are you Saki.",
+        "You are Saki?"
+      ],
+      "answer": 1,
+      "explanation": "Areで始めて?。"
+    },
+    {
+      "id": "eng-038",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "英文のルール",
+      "difficulty": "hard",
+      "targetSkill": "表記判断",
+      "question": "短縮形の使い方が正しいものはどれか。",
+      "choices": [
+        "I amn't from Osaka.",
+        "I'm not from Osaka.",
+        "Im not from Osaka.",
+        "I'am not from Osaka."
+      ],
+      "answer": 1,
+      "explanation": "I amの短縮形はI'm。"
+    },
+    {
+      "id": "eng-039",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "英文のルール",
+      "difficulty": "hard",
+      "targetSkill": "表記判断",
+      "question": "国名の書き方が正しいものはどれか。",
+      "choices": [
+        "Canada",
+        "CANADAだけが常に正しい",
+        "canada",
+        "cAnada"
+      ],
+      "answer": 0,
+      "explanation": "国名は先頭大文字。"
+    },
+    {
+      "id": "eng-040",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "英文のルール",
+      "difficulty": "hard",
+      "targetSkill": "表記判断",
+      "question": "自己紹介文として最も自然な並びはどれか。",
+      "choices": [
+        "Hello? I'm from Chiba. Aoi I'm.",
+        "Hello. I'm Aoi. I'm from Chiba.",
+        "Aoi from Chiba I am Hello.",
+        "I'm from Chiba. Hello. I'm Aoi?"
+      ],
+      "answer": 1,
+      "explanation": "挨拶→名前→出身が自然。"
+    },
+    {
+      "id": "eng-041",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「私はサッカーが好きです。」として自然な英文はどれか。",
+      "choices": [
+        "I am like soccer.",
+        "I likes soccer.",
+        "I soccer like.",
+        "I like soccer."
+      ],
+      "answer": 3,
+      "explanation": "likeは一般動詞。"
+    },
+    {
+      "id": "eng-042",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「あなたはケンです。」を疑問文にしたものはどれか。",
+      "choices": [
+        "Am you Ken?",
+        "Are you Ken?",
+        "Do you Ken?",
+        "You are Ken?"
+      ],
+      "answer": 1,
+      "explanation": "be動詞を前へ。"
+    },
+    {
+      "id": "eng-043",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「私の好きな教科は英語です。」に最も近い英文はどれか。",
+      "choices": [
+        "I favorite subject am English.",
+        "My favorite subject are English.",
+        "My subject favorite is English?",
+        "My favorite subject is English."
+      ],
+      "answer": 3,
+      "explanation": "My favorite subject is ..."
+    },
+    {
+      "id": "eng-044",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「私はバスケットボールファンです。」として正しい英文はどれか。",
+      "choices": [
+        "I am an basketball fan.",
+        "I are a basketball fan.",
+        "I am basketball fan.",
+        "I am a basketball fan."
+      ],
+      "answer": 3,
+      "explanation": "fanにa。"
+    },
+    {
+      "id": "eng-045",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「こちらは私の友達です。」として自然な英文はどれか。",
+      "choices": [
+        "This my friend is.",
+        "This is my friend.",
+        "This is I friend.",
+        "This are my friend."
+      ],
+      "answer": 1,
+      "explanation": "This is..."
+    },
+    {
+      "id": "eng-046",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「彼女は私たちの新しい先生です。」として自然な英文はどれか。",
+      "choices": [
+        "She are our new teacher.",
+        "Her is our new teacher.",
+        "She is we new teacher.",
+        "She is our new teacher."
+      ],
+      "answer": 3,
+      "explanation": "Sheにはis、私たちのはour。"
+    },
+    {
+      "id": "eng-047",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「あなたの好きなスポーツは何ですか。」として自然な英文はどれか。",
+      "choices": [
+        "What is your favorite sport?",
+        "What are your favorite sport?",
+        "What your favorite sport is?",
+        "Who is your favorite sport?"
+      ],
+      "answer": 0,
+      "explanation": "What is your favorite...?"
+    },
+    {
+      "id": "eng-048",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "「あなたは英語が好きですか。」にするにはどれか。",
+      "choices": [
+        "You like English.",
+        "Do I like English?",
+        "Do you like English?",
+        "Are you like English?"
+      ],
+      "answer": 2,
+      "explanation": "一般動詞likeの疑問文。"
+    },
+    {
+      "id": "eng-049",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "Are you from Japan? の意味として正しいものはどれか。",
+      "choices": [
+        "あなたは日本が好きですか。",
+        "あなたは日本語ですか。",
+        "私は日本出身ですか。",
+        "あなたは日本出身ですか。"
+      ],
+      "answer": 3,
+      "explanation": "be fromは出身。"
+    },
+    {
+      "id": "eng-050",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "語順・表現",
+      "difficulty": "hard",
+      "targetSkill": "英文選択",
+      "question": "What is your favorite subject? への答えとして最も自然なものはどれか。",
+      "choices": [
+        "My name is math.",
+        "My favorite subject is math.",
+        "I'm from math.",
+        "Yes, I am math."
+      ],
+      "answer": 1,
+      "explanation": "好きな教科を答える。"
+    },
+    {
+      "id": "eng-051",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I are not a teacher.",
+        "I am a teacher.",
+        "I am not a teacher.",
+        "I am not a teacher?"
+      ],
+      "answer": 2,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-052",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "You are from Chiba.",
+        "You is from Chiba.",
+        "該当なし",
+        "You are from Chiba?"
+      ],
+      "answer": 0,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-053",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "This is my new teacher?",
+        "This is my new teacher.",
+        "Thare are my new teacher.",
+        "該当なし"
+      ],
+      "answer": 1,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-054",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "She is my friend.",
+        "She is my friend?",
+        "該当なし",
+        "She are my friend."
+      ],
+      "answer": 0,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-055",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "He is a student?",
+        "該当なし",
+        "He are a student.",
+        "He is a student."
+      ],
+      "answer": 3,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-056",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I am not a teacher.",
+        "I are not a teacher.",
+        "I am a teacher.",
+        "I am not a teacher?"
+      ],
+      "answer": 0,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-057",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "You is from Chiba.",
+        "You are from Chiba?",
+        "You are from Chiba."
+      ],
+      "answer": 3,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-058",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "This is my new teacher?",
+        "Thare are my new teacher.",
+        "該当なし",
+        "This is my new teacher."
+      ],
+      "answer": 3,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-059",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "She is my friend?",
+        "She is my friend.",
+        "She are my friend."
+      ],
+      "answer": 2,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-060",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "He is a student.",
+        "He is a student?",
+        "He are a student.",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-061",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I am not a teacher.",
+        "I are not a teacher.",
+        "I am not a teacher?",
+        "I am a teacher."
+      ],
+      "answer": 0,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-062",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "You are from Chiba.",
+        "You is from Chiba.",
+        "You are from Chiba?"
+      ],
+      "answer": 1,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-063",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "This is my new teacher.",
+        "Thare are my new teacher.",
+        "This is my new teacher?"
+      ],
+      "answer": 1,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-064",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "She is my friend?",
+        "She are my friend.",
+        "She is my friend."
+      ],
+      "answer": 3,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-065",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "He is a student?",
+        "He are a student.",
+        "該当なし",
+        "He is a student."
+      ],
+      "answer": 3,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-066",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I am not a teacher.",
+        "I are not a teacher.",
+        "I am a teacher.",
+        "I am not a teacher?"
+      ],
+      "answer": 0,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-067",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "You are from Chiba.",
+        "該当なし",
+        "You are from Chiba?",
+        "You is from Chiba."
+      ],
+      "answer": 0,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-068",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "This is my new teacher?",
+        "Thare are my new teacher.",
+        "該当なし",
+        "This is my new teacher."
+      ],
+      "answer": 3,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-069",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "She are my friend.",
+        "She is my friend.",
+        "She is my friend?"
+      ],
+      "answer": 2,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-070",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "He is a student?",
+        "He is a student.",
+        "該当なし",
+        "He are a student."
+      ],
+      "answer": 1,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-071",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I am not a teacher.",
+        "I am a teacher.",
+        "I are not a teacher.",
+        "I am not a teacher?"
+      ],
+      "answer": 0,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-072",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "You are from Chiba.",
+        "You are from Chiba?",
+        "該当なし",
+        "You is from Chiba."
+      ],
+      "answer": 0,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-073",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "This is my new teacher?",
+        "This is my new teacher.",
+        "Thare are my new teacher."
+      ],
+      "answer": 2,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-074",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "She is my friend?",
+        "該当なし",
+        "She is my friend.",
+        "She are my friend."
+      ],
+      "answer": 2,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-075",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "He are a student.",
+        "該当なし",
+        "He is a student?",
+        "He is a student."
+      ],
+      "answer": 3,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-076",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I are not a teacher.",
+        "I am not a teacher?",
+        "I am a teacher.",
+        "I am not a teacher."
+      ],
+      "answer": 3,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-077",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "You are from Chiba?",
+        "該当なし",
+        "You is from Chiba.",
+        "You are from Chiba."
+      ],
+      "answer": 3,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-078",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "This is my new teacher?",
+        "Thare are my new teacher.",
+        "This is my new teacher."
+      ],
+      "answer": 3,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-079",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "She are my friend.",
+        "該当なし",
+        "She is my friend?",
+        "She is my friend."
+      ],
+      "answer": 3,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-080",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "He is a student.",
+        "He is a student?",
+        "He are a student."
+      ],
+      "answer": 1,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-081",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I am not a teacher.",
+        "I are not a teacher.",
+        "I am a teacher.",
+        "I am not a teacher?"
+      ],
+      "answer": 0,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-082",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "You is from Chiba.",
+        "You are from Chiba?",
+        "You are from Chiba.",
+        "該当なし"
+      ],
+      "answer": 2,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-083",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "This is my new teacher.",
+        "This is my new teacher?",
+        "Thare are my new teacher.",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-084",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "She is my friend?",
+        "She are my friend.",
+        "該当なし",
+        "She is my friend."
+      ],
+      "answer": 3,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-085",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "He is a student?",
+        "He are a student.",
+        "該当なし",
+        "He is a student."
+      ],
+      "answer": 3,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-086",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I am not a teacher?",
+        "I are not a teacher.",
+        "I am a teacher.",
+        "I am not a teacher."
+      ],
+      "answer": 3,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-087",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "You are from Chiba?",
+        "You are from Chiba.",
+        "該当なし",
+        "You is from Chiba."
+      ],
+      "answer": 1,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-088",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "This is my new teacher?",
+        "Thare are my new teacher.",
+        "該当なし",
+        "This is my new teacher."
+      ],
+      "answer": 3,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-089",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "She is my friend?",
+        "該当なし",
+        "She are my friend.",
+        "She is my friend."
+      ],
+      "answer": 3,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-090",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "He are a student.",
+        "He is a student?",
+        "He is a student."
+      ],
+      "answer": 3,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-091",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I am not a teacher.",
+        "I am not a teacher?",
+        "I am a teacher.",
+        "I are not a teacher."
+      ],
+      "answer": 0,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-092",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "You are from Chiba?",
+        "You is from Chiba.",
+        "You are from Chiba."
+      ],
+      "answer": 3,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-093",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "This is my new teacher?",
+        "This is my new teacher.",
+        "該当なし",
+        "Thare are my new teacher."
+      ],
+      "answer": 1,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-094",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "She are my friend.",
+        "She is my friend?",
+        "該当なし",
+        "She is my friend."
+      ],
+      "answer": 3,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-095",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "該当なし",
+        "He is a student.",
+        "He are a student.",
+        "He is a student?"
+      ],
+      "answer": 1,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-096",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "choices": [
+        "I are not a teacher.",
+        "I am a teacher.",
+        "I am not a teacher.",
+        "I am not a teacher?"
+      ],
+      "answer": 2,
+      "explanation": "主語Iに合うbe動詞はam。"
+    },
+    {
+      "id": "eng-097",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "choices": [
+        "You are from Chiba?",
+        "You is from Chiba.",
+        "You are from Chiba.",
+        "該当なし"
+      ],
+      "answer": 2,
+      "explanation": "主語Youに合うbe動詞はare。"
+    },
+    {
+      "id": "eng-098",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "choices": [
+        "Thare are my new teacher.",
+        "This is my new teacher.",
+        "This is my new teacher?",
+        "該当なし"
+      ],
+      "answer": 1,
+      "explanation": "主語Thisに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-099",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "choices": [
+        "She is my friend.",
+        "She are my friend.",
+        "She is my friend?",
+        "該当なし"
+      ],
+      "answer": 0,
+      "explanation": "主語Sheに合うbe動詞はis。"
+    },
+    {
+      "id": "eng-100",
+      "subject": "英語",
+      "unit": "Unit 0-1",
+      "topic": "be動詞総合",
+      "difficulty": "hard",
+      "targetSkill": "文法総合",
+      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "choices": [
+        "He are a student.",
+        "該当なし",
+        "He is a student?",
+        "He is a student."
+      ],
+      "answer": 3,
+      "explanation": "主語Heに合うbe動詞はis。"
+    },
+    {
+      "id": "jpn-001",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節・単語",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "「朝から雨が強く降っている。」の文節の区切りとして最も適切なものはどれか。",
+      "choices": [
+        "朝／から雨／が強く／降っている。",
+        "朝から雨が／強く降って／いる。",
+        "朝から／雨が／強く／降っている。",
+        "朝から／雨が強く／降って／いる。"
+      ],
+      "answer": 2,
+      "explanation": "文節は不自然にならない範囲で区切る。"
+    },
+    {
+      "id": "jpn-002",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節・単語",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "文を最も大きい単位から小さい単位へ並べたものはどれか。",
+      "choices": [
+        "文章→文→段落→単語→文節",
+        "文章→段落→文→文節→単語",
+        "文→文章→段落→単語→文節",
+        "単語→文節→文→段落→文章"
+      ],
+      "answer": 1,
+      "explanation": "大きい順に文章、段落、文、文節、単語。"
+    },
+    {
+      "id": "jpn-003",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節・単語",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "付属語について最も適切な説明はどれか。",
+      "choices": [
+        "意味をもたない記号",
+        "単独では文節を作れず、自立語について働く語",
+        "必ず文の初めに置かれる語",
+        "漢字だけで書く語"
+      ],
+      "answer": 1,
+      "explanation": "助詞・助動詞など。"
+    },
+    {
+      "id": "jpn-004",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節・単語",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "自立語について最も適切な説明はどれか。",
+      "choices": [
+        "文末にしか置けない語",
+        "必ずひらがなで書く語",
+        "単独で文節を作ることができる語",
+        "意味をもたない語"
+      ],
+      "answer": 2,
+      "explanation": "自立語はそれだけで文節を作れる。"
+    },
+    {
+      "id": "jpn-005",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節・単語",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "「私は図書館で本を読んだ。」の文節数はどれか。",
+      "choices": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "私は／図書館で／本を／読んだ。"
+    },
+    {
+      "id": "jpn-006",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節",
+      "difficulty": "hard",
+      "targetSkill": "文節判断",
+      "question": "「明るい朝日が窓から差しこんだ。」の文節数として最も適切なものはどれか。",
+      "choices": [
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "明るい／朝日が／窓から／差しこんだ。"
+    },
+    {
+      "id": "jpn-007",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節",
+      "difficulty": "hard",
+      "targetSkill": "文節判断",
+      "question": "「妹は急いで学校へ向かった。」の文節数として最も適切なものはどれか。",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "妹は／急いで／学校へ／向かった。"
+    },
+    {
+      "id": "jpn-008",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節",
+      "difficulty": "hard",
+      "targetSkill": "文節判断",
+      "question": "「青い空に白い雲が浮かぶ。」の文節数として最も適切なものはどれか。",
+      "choices": [
+        "4",
+        "7",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "青い／空に／白い／雲が／浮かぶ。"
+    },
+    {
+      "id": "jpn-009",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節",
+      "difficulty": "hard",
+      "targetSkill": "文節判断",
+      "question": "「古い時計が静かに鳴った。」の文節数として最も適切なものはどれか。",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "古い／時計が／静かに／鳴った。"
+    },
+    {
+      "id": "jpn-010",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文節",
+      "difficulty": "hard",
+      "targetSkill": "文節判断",
+      "question": "「大きな犬が公園を走る。」の文節数として最も適切なものはどれか。",
+      "choices": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "大きな／犬が／公園を／走る。"
+    },
+    {
+      "id": "jpn-011",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文法基礎",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "「雨が降る」の主語に当たる文節はどれか。",
+      "choices": [
+        "雨が",
+        "降る",
+        "が",
+        "雨"
+      ],
+      "answer": 0,
+      "explanation": "何が降るのか。"
+    },
+    {
+      "id": "jpn-012",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文法基礎",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "「鳥が空を飛ぶ」の述語に当たる文節はどれか。",
+      "choices": [
+        "空を",
+        "飛ぶ",
+        "鳥が",
+        "空"
+      ],
+      "answer": 1,
+      "explanation": "どうするに当たる。"
+    },
+    {
+      "id": "jpn-013",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文法基礎",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "「学校へ」の「へ」は何語か。",
+      "choices": [
+        "自立語",
+        "段落",
+        "付属語",
+        "文節"
+      ],
+      "answer": 2,
+      "explanation": "助詞は付属語。"
+    },
+    {
+      "id": "jpn-014",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文法基礎",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "「走った」の「た」は何語か。",
+      "choices": [
+        "名詞",
+        "付属語",
+        "自立語",
+        "読点"
+      ],
+      "answer": 1,
+      "explanation": "助動詞「た」。"
+    },
+    {
+      "id": "jpn-015",
+      "subject": "国語",
+      "unit": "言葉の単位",
+      "topic": "文法基礎",
+      "difficulty": "hard",
+      "targetSkill": "文法判断",
+      "question": "「静かだ」の「静か」は何語か。",
+      "choices": [
+        "付属語",
+        "助詞",
+        "自立語",
+        "句点"
+      ],
+      "answer": 2,
+      "explanation": "意味の中心になる語。"
+    },
+    {
+      "id": "jpn-016",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「校」の部首として正しいものはどれか。",
+      "choices": [
+        "木",
+        "言",
+        "方",
+        "交"
+      ],
+      "answer": 0,
+      "explanation": "「校」の部首は木。"
+    },
+    {
+      "id": "jpn-017",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「話」の部首として正しいものはどれか。",
+      "choices": [
+        "古",
+        "言",
+        "舌",
+        "口"
+      ],
+      "answer": 1,
+      "explanation": "「話」の部首は言。"
+    },
+    {
+      "id": "jpn-018",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「海」の部首として正しいものはどれか。",
+      "choices": [
+        "母",
+        "氵",
+        "水",
+        "毎"
+      ],
+      "answer": 1,
+      "explanation": "「海」の部首は氵。"
+    },
+    {
+      "id": "jpn-019",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「晴」の部首として正しいものはどれか。",
+      "choices": [
+        "目",
+        "月",
+        "日",
+        "青"
+      ],
+      "answer": 2,
+      "explanation": "「晴」の部首は日。"
+    },
+    {
+      "id": "jpn-020",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「草」の部首として正しいものはどれか。",
+      "choices": [
+        "早",
+        "日",
+        "艹",
+        "十"
+      ],
+      "answer": 2,
+      "explanation": "「草」の部首は艹。"
+    },
+    {
+      "id": "jpn-021",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「読」の部首として正しいものはどれか。",
+      "choices": [
+        "士",
+        "売",
+        "貝",
+        "言"
+      ],
+      "answer": 3,
+      "explanation": "「読」の部首は言。"
+    },
+    {
+      "id": "jpn-022",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「紙」の部首として正しいものはどれか。",
+      "choices": [
+        "白",
+        "氏",
+        "木",
+        "糸"
+      ],
+      "answer": 3,
+      "explanation": "「紙」の部首は糸。"
+    },
+    {
+      "id": "jpn-023",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「村」の部首として正しいものはどれか。",
+      "choices": [
+        "土",
+        "寸",
+        "木",
+        "十"
+      ],
+      "answer": 2,
+      "explanation": "「村」の部首は木。"
+    },
+    {
+      "id": "jpn-024",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「時」の部首として正しいものはどれか。",
+      "choices": [
+        "日",
+        "寺",
+        "寸",
+        "土"
+      ],
+      "answer": 0,
+      "explanation": "「時」の部首は日。"
+    },
+    {
+      "id": "jpn-025",
+      "subject": "国語",
+      "unit": "漢字の部首",
+      "topic": "部首",
+      "difficulty": "standard",
+      "targetSkill": "部首判断",
+      "question": "漢字「泳」の部首として正しいものはどれか。",
+      "choices": [
+        "水",
+        "丶",
+        "永",
+        "氵"
+      ],
+      "answer": 3,
+      "explanation": "「泳」の部首は氵。"
+    },
+    {
+      "id": "jpn-026",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「桜」の読みとして正しいものはどれか。",
+      "choices": [
+        "さくら",
+        "ちょう",
+        "おう",
+        "はな"
+      ],
+      "answer": 0,
+      "explanation": "「桜」はさくら。"
+    },
+    {
+      "id": "jpn-027",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「脳」の読みとして正しいものはどれか。",
+      "choices": [
+        "あたま",
+        "むね",
+        "のう",
+        "どう"
+      ],
+      "answer": 2,
+      "explanation": "「脳」はのう。"
+    },
+    {
+      "id": "jpn-028",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「説明」の読みとして正しいものはどれか。",
+      "choices": [
+        "ぜつめい",
+        "せつめい",
+        "せっめい",
+        "せつべい"
+      ],
+      "answer": 1,
+      "explanation": "「説明」はせつめい。"
+    },
+    {
+      "id": "jpn-029",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「観察」の読みとして正しいものはどれか。",
+      "choices": [
+        "かんざつ",
+        "けんさつ",
+        "かんさつ",
+        "こうさつ"
+      ],
+      "answer": 2,
+      "explanation": "「観察」はかんさつ。"
+    },
+    {
+      "id": "jpn-030",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「原因」の読みとして正しいものはどれか。",
+      "choices": [
+        "がんいん",
+        "げいいん",
+        "げんいん",
+        "げんにん"
+      ],
+      "answer": 2,
+      "explanation": "「原因」はげんいん。"
+    },
+    {
+      "id": "jpn-031",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「結果」の読みとして正しいものはどれか。",
+      "choices": [
+        "けか",
+        "けっか",
+        "げっか",
+        "けつか"
+      ],
+      "answer": 1,
+      "explanation": "「結果」はけっか。"
+    },
+    {
+      "id": "jpn-032",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「部首」の読みとして正しいものはどれか。",
+      "choices": [
+        "ぶしゅ",
+        "へしゅ",
+        "ぶしょう",
+        "ぶくび"
+      ],
+      "answer": 0,
+      "explanation": "「部首」はぶしゅ。"
+    },
+    {
+      "id": "jpn-033",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「単位」の読みとして正しいものはどれか。",
+      "choices": [
+        "たんい",
+        "たいい",
+        "だんい",
+        "たんに"
+      ],
+      "answer": 0,
+      "explanation": "「単位」はたんい。"
+    },
+    {
+      "id": "jpn-034",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「文章」の読みとして正しいものはどれか。",
+      "choices": [
+        "ぶんしょう",
+        "ぶんそう",
+        "もんしょう",
+        "ぶんじょう"
+      ],
+      "answer": 0,
+      "explanation": "「文章」はぶんしょう。"
+    },
+    {
+      "id": "jpn-035",
+      "subject": "国語",
+      "unit": "漢字",
+      "topic": "読み",
+      "difficulty": "standard",
+      "targetSkill": "漢字読み",
+      "question": "「表現」の読みとして正しいものはどれか。",
+      "choices": [
+        "ひょうげん",
+        "ひょげん",
+        "ひょうけん",
+        "びょうげん"
+      ],
+      "answer": 0,
+      "explanation": "「表現」はひょうげん。"
+    },
+    {
+      "id": "jpn-036",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "詩で、同じ言葉や似た言い方をくり返す効果として最も適切なものはどれか。",
+      "choices": [
+        "漢字を減らすため",
+        "リズムを生み、印象を強める",
+        "作者を隠す",
+        "必ず意味を反対にする"
+      ],
+      "answer": 1,
+      "explanation": "反復の効果。"
+    },
+    {
+      "id": "jpn-037",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "詩の話者について最も適切な説明はどれか。",
+      "choices": [
+        "登場する動物だけ",
+        "必ず作者本人",
+        "詩の中で語っている存在",
+        "読者のこと"
+      ],
+      "answer": 2,
+      "explanation": "作者と同じとは限らない。"
+    },
+    {
+      "id": "jpn-038",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "比喩の説明として最も適切なものはどれか。",
+      "choices": [
+        "事実だけを番号で書くこと",
+        "あるものを別のものにたとえて表すこと",
+        "文末を必ず疑問にすること",
+        "同じ漢字を何度も使うこと"
+      ],
+      "answer": 1,
+      "explanation": "たとえによる表現。"
+    },
+    {
+      "id": "jpn-039",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "擬人法の説明として最も適切なものはどれか。",
+      "choices": [
+        "同じ音をくり返すこと",
+        "人間を動物として説明すること",
+        "人間でないものを人間のように表すこと",
+        "理由を三つ並べること"
+      ],
+      "answer": 2,
+      "explanation": "ものを人のように表す。"
+    },
+    {
+      "id": "jpn-040",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "説明文で筆者の主張を探すとき注目すべき表現はどれか。",
+      "choices": [
+        "たとえば・まず・次にだけ",
+        "昨日・今日・明日",
+        "ああ・ええ・うん",
+        "つまり・このように・大切なのは"
+      ],
+      "answer": 3,
+      "explanation": "まとめや結論の合図。"
+    },
+    {
+      "id": "jpn-041",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "接続語「しかし」の働きとして最も適切なものはどれか。",
+      "choices": [
+        "同じ内容をくり返す",
+        "例を挙げる",
+        "前の内容と逆の内容を続ける",
+        "理由を加える"
+      ],
+      "answer": 2,
+      "explanation": "逆接。"
+    },
+    {
+      "id": "jpn-042",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "接続語「つまり」の働きとして最も適切なものはどれか。",
+      "choices": [
+        "反対の内容に変える",
+        "前の内容をまとめたり言いかえたりする",
+        "場所を示す",
+        "時間の順序を示す"
+      ],
+      "answer": 1,
+      "explanation": "要約・言い換え。"
+    },
+    {
+      "id": "jpn-043",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "具体例の役割として最も適切なものはどれか。",
+      "choices": [
+        "段落を終わらせるだけ",
+        "題名を隠す",
+        "主張を必ず否定する",
+        "考えをわかりやすくする"
+      ],
+      "answer": 3,
+      "explanation": "具体例は理解を助ける。"
+    },
+    {
+      "id": "jpn-044",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "指示語「それ」が指す内容を探すとき、まず見るべき場所はどこか。",
+      "choices": [
+        "作者名の横",
+        "直前の文や前の段落",
+        "必ず本文の最後",
+        "題名だけ"
+      ],
+      "answer": 1,
+      "explanation": "前の内容を指すことが多い。"
+    },
+    {
+      "id": "jpn-045",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "詩・説明文",
+      "difficulty": "hard",
+      "targetSkill": "読解技能",
+      "question": "意見と事実の区別として正しいものはどれか。",
+      "choices": [
+        "事実は必ず好き嫌いを含む",
+        "意見は筆者の考え、事実は実際に確認できること",
+        "意見は数字で表せることだけ",
+        "意見と事実は常に同じ"
+      ],
+      "answer": 1,
+      "explanation": "説明文で重要。"
+    },
+    {
+      "id": "jpn-046",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "短文読解",
+      "difficulty": "hard",
+      "targetSkill": "短文読解",
+      "question": "次の文章を読んで答えなさい。\n「朝、窓を開けると、まだ冷たい空気が部屋に流れこんできた。けれど、庭の草の先には小さな光がいくつも並び、季節が少しずつ進んでいることを知らせていた。」\nこの文章で「小さな光」が表しているものとして最も自然なものはどれか。",
+      "choices": [
+        "空に星が残っている様子",
+        "草の先についた露が光っている様子",
+        "窓ガラスが割れている様子",
+        "部屋の電灯が庭を照らす様子"
+      ],
+      "answer": 1,
+      "explanation": "草の先に並ぶ光から露の輝きが自然。"
+    },
+    {
+      "id": "jpn-047",
+      "subject": "国語",
+      "unit": "読解",
+      "topic": "短文読解",
+      "difficulty": "hard",
+      "targetSkill": "短文読解",
+      "question": "次の文章を読んで答えなさい。\n「便利な道具は、私たちの生活を楽にしてくれる。しかし、使い方を考えずに頼りすぎると、自分で工夫する力を使わなくなることもある。」\n筆者が伝えたいこととして最も適切なものはどれか。",
+      "choices": [
+        "便利な道具はすべて使ってはいけない",
+        "生活を楽にする道具は存在しない",
+        "工夫する力は道具では変わらない",
+        "便利な道具は使い方を考えることが大切だ"
+      ],
+      "answer": 3,
+      "explanation": "便利さを認めつつ、頼りすぎに注意。"
+    },
+    {
+      "id": "jpn-048",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "理由を説明する",
+        "反対の内容を示す",
+        "例を示す",
+        "結論を言いかえる"
+      ],
+      "answer": 0,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-049",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "校",
+        "泳",
+        "話",
+        "晴"
+      ],
+      "answer": 1,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-050",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "美しい",
+        "学校",
+        "学校へ",
+        "走る"
+      ],
+      "answer": 2,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-051",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "咲く",
+        "花が",
+        "花",
+        "赤い"
+      ],
+      "answer": 3,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-052",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "例を示す",
+        "反対の内容を示す",
+        "結論を言いかえる",
+        "理由を説明する"
+      ],
+      "answer": 3,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-053",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "晴",
+        "校",
+        "泳",
+        "話"
+      ],
+      "answer": 2,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-054",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "美しい",
+        "学校へ",
+        "走る",
+        "学校"
+      ],
+      "answer": 1,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-055",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "花",
+        "赤い",
+        "咲く",
+        "花が"
+      ],
+      "answer": 1,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-056",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "結論を言いかえる",
+        "理由を説明する",
+        "反対の内容を示す",
+        "例を示す"
+      ],
+      "answer": 1,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-057",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "話",
+        "泳",
+        "校",
+        "晴"
+      ],
+      "answer": 1,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-058",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "美しい",
+        "学校へ",
+        "走る",
+        "学校"
+      ],
+      "answer": 1,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-059",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "赤い",
+        "花が",
+        "花",
+        "咲く"
+      ],
+      "answer": 0,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-060",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "反対の内容を示す",
+        "例を示す",
+        "理由を説明する",
+        "結論を言いかえる"
+      ],
+      "answer": 2,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-061",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "校",
+        "晴",
+        "泳",
+        "話"
+      ],
+      "answer": 2,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-062",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "走る",
+        "学校",
+        "美しい",
+        "学校へ"
+      ],
+      "answer": 3,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-063",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "赤い",
+        "咲く",
+        "花が",
+        "花"
+      ],
+      "answer": 0,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-064",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "結論を言いかえる",
+        "反対の内容を示す",
+        "理由を説明する",
+        "例を示す"
+      ],
+      "answer": 2,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-065",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "晴",
+        "話",
+        "泳",
+        "校"
+      ],
+      "answer": 2,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-066",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "学校",
+        "学校へ",
+        "美しい",
+        "走る"
+      ],
+      "answer": 1,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-067",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "咲く",
+        "花が",
+        "花",
+        "赤い"
+      ],
+      "answer": 3,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-068",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "例を示す",
+        "反対の内容を示す",
+        "理由を説明する",
+        "結論を言いかえる"
+      ],
+      "answer": 2,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-069",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "校",
+        "話",
+        "泳",
+        "晴"
+      ],
+      "answer": 2,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-070",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "学校へ",
+        "走る",
+        "美しい",
+        "学校"
+      ],
+      "answer": 0,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-071",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "花が",
+        "咲く",
+        "花",
+        "赤い"
+      ],
+      "answer": 3,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-072",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "例を示す",
+        "反対の内容を示す",
+        "理由を説明する",
+        "結論を言いかえる"
+      ],
+      "answer": 2,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-073",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "晴",
+        "泳",
+        "話",
+        "校"
+      ],
+      "answer": 1,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-074",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "学校",
+        "美しい",
+        "学校へ",
+        "走る"
+      ],
+      "answer": 2,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-075",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "花",
+        "咲く",
+        "赤い",
+        "花が"
+      ],
+      "answer": 2,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-076",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "理由を説明する",
+        "反対の内容を示す",
+        "例を示す",
+        "結論を言いかえる"
+      ],
+      "answer": 0,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-077",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "校",
+        "話",
+        "泳",
+        "晴"
+      ],
+      "answer": 2,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-078",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "学校へ",
+        "学校",
+        "美しい",
+        "走る"
+      ],
+      "answer": 0,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-079",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "咲く",
+        "花",
+        "赤い",
+        "花が"
+      ],
+      "answer": 2,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-080",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "反対の内容を示す",
+        "例を示す",
+        "結論を言いかえる",
+        "理由を説明する"
+      ],
+      "answer": 3,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-081",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "校",
+        "晴",
+        "話",
+        "泳"
+      ],
+      "answer": 3,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-082",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "学校へ",
+        "美しい",
+        "走る",
+        "学校"
+      ],
+      "answer": 0,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-083",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "咲く",
+        "花",
+        "赤い",
+        "花が"
+      ],
+      "answer": 2,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-084",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "理由を説明する",
+        "例を示す",
+        "反対の内容を示す",
+        "結論を言いかえる"
+      ],
+      "answer": 0,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-085",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "校",
+        "晴",
+        "泳",
+        "話"
+      ],
+      "answer": 2,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-086",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "美しい",
+        "学校",
+        "走る",
+        "学校へ"
+      ],
+      "answer": 3,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-087",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "花が",
+        "花",
+        "咲く",
+        "赤い"
+      ],
+      "answer": 3,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-088",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "反対の内容を示す",
+        "例を示す",
+        "結論を言いかえる",
+        "理由を説明する"
+      ],
+      "answer": 3,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-089",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "泳",
+        "晴",
+        "話",
+        "校"
+      ],
+      "answer": 0,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-090",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "走る",
+        "学校へ",
+        "学校",
+        "美しい"
+      ],
+      "answer": 1,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-091",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "咲く",
+        "赤い",
+        "花",
+        "花が"
+      ],
+      "answer": 1,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-092",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "例を示す",
+        "理由を説明する",
+        "結論を言いかえる",
+        "反対の内容を示す"
+      ],
+      "answer": 1,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-093",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "校",
+        "泳",
+        "話",
+        "晴"
+      ],
+      "answer": 1,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-094",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "美しい",
+        "走る",
+        "学校",
+        "学校へ"
+      ],
+      "answer": 3,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-095",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "赤い",
+        "花が",
+        "咲く",
+        "花"
+      ],
+      "answer": 0,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-096",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "理由を説明する",
+        "例を示す",
+        "結論を言いかえる",
+        "反対の内容を示す"
+      ],
+      "answer": 0,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "jpn-097",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "choices": [
+        "話",
+        "晴",
+        "校",
+        "泳"
+      ],
+      "answer": 3,
+      "explanation": "泳はさんずい。"
+    },
+    {
+      "id": "jpn-098",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "次のうち、付属語を含む文節はどれか。",
+      "choices": [
+        "学校へ",
+        "学校",
+        "走る",
+        "美しい"
+      ],
+      "answer": 0,
+      "explanation": "「へ」は助詞。"
+    },
+    {
+      "id": "jpn-099",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "choices": [
+        "花が",
+        "花",
+        "咲く",
+        "赤い"
+      ],
+      "answer": 3,
+      "explanation": "花を詳しくする。"
+    },
+    {
+      "id": "jpn-100",
+      "subject": "国語",
+      "unit": "総合",
+      "topic": "文法・漢字・読解",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "choices": [
+        "例を示す",
+        "理由を説明する",
+        "結論を言いかえる",
+        "反対の内容を示す"
+      ],
+      "answer": 1,
+      "explanation": "理由を導く接続語。"
+    },
+    {
+      "id": "sci-001",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "野外観察で最も適切な行動はどれか。",
+      "choices": [
+        "観察場所は記録しなくてよい",
+        "名前がわからない生物はすべて持ち帰る",
+        "必要以上に生物を傷つけず、観察した場所や特徴を記録する",
+        "危険かどうかに関係なく素手でさわる"
+      ],
+      "answer": 2,
+      "explanation": "安全と記録が重要。"
+    },
+    {
+      "id": "sci-002",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "理科のスケッチとして最も適切なものはどれか。",
+      "choices": [
+        "色を必ず濃くぬる",
+        "影をつけて芸術的にかく",
+        "細い線ではっきり、見えたものを正確にかく",
+        "想像した部分を補ってかく"
+      ],
+      "answer": 2,
+      "explanation": "正確さが大切。"
+    },
+    {
+      "id": "sci-003",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "接眼レンズ10倍、対物レンズ15倍の顕微鏡の倍率はどれか。",
+      "choices": [
+        "5倍",
+        "25倍",
+        "1500倍",
+        "150倍"
+      ],
+      "answer": 3,
+      "explanation": "10×15=150。"
+    },
+    {
+      "id": "sci-004",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "顕微鏡で観察を始めるとき、最初に使う対物レンズはどれか。",
+      "choices": [
+        "低倍率の対物レンズ",
+        "高倍率の対物レンズ",
+        "接眼レンズを使わない",
+        "対物レンズを外す"
+      ],
+      "answer": 0,
+      "explanation": "低倍率は視野が広い。"
+    },
+    {
+      "id": "sci-005",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "高倍率に変えたときの視野について正しいものはどれか。",
+      "choices": [
+        "視野は広くなり、明るくなる",
+        "視野は狭くなり、見える範囲は小さくなる",
+        "見える像は小さくなる",
+        "倍率は変わらない"
+      ],
+      "answer": 1,
+      "explanation": "高倍率は視野が狭い。"
+    },
+    {
+      "id": "sci-006",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "顕微鏡で見える像を右上へ動かしたいとき、プレパラートをどちらへ動かすか。",
+      "choices": [
+        "左下",
+        "右上",
+        "左上",
+        "右下"
+      ],
+      "answer": 0,
+      "explanation": "像は逆に動く。"
+    },
+    {
+      "id": "sci-007",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "カバーガラスをかけるとき気泡を入りにくくする方法はどれか。",
+      "choices": [
+        "指で強く押しつける",
+        "端からゆっくり倒すようにかける",
+        "水を入れずに置く",
+        "真上から強く落とす"
+      ],
+      "answer": 1,
+      "explanation": "端から下ろす。"
+    },
+    {
+      "id": "sci-008",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "被子植物の説明として正しいものはどれか。",
+      "choices": [
+        "胚珠が子房の中にある植物",
+        "花をまったくつけない植物",
+        "根をもたない植物",
+        "胚珠がむき出しの植物"
+      ],
+      "answer": 0,
+      "explanation": "子房に包まれる。"
+    },
+    {
+      "id": "sci-009",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "裸子植物の説明として正しいものはどれか。",
+      "choices": [
+        "水中だけで生活する植物",
+        "花弁を必ず5枚もつ植物",
+        "胚珠がむき出しになっている植物",
+        "子房の中に胚珠がある植物"
+      ],
+      "answer": 2,
+      "explanation": "裸子植物は胚珠がむき出し。"
+    },
+    {
+      "id": "sci-010",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "受粉後、種子になる部分はどれか。",
+      "choices": [
+        "花弁",
+        "子房",
+        "胚珠",
+        "やく"
+      ],
+      "answer": 2,
+      "explanation": "胚珠が種子。"
+    },
+    {
+      "id": "sci-011",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "受粉後、果実になる部分はどれか。",
+      "choices": [
+        "胚珠",
+        "花粉",
+        "子房",
+        "花弁"
+      ],
+      "answer": 2,
+      "explanation": "子房が果実。"
+    },
+    {
+      "id": "sci-012",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "花粉がつくられる部分はどれか。",
+      "choices": [
+        "柱頭",
+        "子房",
+        "やく",
+        "がく"
+      ],
+      "answer": 2,
+      "explanation": "やくで花粉がつくられる。"
+    },
+    {
+      "id": "sci-013",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "受粉とはどのようなことか。",
+      "choices": [
+        "花弁が開くこと",
+        "根から水を吸うこと",
+        "花粉がめしべの柱頭につくこと",
+        "胚珠が子房になること"
+      ],
+      "answer": 2,
+      "explanation": "受粉の定義。"
+    },
+    {
+      "id": "sci-014",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "単子葉類の特徴として正しいものはどれか。",
+      "choices": [
+        "子葉が1枚、葉脈は平行脈であることが多い",
+        "胚珠がむき出しである",
+        "胞子でふえる",
+        "子葉が2枚、葉脈は網状脈であることが多い"
+      ],
+      "answer": 0,
+      "explanation": "単子葉類の特徴。"
+    },
+    {
+      "id": "sci-015",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "総合",
+      "difficulty": "hard",
+      "targetSkill": "知識判断",
+      "question": "双子葉類の特徴として正しいものはどれか。",
+      "choices": [
+        "花をつけない",
+        "子葉が1枚、葉脈は平行脈であることが多い",
+        "すべて針のような葉をもつ",
+        "子葉が2枚、葉脈は網状脈であることが多い"
+      ],
+      "answer": 3,
+      "explanation": "双子葉類の特徴。"
+    },
+    {
+      "id": "sci-016",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "接眼レンズをのぞく前に、対物レンズとプレパラートを横から見ながら近づける理由はどれか。",
+      "choices": [
+        "水を蒸発させるため",
+        "像を上下逆にしないため",
+        "対物レンズとプレパラートがぶつかるのを防ぐため",
+        "倍率を自動で上げるため"
+      ],
+      "answer": 2,
+      "explanation": "破損防止。"
+    },
+    {
+      "id": "sci-017",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "しぼりや反射鏡を調節する主な目的はどれか。",
+      "choices": [
+        "プレパラートを固定するため",
+        "倍率を変えるため",
+        "観察物を染色するため",
+        "視野の明るさを調節するため"
+      ],
+      "answer": 3,
+      "explanation": "明るさ調節。"
+    },
+    {
+      "id": "sci-018",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "倍率を400倍にする組み合わせはどれか。",
+      "choices": [
+        "接眼20倍・対物10倍",
+        "接眼10倍・対物40倍",
+        "接眼5倍・対物40倍",
+        "接眼15倍・対物20倍"
+      ],
+      "answer": 1,
+      "explanation": "10×40=400。"
+    },
+    {
+      "id": "sci-019",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "アブラナの花のつくりとして一般的に正しいものはどれか。",
+      "choices": [
+        "花弁5枚、がく5枚、おしべ5本、めしべ5本",
+        "花弁4枚、がく4枚、おしべ6本、めしべ1本",
+        "花弁3枚、がく3枚、おしべ6本、めしべ0本",
+        "花弁なし、胚珠がむき出し"
+      ],
+      "answer": 1,
+      "explanation": "アブラナの基本。"
+    },
+    {
+      "id": "sci-020",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "マツの花について正しいものはどれか。",
+      "choices": [
+        "花粉は子房でつくられる",
+        "雌花のりん片に胚珠がむき出しについている",
+        "花弁の中に子房がある",
+        "果実の中に種子ができる"
+      ],
+      "answer": 1,
+      "explanation": "裸子植物。"
+    },
+    {
+      "id": "sci-021",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "ゾウリムシの動きに関係する体表の細かい毛を何というか。",
+      "choices": [
+        "せん毛",
+        "根毛",
+        "気孔",
+        "花粉管"
+      ],
+      "answer": 0,
+      "explanation": "ゾウリムシはせん毛。"
+    },
+    {
+      "id": "sci-022",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "ミドリムシについて正しいものはどれか。",
+      "choices": [
+        "背骨をもつ動物である",
+        "葉緑体をもち光合成をするが、動くこともできる",
+        "花を咲かせる被子植物である",
+        "種子でふえる裸子植物である"
+      ],
+      "answer": 1,
+      "explanation": "植物的・動物的特徴。"
+    },
+    {
+      "id": "sci-023",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "トウモロコシに多く見られる特徴の組み合わせはどれか。",
+      "choices": [
+        "胚珠がむき出し・針形の葉",
+        "網状脈・主根と側根",
+        "胞子・仮根",
+        "平行脈・ひげ根"
+      ],
+      "answer": 3,
+      "explanation": "単子葉類。"
+    },
+    {
+      "id": "sci-024",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "アブラナに多く見られる特徴の組み合わせはどれか。",
+      "choices": [
+        "胞子でふえる・維管束なし",
+        "網状脈・主根と側根",
+        "胚珠がむき出し・花弁なし",
+        "平行脈・ひげ根"
+      ],
+      "answer": 1,
+      "explanation": "双子葉類。"
+    },
+    {
+      "id": "sci-025",
+      "subject": "理科",
+      "unit": "観察・植物",
+      "topic": "応用",
+      "difficulty": "hard",
+      "targetSkill": "実験・分類",
+      "question": "水中の小さな生物を採集するときに適切な場所はどれか。",
+      "choices": [
+        "池の水草の近くや日当たりのよい浅い場所",
+        "油が浮いている場所",
+        "コンクリートの乾いた場所",
+        "完全に消毒された水道水"
+      ],
+      "answer": 0,
+      "explanation": "水草付近などに多い。"
+    },
+    {
+      "id": "sci-026",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "花粉→果実、花弁→種子",
+        "胚珠→種子、子房→果実",
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 1,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-027",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像の上下左右が正しくなる",
+        "像は大きく見え、視野は狭く暗くなる",
+        "像は小さく見え、視野は広く明るくなる",
+        "倍率は接眼レンズだけで決まる"
+      ],
+      "answer": 1,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-028",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "気づいたことを一切書かない",
+        "あとで想像して色を足す",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "名前だけを書いて場所は省く"
+      ],
+      "answer": 2,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-029",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "おしべ",
+        "花弁",
+        "めしべ",
+        "がく"
+      ],
+      "answer": 2,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-030",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "柱頭",
+        "やく",
+        "胚珠",
+        "子房"
+      ],
+      "answer": 1,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-031",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "胚珠→種子、子房→果実",
+        "花粉→果実、花弁→種子",
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 0,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-032",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "倍率は接眼レンズだけで決まる",
+        "像の上下左右が正しくなる",
+        "像は大きく見え、視野は狭く暗くなる",
+        "像は小さく見え、視野は広く明るくなる"
+      ],
+      "answer": 2,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-033",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "気づいたことを一切書かない",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "あとで想像して色を足す",
+        "名前だけを書いて場所は省く"
+      ],
+      "answer": 1,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-034",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "おしべ",
+        "めしべ",
+        "がく",
+        "花弁"
+      ],
+      "answer": 1,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-035",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "柱頭",
+        "やく",
+        "胚珠",
+        "子房"
+      ],
+      "answer": 1,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-036",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "花粉→果実、花弁→種子",
+        "やく→子房、柱頭→胚珠",
+        "胚珠→種子、子房→果実",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 2,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-037",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は小さく見え、視野は広く明るくなる",
+        "倍率は接眼レンズだけで決まる",
+        "像は大きく見え、視野は狭く暗くなる",
+        "像の上下左右が正しくなる"
+      ],
+      "answer": 2,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-038",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "名前だけを書いて場所は省く",
+        "あとで想像して色を足す",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "気づいたことを一切書かない"
+      ],
+      "answer": 2,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-039",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "おしべ",
+        "めしべ",
+        "花弁",
+        "がく"
+      ],
+      "answer": 1,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-040",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "子房",
+        "やく",
+        "柱頭",
+        "胚珠"
+      ],
+      "answer": 1,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-041",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子",
+        "胚珠→種子、子房→果実",
+        "花粉→果実、花弁→種子"
+      ],
+      "answer": 2,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-042",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像の上下左右が正しくなる",
+        "像は小さく見え、視野は広く明るくなる",
+        "像は大きく見え、視野は狭く暗くなる",
+        "倍率は接眼レンズだけで決まる"
+      ],
+      "answer": 2,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-043",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "気づいたことを一切書かない",
+        "あとで想像して色を足す",
+        "名前だけを書いて場所は省く",
+        "日時・場所・天気・特徴を具体的に記録する"
+      ],
+      "answer": 3,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-044",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "おしべ",
+        "がく",
+        "めしべ",
+        "花弁"
+      ],
+      "answer": 2,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-045",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "柱頭",
+        "子房",
+        "やく",
+        "胚珠"
+      ],
+      "answer": 2,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-046",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "胚珠→種子、子房→果実",
+        "やく→子房、柱頭→胚珠",
+        "花粉→果実、花弁→種子",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 0,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-047",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は大きく見え、視野は狭く暗くなる",
+        "倍率は接眼レンズだけで決まる",
+        "像は小さく見え、視野は広く明るくなる",
+        "像の上下左右が正しくなる"
+      ],
+      "answer": 0,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-048",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "名前だけを書いて場所は省く",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "あとで想像して色を足す",
+        "気づいたことを一切書かない"
+      ],
+      "answer": 1,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-049",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "おしべ",
+        "めしべ",
+        "花弁",
+        "がく"
+      ],
+      "answer": 1,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-050",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "子房",
+        "胚珠",
+        "柱頭",
+        "やく"
+      ],
+      "answer": 3,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-051",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "花粉→果実、花弁→種子",
+        "胚珠→種子、子房→果実",
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 1,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-052",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は大きく見え、視野は狭く暗くなる",
+        "倍率は接眼レンズだけで決まる",
+        "像は小さく見え、視野は広く明るくなる",
+        "像の上下左右が正しくなる"
+      ],
+      "answer": 0,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-053",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "気づいたことを一切書かない",
+        "名前だけを書いて場所は省く",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "あとで想像して色を足す"
+      ],
+      "answer": 2,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-054",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "おしべ",
+        "めしべ",
+        "がく",
+        "花弁"
+      ],
+      "answer": 1,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-055",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "胚珠",
+        "子房",
+        "やく",
+        "柱頭"
+      ],
+      "answer": 2,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-056",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "胚珠→種子、子房→果実",
+        "花粉→果実、花弁→種子",
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 0,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-057",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は小さく見え、視野は広く明るくなる",
+        "像の上下左右が正しくなる",
+        "像は大きく見え、視野は狭く暗くなる",
+        "倍率は接眼レンズだけで決まる"
+      ],
+      "answer": 2,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-058",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "名前だけを書いて場所は省く",
+        "気づいたことを一切書かない",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "あとで想像して色を足す"
+      ],
+      "answer": 2,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-059",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "花弁",
+        "めしべ",
+        "おしべ",
+        "がく"
+      ],
+      "answer": 1,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-060",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "柱頭",
+        "やく",
+        "胚珠",
+        "子房"
+      ],
+      "answer": 1,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-061",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "胚珠→果実、子房→種子",
+        "やく→子房、柱頭→胚珠",
+        "花粉→果実、花弁→種子",
+        "胚珠→種子、子房→果実"
+      ],
+      "answer": 3,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-062",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は大きく見え、視野は狭く暗くなる",
+        "像の上下左右が正しくなる",
+        "像は小さく見え、視野は広く明るくなる",
+        "倍率は接眼レンズだけで決まる"
+      ],
+      "answer": 0,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-063",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "あとで想像して色を足す",
+        "気づいたことを一切書かない",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "名前だけを書いて場所は省く"
+      ],
+      "answer": 2,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-064",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "めしべ",
+        "おしべ",
+        "がく",
+        "花弁"
+      ],
+      "answer": 0,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-065",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "やく",
+        "胚珠",
+        "柱頭",
+        "子房"
+      ],
+      "answer": 0,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-066",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子",
+        "花粉→果実、花弁→種子",
+        "胚珠→種子、子房→果実"
+      ],
+      "answer": 3,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-067",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は大きく見え、視野は狭く暗くなる",
+        "像は小さく見え、視野は広く明るくなる",
+        "倍率は接眼レンズだけで決まる",
+        "像の上下左右が正しくなる"
+      ],
+      "answer": 0,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-068",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "日時・場所・天気・特徴を具体的に記録する",
+        "気づいたことを一切書かない",
+        "名前だけを書いて場所は省く",
+        "あとで想像して色を足す"
+      ],
+      "answer": 0,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-069",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "花弁",
+        "がく",
+        "めしべ",
+        "おしべ"
+      ],
+      "answer": 2,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-070",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "胚珠",
+        "やく",
+        "柱頭",
+        "子房"
+      ],
+      "answer": 1,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-071",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "花粉→果実、花弁→種子",
+        "胚珠→果実、子房→種子",
+        "胚珠→種子、子房→果実",
+        "やく→子房、柱頭→胚珠"
+      ],
+      "answer": 2,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-072",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は大きく見え、視野は狭く暗くなる",
+        "倍率は接眼レンズだけで決まる",
+        "像の上下左右が正しくなる",
+        "像は小さく見え、視野は広く明るくなる"
+      ],
+      "answer": 0,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-073",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "名前だけを書いて場所は省く",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "気づいたことを一切書かない",
+        "あとで想像して色を足す"
+      ],
+      "answer": 1,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-074",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "めしべ",
+        "花弁",
+        "おしべ",
+        "がく"
+      ],
+      "answer": 0,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-075",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "子房",
+        "胚珠",
+        "やく",
+        "柱頭"
+      ],
+      "answer": 2,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-076",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "花粉→果実、花弁→種子",
+        "胚珠→種子、子房→果実",
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 1,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-077",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像の上下左右が正しくなる",
+        "像は大きく見え、視野は狭く暗くなる",
+        "倍率は接眼レンズだけで決まる",
+        "像は小さく見え、視野は広く明るくなる"
+      ],
+      "answer": 1,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-078",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "日時・場所・天気・特徴を具体的に記録する",
+        "名前だけを書いて場所は省く",
+        "気づいたことを一切書かない",
+        "あとで想像して色を足す"
+      ],
+      "answer": 0,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-079",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "めしべ",
+        "おしべ",
+        "花弁",
+        "がく"
+      ],
+      "answer": 0,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-080",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "やく",
+        "子房",
+        "胚珠",
+        "柱頭"
+      ],
+      "answer": 0,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-081",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "胚珠→果実、子房→種子",
+        "胚珠→種子、子房→果実",
+        "やく→子房、柱頭→胚珠",
+        "花粉→果実、花弁→種子"
+      ],
+      "answer": 1,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-082",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は大きく見え、視野は狭く暗くなる",
+        "倍率は接眼レンズだけで決まる",
+        "像の上下左右が正しくなる",
+        "像は小さく見え、視野は広く明るくなる"
+      ],
+      "answer": 0,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-083",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "名前だけを書いて場所は省く",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "あとで想像して色を足す",
+        "気づいたことを一切書かない"
+      ],
+      "answer": 1,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-084",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "花弁",
+        "めしべ",
+        "がく",
+        "おしべ"
+      ],
+      "answer": 1,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-085",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "やく",
+        "子房",
+        "柱頭",
+        "胚珠"
+      ],
+      "answer": 0,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-086",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "胚珠→種子、子房→果実",
+        "やく→子房、柱頭→胚珠",
+        "花粉→果実、花弁→種子",
+        "胚珠→果実、子房→種子"
+      ],
+      "answer": 0,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-087",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像は小さく見え、視野は広く明るくなる",
+        "倍率は接眼レンズだけで決まる",
+        "像は大きく見え、視野は狭く暗くなる",
+        "像の上下左右が正しくなる"
+      ],
+      "answer": 2,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-088",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "気づいたことを一切書かない",
+        "あとで想像して色を足す",
+        "名前だけを書いて場所は省く",
+        "日時・場所・天気・特徴を具体的に記録する"
+      ],
+      "answer": 3,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-089",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "がく",
+        "花弁",
+        "おしべ",
+        "めしべ"
+      ],
+      "answer": 3,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-090",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "やく",
+        "子房",
+        "胚珠",
+        "柱頭"
+      ],
+      "answer": 0,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-091",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "花粉→果実、花弁→種子",
+        "やく→子房、柱頭→胚珠",
+        "胚珠→果実、子房→種子",
+        "胚珠→種子、子房→果実"
+      ],
+      "answer": 3,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-092",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "倍率は接眼レンズだけで決まる",
+        "像の上下左右が正しくなる",
+        "像は小さく見え、視野は広く明るくなる",
+        "像は大きく見え、視野は狭く暗くなる"
+      ],
+      "answer": 3,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-093",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "気づいたことを一切書かない",
+        "日時・場所・天気・特徴を具体的に記録する",
+        "名前だけを書いて場所は省く",
+        "あとで想像して色を足す"
+      ],
+      "answer": 1,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-094",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "花弁",
+        "めしべ",
+        "がく",
+        "おしべ"
+      ],
+      "answer": 1,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-095",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "胚珠",
+        "やく",
+        "子房",
+        "柱頭"
+      ],
+      "answer": 1,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "sci-096",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "choices": [
+        "胚珠→種子、子房→果実",
+        "胚珠→果実、子房→種子",
+        "花粉→果実、花弁→種子",
+        "やく→子房、柱頭→胚珠"
+      ],
+      "answer": 0,
+      "explanation": "受粉後、胚珠は種子、子房は果実。"
+    },
+    {
+      "id": "sci-097",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "choices": [
+        "像の上下左右が正しくなる",
+        "倍率は接眼レンズだけで決まる",
+        "像は小さく見え、視野は広く明るくなる",
+        "像は大きく見え、視野は狭く暗くなる"
+      ],
+      "answer": 3,
+      "explanation": "高倍率の特徴。"
+    },
+    {
+      "id": "sci-098",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "観察記録として最もよいものはどれか。",
+      "choices": [
+        "日時・場所・天気・特徴を具体的に記録する",
+        "あとで想像して色を足す",
+        "気づいたことを一切書かない",
+        "名前だけを書いて場所は省く"
+      ],
+      "answer": 0,
+      "explanation": "条件と特徴を記録。"
+    },
+    {
+      "id": "sci-099",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "choices": [
+        "めしべ",
+        "花弁",
+        "おしべ",
+        "がく"
+      ],
+      "answer": 0,
+      "explanation": "めしべの構造。"
+    },
+    {
+      "id": "sci-100",
+      "subject": "理科",
+      "unit": "総合",
+      "topic": "観察・顕微鏡・植物",
+      "difficulty": "hard",
+      "targetSkill": "総合判断",
+      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "choices": [
+        "やく",
+        "柱頭",
+        "子房",
+        "胚珠"
+      ],
+      "answer": 0,
+      "explanation": "やくで花粉。"
+    },
+    {
+      "id": "soc-001",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "六大陸のうち、赤道が通っていない大陸はどれか。",
+      "choices": [
+        "ヨーロッパ大陸",
+        "アフリカ大陸",
+        "ユーラシア大陸",
+        "南アメリカ大陸"
+      ],
+      "answer": 0,
+      "explanation": "ヨーロッパ大陸は赤道が通らない。"
+    },
+    {
+      "id": "soc-002",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "三大洋のうち、日本の東側に広がる海洋はどれか。",
+      "choices": [
+        "北極海",
+        "太平洋",
+        "インド洋",
+        "大西洋"
+      ],
+      "answer": 1,
+      "explanation": "日本の東は太平洋。"
+    },
+    {
+      "id": "soc-003",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "赤道を基準に南北の位置を表すものはどれか。",
+      "choices": [
+        "緯度",
+        "経度",
+        "標高",
+        "時差"
+      ],
+      "answer": 0,
+      "explanation": "緯度は南北。"
+    },
+    {
+      "id": "soc-004",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "本初子午線を基準に東西の位置を表すものはどれか。",
+      "choices": [
+        "緯度",
+        "経度",
+        "赤道",
+        "海抜"
+      ],
+      "answer": 1,
+      "explanation": "経度は東西。"
+    },
+    {
+      "id": "soc-005",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "日本標準時子午線の経度はどれか。",
+      "choices": [
+        "東経180度",
+        "西経135度",
+        "東経135度",
+        "東経120度"
+      ],
+      "answer": 2,
+      "explanation": "日本標準時は東経135度。"
+    },
+    {
+      "id": "soc-006",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "経度15度で時差が1時間になる理由として正しいものはどれか。",
+      "choices": [
+        "太陽が東から西へ15度動かないから",
+        "地球が15時間で1度回転するから",
+        "緯度が15度で季節が変わるから",
+        "地球が24時間で360度回転するから"
+      ],
+      "answer": 3,
+      "explanation": "360÷24=15。"
+    },
+    {
+      "id": "soc-007",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "東経135度の日本が午前10時のとき、東経120度の地域は何時か。",
+      "choices": [
+        "午後9時",
+        "午前11時",
+        "午前10時",
+        "午前9時"
+      ],
+      "answer": 3,
+      "explanation": "15度西なので1時間遅い。"
+    },
+    {
+      "id": "soc-008",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "日本の領域を構成するものとして正しい組み合わせはどれか。",
+      "choices": [
+        "本州・北海道・九州",
+        "領土・公海・宇宙",
+        "領土・領海・領空",
+        "都道府県・市町村・大陸"
+      ],
+      "answer": 2,
+      "explanation": "領域の三つ。"
+    },
+    {
+      "id": "soc-009",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "領海の範囲として一般的に正しいものはどれか。",
+      "choices": [
+        "赤道から12度まで",
+        "沿岸から1kmまで",
+        "沿岸から200海里まで",
+        "沿岸から12海里まで"
+      ],
+      "answer": 3,
+      "explanation": "領海は12海里。"
+    },
+    {
+      "id": "soc-010",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "基本概念",
+      "difficulty": "hard",
+      "targetSkill": "概念理解",
+      "question": "排他的経済水域について正しいものはどれか。",
+      "choices": [
+        "外国船が絶対に通れない水域",
+        "領空の別名",
+        "都道府県が直接管理する河川",
+        "沿岸国が水産資源や鉱産資源を利用する権利をもつ水域"
+      ],
+      "answer": 3,
+      "explanation": "EEZは資源利用の権利。"
+    },
+    {
+      "id": "soc-011",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "北海道の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "旭川市",
+        "札幌市",
+        "函館市",
+        "小樽市"
+      ],
+      "answer": 1,
+      "explanation": "北海道の県庁所在地は札幌市。"
+    },
+    {
+      "id": "soc-012",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "青森県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "青森市",
+        "盛岡市",
+        "八戸市",
+        "弘前市"
+      ],
+      "answer": 0,
+      "explanation": "青森県の県庁所在地は青森市。"
+    },
+    {
+      "id": "soc-013",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "岩手県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "盛岡市",
+        "青森市",
+        "秋田市",
+        "花巻市"
+      ],
+      "answer": 0,
+      "explanation": "岩手県の県庁所在地は盛岡市。"
+    },
+    {
+      "id": "soc-014",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "宮城県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "石巻市",
+        "山形市",
+        "仙台市",
+        "福島市"
+      ],
+      "answer": 2,
+      "explanation": "宮城県の県庁所在地は仙台市。"
+    },
+    {
+      "id": "soc-015",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "秋田県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "盛岡市",
+        "秋田市",
+        "横手市",
+        "青森市"
+      ],
+      "answer": 1,
+      "explanation": "秋田県の県庁所在地は秋田市。"
+    },
+    {
+      "id": "soc-016",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "山形県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "仙台市",
+        "米沢市",
+        "山形市",
+        "福島市"
+      ],
+      "answer": 2,
+      "explanation": "山形県の県庁所在地は山形市。"
+    },
+    {
+      "id": "soc-017",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "福島県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "福島市",
+        "いわき市",
+        "仙台市",
+        "郡山市"
+      ],
+      "answer": 0,
+      "explanation": "福島県の県庁所在地は福島市。"
+    },
+    {
+      "id": "soc-018",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "茨城県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "宇都宮市",
+        "前橋市",
+        "水戸市",
+        "つくば市"
+      ],
+      "answer": 2,
+      "explanation": "茨城県の県庁所在地は水戸市。"
+    },
+    {
+      "id": "soc-019",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "栃木県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "宇都宮市",
+        "水戸市",
+        "小山市",
+        "前橋市"
+      ],
+      "answer": 0,
+      "explanation": "栃木県の県庁所在地は宇都宮市。"
+    },
+    {
+      "id": "soc-020",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "群馬県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "宇都宮市",
+        "水戸市",
+        "前橋市",
+        "高崎市"
+      ],
+      "answer": 2,
+      "explanation": "群馬県の県庁所在地は前橋市。"
+    },
+    {
+      "id": "soc-021",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "埼玉県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "大宮市",
+        "さいたま市",
+        "川越市",
+        "浦和市"
+      ],
+      "answer": 1,
+      "explanation": "埼玉県の県庁所在地はさいたま市。"
+    },
+    {
+      "id": "soc-022",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "千葉県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "船橋市",
+        "市川市",
+        "柏市",
+        "千葉市"
+      ],
+      "answer": 3,
+      "explanation": "千葉県の県庁所在地は千葉市。"
+    },
+    {
+      "id": "soc-023",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "東京都の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "新宿区",
+        "千代田区",
+        "渋谷区",
+        "港区"
+      ],
+      "answer": 0,
+      "explanation": "東京都の県庁所在地は新宿区。"
+    },
+    {
+      "id": "soc-024",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "神奈川県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "川崎市",
+        "相模原市",
+        "横浜市",
+        "鎌倉市"
+      ],
+      "answer": 2,
+      "explanation": "神奈川県の県庁所在地は横浜市。"
+    },
+    {
+      "id": "soc-025",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "新潟県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "上越市",
+        "新潟市",
+        "富山市",
+        "長岡市"
+      ],
+      "answer": 1,
+      "explanation": "新潟県の県庁所在地は新潟市。"
+    },
+    {
+      "id": "soc-026",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "山梨県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "長野市",
+        "松本市",
+        "甲府市",
+        "富士吉田市"
+      ],
+      "answer": 2,
+      "explanation": "山梨県の県庁所在地は甲府市。"
+    },
+    {
+      "id": "soc-027",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "長野県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "甲府市",
+        "松本市",
+        "上田市",
+        "長野市"
+      ],
+      "answer": 3,
+      "explanation": "長野県の県庁所在地は長野市。"
+    },
+    {
+      "id": "soc-028",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "静岡県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "浜松市",
+        "名古屋市",
+        "静岡市",
+        "沼津市"
+      ],
+      "answer": 2,
+      "explanation": "静岡県の県庁所在地は静岡市。"
+    },
+    {
+      "id": "soc-029",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "愛知県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "岐阜市",
+        "名古屋市",
+        "豊橋市",
+        "岡崎市"
+      ],
+      "answer": 1,
+      "explanation": "愛知県の県庁所在地は名古屋市。"
+    },
+    {
+      "id": "soc-030",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "京都府の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "大阪市",
+        "宇治市",
+        "京都市",
+        "大津市"
+      ],
+      "answer": 2,
+      "explanation": "京都府の県庁所在地は京都市。"
+    },
+    {
+      "id": "soc-031",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "大阪府の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "堺市",
+        "京都市",
+        "神戸市",
+        "大阪市"
+      ],
+      "answer": 3,
+      "explanation": "大阪府の県庁所在地は大阪市。"
+    },
+    {
+      "id": "soc-032",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "兵庫県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "神戸市",
+        "姫路市",
+        "奈良市",
+        "大阪市"
+      ],
+      "answer": 0,
+      "explanation": "兵庫県の県庁所在地は神戸市。"
+    },
+    {
+      "id": "soc-033",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "広島県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "広島市",
+        "山口市",
+        "福山市",
+        "岡山市"
+      ],
+      "answer": 0,
+      "explanation": "広島県の県庁所在地は広島市。"
+    },
+    {
+      "id": "soc-034",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "福岡県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "福岡市",
+        "久留米市",
+        "北九州市",
+        "佐賀市"
+      ],
+      "answer": 0,
+      "explanation": "福岡県の県庁所在地は福岡市。"
+    },
+    {
+      "id": "soc-035",
+      "subject": "社会",
+      "unit": "日本の地域構成",
+      "topic": "都道府県・県庁所在地",
+      "difficulty": "hard",
+      "targetSkill": "地名暗記",
+      "question": "沖縄県の県庁所在地として正しいものはどれか。",
+      "choices": [
+        "浦添市",
+        "那覇市",
+        "沖縄市",
+        "名護市"
+      ],
+      "answer": 1,
+      "explanation": "沖縄県の県庁所在地は那覇市。"
+    },
+    {
+      "id": "soc-036",
+      "subject": "社会",
+      "unit": "世界のさまざまな地域",
+      "topic": "人々の生活と環境",
+      "difficulty": "hard",
+      "targetSkill": "生活理解",
+      "question": "赤道付近に多く、一年中高温で雨が多い気候はどれか。",
+      "choices": [
+        "砂漠気候",
+        "熱帯雨林気候",
+        "ツンドラ気候",
+        "地中海性気候"
+      ],
+      "answer": 1,
+      "explanation": "赤道付近は高温多雨。"
+    },
+    {
+      "id": "soc-037",
+      "subject": "社会",
+      "unit": "世界のさまざまな地域",
+      "topic": "人々の生活と環境",
+      "difficulty": "hard",
+      "targetSkill": "生活理解",
+      "question": "地中海性気候の特徴として正しいものはどれか。",
+      "choices": [
+        "一年中氷点下",
+        "夏は乾燥し、冬に雨が多い",
+        "夏も冬も降水がほぼない",
+        "一年中雨が多く高温"
+      ],
+      "answer": 1,
+      "explanation": "夏乾燥・冬雨。"
+    },
+    {
+      "id": "soc-038",
+      "subject": "社会",
+      "unit": "世界のさまざまな地域",
+      "topic": "人々の生活と環境",
+      "difficulty": "hard",
+      "targetSkill": "生活理解",
+      "question": "季節風の影響を受ける地域の説明として正しいものはどれか。",
+      "choices": [
+        "緯度と無関係に雪だけを降らせる",
+        "海洋と大陸の温まり方の差と関係がない",
+        "一年中同じ方向から同じ強さで吹く",
+        "季節によって風向きが変わり、雨季と乾季に関わることがある"
+      ],
+      "answer": 3,
+      "explanation": "季節風は季節で向きが変わる。"
+    },
+    {
+      "id": "soc-039",
+      "subject": "社会",
+      "unit": "世界のさまざまな地域",
+      "topic": "人々の生活と環境",
+      "difficulty": "hard",
+      "targetSkill": "生活理解",
+      "question": "乾燥帯で日干しれんがの住居が見られる理由として適切なものはどれか。",
+      "choices": [
+        "木材が少なく、乾燥していて土を乾かしやすいから",
+        "雨が多く木が腐りやすいから",
+        "水田を作りやすいから",
+        "氷を積み上げやすいから"
+      ],
+      "answer": 0,
+      "explanation": "乾燥地域の工夫。"
+    },
+    {
+      "id": "soc-040",
+      "subject": "社会",
+      "unit": "世界のさまざまな地域",
+      "topic": "人々の生活と環境",
+      "difficulty": "hard",
+      "targetSkill": "生活理解",
+      "question": "熱帯地域の高床式住居の理由として最も関係が深いものはどれか。",
+      "choices": [
+        "湿気や洪水、害虫を避けるため",
+        "砂嵐を完全に防ぐため",
+        "氷の上に建てるため",
+        "雪の重みを支えるため"
+      ],
+      "answer": 0,
+      "explanation": "湿気や洪水への対応。"
+    },
+    {
+      "id": "soc-041",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "時差・地図",
+      "difficulty": "hard",
+      "targetSkill": "計算・概念",
+      "question": "ロンドンが午前0時のとき、日本標準時は何時か。",
+      "choices": [
+        "午後3時",
+        "午前0時",
+        "午前9時",
+        "前日午後3時"
+      ],
+      "answer": 2,
+      "explanation": "日本は9時間進む。"
+    },
+    {
+      "id": "soc-042",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "時差・地図",
+      "difficulty": "hard",
+      "targetSkill": "計算・概念",
+      "question": "日本が午後6時のとき、ロンドンは何時か。",
+      "choices": [
+        "翌日午前3時",
+        "午前9時",
+        "午前3時",
+        "午後9時"
+      ],
+      "answer": 1,
+      "explanation": "日本より9時間遅い。"
+    },
+    {
+      "id": "soc-043",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "時差・地図",
+      "difficulty": "hard",
+      "targetSkill": "計算・概念",
+      "question": "東経135度と西経45度の時差は何時間か。",
+      "choices": [
+        "12時間",
+        "6時間",
+        "9時間",
+        "18時間"
+      ],
+      "answer": 0,
+      "explanation": "経度差180度で12時間。"
+    },
+    {
+      "id": "soc-044",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "時差・地図",
+      "difficulty": "hard",
+      "targetSkill": "計算・概念",
+      "question": "東経30度の地域と東経120度の地域の時差は何時間か。",
+      "choices": [
+        "6時間",
+        "8時間",
+        "4時間",
+        "10時間"
+      ],
+      "answer": 0,
+      "explanation": "90度差で6時間。"
+    },
+    {
+      "id": "soc-045",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "時差・地図",
+      "difficulty": "hard",
+      "targetSkill": "計算・概念",
+      "question": "縮尺5万分の1の地図で、地図上1cmは実際の距離でどれか。",
+      "choices": [
+        "5km",
+        "50m",
+        "50km",
+        "500m"
+      ],
+      "answer": 3,
+      "explanation": "50,000cm=500m。"
+    },
+    {
+      "id": "soc-046",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "南鳥島",
+        "与那国島",
+        "沖ノ鳥島"
+      ],
+      "answer": 3,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-047",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "沖ノ鳥島",
+        "与那国島",
+        "南鳥島",
+        "択捉島"
+      ],
+      "answer": 2,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-048",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島"
+      ],
+      "answer": 0,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-049",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "オセアニア州",
+        "アフリカ州",
+        "ヨーロッパ州",
+        "アジア州"
+      ],
+      "answer": 3,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-050",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "北極海の中央に位置する大陸国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国"
+      ],
+      "answer": 3,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-051",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "択捉島"
+      ],
+      "answer": 1,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-052",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "南鳥島",
+        "択捉島",
+        "与那国島",
+        "沖ノ鳥島"
+      ],
+      "answer": 0,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-053",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "択捉島"
+      ],
+      "answer": 0,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-054",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アジア州",
+        "オセアニア州",
+        "アフリカ州",
+        "ヨーロッパ州"
+      ],
+      "answer": 0,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-055",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "ユーラシア大陸の東、太平洋の西に位置する島国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "北極海の中央に位置する大陸国"
+      ],
+      "answer": 0,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-056",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "南鳥島",
+        "与那国島",
+        "沖ノ鳥島"
+      ],
+      "answer": 3,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-057",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "南鳥島",
+        "与那国島",
+        "沖ノ鳥島"
+      ],
+      "answer": 1,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-058",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "沖ノ鳥島",
+        "与那国島",
+        "択捉島",
+        "南鳥島"
+      ],
+      "answer": 1,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-059",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "オセアニア州",
+        "アフリカ州",
+        "アジア州",
+        "ヨーロッパ州"
+      ],
+      "answer": 2,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-060",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "北極海の中央に位置する大陸国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国"
+      ],
+      "answer": 3,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-061",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "択捉島"
+      ],
+      "answer": 1,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-062",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "沖ノ鳥島",
+        "南鳥島",
+        "与那国島",
+        "択捉島"
+      ],
+      "answer": 1,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-063",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "与那国島",
+        "南鳥島",
+        "沖ノ鳥島"
+      ],
+      "answer": 1,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-064",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アフリカ州",
+        "オセアニア州",
+        "ヨーロッパ州",
+        "アジア州"
+      ],
+      "answer": 3,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-065",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "ユーラシア大陸の東、太平洋の西に位置する島国",
+        "北極海の中央に位置する大陸国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国"
+      ],
+      "answer": 0,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-066",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "沖ノ鳥島",
+        "与那国島",
+        "南鳥島",
+        "択捉島"
+      ],
+      "answer": 0,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-067",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "南鳥島",
+        "与那国島",
+        "択捉島",
+        "沖ノ鳥島"
+      ],
+      "answer": 0,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-068",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "沖ノ鳥島",
+        "南鳥島",
+        "択捉島",
+        "与那国島"
+      ],
+      "answer": 3,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-069",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アジア州",
+        "アフリカ州",
+        "ヨーロッパ州",
+        "オセアニア州"
+      ],
+      "answer": 0,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-070",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "ユーラシア大陸の東、太平洋の西に位置する島国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "北極海の中央に位置する大陸国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国"
+      ],
+      "answer": 0,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-071",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "与那国島",
+        "沖ノ鳥島",
+        "南鳥島"
+      ],
+      "answer": 2,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-072",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島"
+      ],
+      "answer": 3,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-073",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "与那国島"
+      ],
+      "answer": 3,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-074",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アジア州",
+        "アフリカ州",
+        "ヨーロッパ州",
+        "オセアニア州"
+      ],
+      "answer": 0,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-075",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "北極海の中央に位置する大陸国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国"
+      ],
+      "answer": 3,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-076",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "沖ノ鳥島",
+        "与那国島",
+        "択捉島",
+        "南鳥島"
+      ],
+      "answer": 0,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-077",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "南鳥島",
+        "沖ノ鳥島",
+        "択捉島"
+      ],
+      "answer": 1,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-078",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "南鳥島",
+        "択捉島",
+        "沖ノ鳥島",
+        "与那国島"
+      ],
+      "answer": 3,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-079",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アジア州",
+        "オセアニア州",
+        "アフリカ州",
+        "ヨーロッパ州"
+      ],
+      "answer": 0,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-080",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国",
+        "北極海の中央に位置する大陸国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国"
+      ],
+      "answer": 1,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-081",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "与那国島"
+      ],
+      "answer": 1,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-082",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "南鳥島",
+        "択捉島",
+        "沖ノ鳥島",
+        "与那国島"
+      ],
+      "answer": 0,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-083",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "南鳥島",
+        "択捉島",
+        "与那国島",
+        "沖ノ鳥島"
+      ],
+      "answer": 2,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-084",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アフリカ州",
+        "アジア州",
+        "オセアニア州",
+        "ヨーロッパ州"
+      ],
+      "answer": 1,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-085",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "北極海の中央に位置する大陸国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国"
+      ],
+      "answer": 3,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-086",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島"
+      ],
+      "answer": 2,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-087",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島"
+      ],
+      "answer": 3,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-088",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "与那国島"
+      ],
+      "answer": 3,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-089",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アジア州",
+        "オセアニア州",
+        "ヨーロッパ州",
+        "アフリカ州"
+      ],
+      "answer": 0,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-090",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "北極海の中央に位置する大陸国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国"
+      ],
+      "answer": 1,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-091",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "与那国島",
+        "南鳥島",
+        "沖ノ鳥島"
+      ],
+      "answer": 3,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-092",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "与那国島"
+      ],
+      "answer": 2,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-093",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "南鳥島",
+        "沖ノ鳥島",
+        "択捉島",
+        "与那国島"
+      ],
+      "answer": 3,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-094",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "アフリカ州",
+        "アジア州",
+        "オセアニア州",
+        "ヨーロッパ州"
+      ],
+      "answer": 1,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-095",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "アフリカ大陸の南、インド洋の西に位置する内陸国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国",
+        "北極海の中央に位置する大陸国",
+        "南アメリカ大陸の東、大西洋の西に位置する半島国"
+      ],
+      "answer": 1,
+      "explanation": "日本の位置。"
+    },
+    {
+      "id": "soc-096",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最南端の島はどれか。",
+      "choices": [
+        "与那国島",
+        "択捉島",
+        "南鳥島",
+        "沖ノ鳥島"
+      ],
+      "answer": 3,
+      "explanation": "日本最南端。"
+    },
+    {
+      "id": "soc-097",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最東端の島はどれか。",
+      "choices": [
+        "沖ノ鳥島",
+        "南鳥島",
+        "与那国島",
+        "択捉島"
+      ],
+      "answer": 1,
+      "explanation": "日本最東端。"
+    },
+    {
+      "id": "soc-098",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の最西端の島はどれか。",
+      "choices": [
+        "択捉島",
+        "沖ノ鳥島",
+        "南鳥島",
+        "与那国島"
+      ],
+      "answer": 3,
+      "explanation": "日本最西端。"
+    },
+    {
+      "id": "soc-099",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本が属する州として最も一般的なものはどれか。",
+      "choices": [
+        "オセアニア州",
+        "アジア州",
+        "ヨーロッパ州",
+        "アフリカ州"
+      ],
+      "answer": 1,
+      "explanation": "日本はアジア州。"
+    },
+    {
+      "id": "soc-100",
+      "subject": "社会",
+      "unit": "世界と日本の地域構成",
+      "topic": "日本の位置・領域",
+      "difficulty": "hard",
+      "targetSkill": "地名・位置",
+      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "choices": [
+        "南アメリカ大陸の東、大西洋の西に位置する半島国",
+        "北極海の中央に位置する大陸国",
+        "ユーラシア大陸の東、太平洋の西に位置する島国",
+        "アフリカ大陸の南、インド洋の西に位置する内陸国"
+      ],
+      "answer": 2,
+      "explanation": "日本の位置。"
+    }
+  ]
+}

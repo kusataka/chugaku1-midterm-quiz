@@ -222,6 +222,17 @@ input[type="text"] {
   margin-top: 16px;
 }
 
+.history-panel {
+  margin-top: 16px;
+}
+
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
 .resource-links {
   display: flex;
   flex-wrap: wrap;
@@ -340,7 +351,8 @@ input[type="text"] {
 
 .table-row,
 .rank-item,
-.wrong-item {
+.wrong-item,
+.history-item {
   display: grid;
   gap: 6px;
   padding: 12px 0;
@@ -356,6 +368,21 @@ input[type="text"] {
 }
 
 .label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.history-item {
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.history-item button {
+  min-height: 40px;
+  padding: 8px 12px;
+}
+
+.history-meta {
   color: var(--muted);
   font-size: 13px;
 }
@@ -381,8 +408,15 @@ input[type="text"] {
 
   .primary-button,
   .secondary-button,
-  .ghost-button {
+  .ghost-button,
+  .history-item button {
     width: 100%;
+  }
+
+  .history-item,
+  .panel-heading {
+    grid-template-columns: 1fr;
+    align-items: stretch;
   }
 }
 
