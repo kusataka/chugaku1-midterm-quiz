@@ -40,6 +40,13 @@ test("全模試の全問題が4択クイズとして必要なフィールドを�
   }
 });
 
+test("高難度版は問題文の完全一致重複がない", () => {
+  const hard = datasets[1];
+  const duplicates = Object.entries(countBy(hard.questions, "question")).filter(([, count]) => count > 1);
+
+  assert.deepEqual(duplicates, []);
+});
+
 function countBy(items, key) {
   return items.reduce((acc, item) => {
     acc[item[key]] = (acc[item[key]] ?? 0) + 1;
