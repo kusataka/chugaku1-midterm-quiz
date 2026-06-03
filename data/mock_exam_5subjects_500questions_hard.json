@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "中1中間テスト対策 第2回・高難度四択模試",
-    "version": "v2_hard_50pct_target",
+    "title": "中1中間テスト対策 第2回・高難度四択模試（重複差し替え版）",
+    "version": "v2_1_hard_deduped",
     "grade": "中学1年",
     "exam": "中間テスト",
     "questionCount": 500,
@@ -15,7 +15,10 @@
     "questionsPerSubject": 100,
     "designPolicy": "一般的な正答率50%前後を狙い、明らかに消去できる選択肢を避けた高難度版。基礎知識を問う場合も、似た概念・似た語句・よくある誤答を選択肢に混ぜる。",
     "scoring": "各教科100問。1問1点で教科別100点換算、5教科500点換算。",
-    "createdBy": "ChatGPT"
+    "createdBy": "ChatGPT",
+    "dedupePolicy": "v2_hard_50pct_targetの問題文完全重複を検出し、初出を残して重複分を範囲内の新問へ差し替え。選択肢も明らかに消去できるものを避け、近い誤答を含めた。",
+    "replacedQuestionCount": 219,
+    "remainingExactDuplicateQuestionGroups": 0
   },
   "questions": [
     {
@@ -1640,15 +1643,15 @@
       "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "(-4)の反対の数はどれか。",
+      "question": "数直線上で -6 から右へ9、さらに左へ4進んだ位置の数はどれか。",
       "choices": [
-        "-4",
-        "4",
-        "8",
-        "0"
+        "-19",
+        "7",
+        "-1",
+        "1"
       ],
-      "answer": 1,
-      "explanation": "反対の数は符号を変える。"
+      "answer": 2,
+      "explanation": " -6+9-4=-1。"
     },
     {
       "id": "math-097",
@@ -1657,15 +1660,15 @@
       "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "絶対値が0である数はどれか。",
+      "question": "-3より大きく、+4以下の整数はいくつあるか。",
       "choices": [
-        "1",
-        "存在しない",
-        "-1",
-        "0"
+        "5",
+        "7",
+        "6",
+        "8"
       ],
-      "answer": 3,
-      "explanation": "0の絶対値だけが0。"
+      "answer": 1,
+      "explanation": "-2,-1,0,1,2,3,4 の7個。"
     },
     {
       "id": "math-098",
@@ -1674,15 +1677,15 @@
       "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "(-3)×□=18 の□に当てはまる数はどれか。",
+      "question": "| -8 | と | +5 | の差として正しいものはどれか。",
       "choices": [
-        "-15",
-        "-6",
-        "15",
-        "6"
+        "-13",
+        "3",
+        "13",
+        "-3"
       ],
       "answer": 1,
-      "explanation": "18÷(-3)=-6。"
+      "explanation": "絶対値は8と5なので差は3。"
     },
     {
       "id": "math-099",
@@ -1691,15 +1694,15 @@
       "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "□-(-5)=2 の□に当てはまる数はどれか。",
+      "question": "(-6)×(-2)÷(+3) の答えはどれか。",
       "choices": [
-        "-7",
-        "3",
-        "-3",
-        "7"
+        "4",
+        "-12",
+        "-4",
+        "12"
       ],
-      "answer": 2,
-      "explanation": "□+5=2なので-3。"
+      "answer": 0,
+      "explanation": "(-6)×(-2)=12、12÷3=4。"
     },
     {
       "id": "math-100",
@@ -1708,15 +1711,15 @@
       "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "(-2)^3 と -2^3 の関係として正しいものはどれか。",
+      "question": "□+(-7)=-2 の□に当てはまる数はどれか。",
       "choices": [
-        "前者は8、後者は-8",
-        "前者は-8、後者は8",
-        "どちらも-8",
-        "どちらも8"
+        "9",
+        "-9",
+        "-5",
+        "5"
       ],
-      "answer": 2,
-      "explanation": "(-2)^3=-8、-2^3も-8。"
+      "answer": 3,
+      "explanation": "□-7=-2なので□=5。"
     },
     {
       "id": "eng-001",
@@ -2660,15 +2663,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "私は千葉出身ではありません。",
       "choices": [
-        "I am not a teacher.",
-        "I are not a teacher.",
-        "I am a teacher.",
-        "I am not a teacher?"
+        "I am not from Chiba.",
+        "Am I not from Chiba.",
+        "I are not from Chiba.",
+        "I am from not Chiba."
       ],
       "answer": 0,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-057",
@@ -2677,15 +2680,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "あなたは日本出身ではありません。",
       "choices": [
-        "該当なし",
-        "You is from Chiba.",
-        "You are from Chiba?",
-        "You are from Chiba."
+        "You are from not Japan.",
+        "You is not from Japan.",
+        "You are not from Japan.",
+        "Are you not from Japan."
       ],
-      "answer": 3,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "answer": 2,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-058",
@@ -2694,15 +2697,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "「みなさん、こんにちは。」に最も近い表現はどれか。",
       "choices": [
-        "This is my new teacher?",
-        "Thare are my new teacher.",
-        "該当なし",
-        "This is my new teacher."
+        "Hello everyone?",
+        "Hello, every one class.",
+        "Everyone hello.",
+        "Hello, everyone."
       ],
       "answer": 3,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-059",
@@ -2711,15 +2714,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「あなたは1年1組です。」を疑問文にしたものはどれか。",
       "choices": [
-        "該当なし",
-        "She is my friend?",
-        "She is my friend.",
-        "She are my friend."
+        "Are you Class in 1?",
+        "You are in Class 1?",
+        "Are you in Class 1?",
+        "Are in you Class 1?"
       ],
       "answer": 2,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-060",
@@ -2728,15 +2731,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「私は1年3組ではありません。」として正しい英文はどれか。",
       "choices": [
-        "He is a student.",
-        "He is a student?",
-        "He are a student.",
-        "該当なし"
+        "Am I not in Class 3.",
+        "I am in not Class 3.",
+        "I are not in Class 3.",
+        "I am not in Class 3."
       ],
-      "answer": 0,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 3,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-061",
@@ -2745,15 +2748,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "あなたは新しい生徒ですか。",
       "choices": [
-        "I am not a teacher.",
-        "I are not a teacher.",
-        "I am not a teacher?",
-        "I am a teacher."
+        "Are you a new student?",
+        "Are you a new student.",
+        "You are a new student?",
+        "Are you new student?"
       ],
       "answer": 0,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-062",
@@ -2762,15 +2765,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "Nice to meet you. への返答として最も自然なものはどれか。",
       "choices": [
-        "該当なし",
-        "You are from Chiba.",
-        "You is from Chiba.",
-        "You are from Chiba?"
+        "You are meet, too.",
+        "Nice you meet too.",
+        "I am nice.",
+        "Nice to meet you, too."
       ],
-      "answer": 1,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "answer": 3,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-063",
@@ -2779,15 +2782,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "次のうち、疑問文として正しいものはどれか。",
       "choices": [
-        "該当なし",
-        "This is my new teacher.",
-        "Thare are my new teacher.",
-        "This is my new teacher?"
+        "You from Canada are?",
+        "Are from you Canada?",
+        "You are from Canada?",
+        "Are you from Canada?"
       ],
-      "answer": 1,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "answer": 3,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-064",
@@ -2796,15 +2799,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「こちらは新しい先生です。」として正しい英文はどれか。",
       "choices": [
-        "該当なし",
-        "She is my friend?",
-        "She are my friend.",
-        "She is my friend."
+        "This is a new teacher.",
+        "Is this a new teacher.",
+        "This are a new teacher.",
+        "This is new teacher."
       ],
-      "answer": 3,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-065",
@@ -2813,15 +2816,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「こちらは私のノートですか。」として正しい英文はどれか。",
       "choices": [
-        "He is a student?",
-        "He are a student.",
-        "該当なし",
-        "He is a student."
+        "Is this my notebook?",
+        "Is this me notebook?",
+        "This is my notebook?",
+        "Are this my notebook?"
       ],
-      "answer": 3,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-066",
@@ -2830,15 +2833,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "こちらは私たちの先生です。",
       "choices": [
-        "I am not a teacher.",
-        "I are not a teacher.",
-        "I am a teacher.",
-        "I am not a teacher?"
+        "This is our teacher.",
+        "This is our teacher?",
+        "This are our teacher.",
+        "This is we teacher."
       ],
       "answer": 0,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-067",
@@ -2847,15 +2850,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "I am Ken. と同じ意味になる文はどれか。",
       "choices": [
-        "You are from Chiba.",
-        "該当なし",
-        "You are from Chiba?",
-        "You is from Chiba."
+        "I name is Ken.",
+        "My name is Ken.",
+        "My name Ken.",
+        "I am name Ken."
       ],
-      "answer": 0,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "answer": 1,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-068",
@@ -2864,15 +2867,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "次のうち、否定文として正しいものはどれか。",
       "choices": [
-        "This is my new teacher?",
-        "Thare are my new teacher.",
-        "該当なし",
-        "This is my new teacher."
+        "I am a not student.",
+        "I not am a student.",
+        "Am I not a student?",
+        "I am not a student."
       ],
       "answer": 3,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-069",
@@ -2881,15 +2884,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「私はカナダ出身です。」として正しい英文はどれか。",
       "choices": [
-        "該当なし",
-        "She are my friend.",
-        "She is my friend.",
-        "She is my friend?"
+        "I are from Canada.",
+        "I am from Canada.",
+        "I am Canada from.",
+        "Am I from Canada."
       ],
-      "answer": 2,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "answer": 1,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-070",
@@ -2898,15 +2901,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「彼はカナダ出身ではありません。」として正しい英文はどれか。",
       "choices": [
-        "He is a student?",
-        "He is a student.",
-        "該当なし",
-        "He are a student."
+        "He is not from Canada.",
+        "Is he not from Canada.",
+        "He are not from Canada.",
+        "He is from not Canada."
       ],
-      "answer": 1,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-071",
@@ -2915,15 +2918,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "彼女はカナダ出身です。",
       "choices": [
-        "I am not a teacher.",
-        "I am a teacher.",
-        "I are not a teacher.",
-        "I am not a teacher?"
+        "Is she from Canada.",
+        "She are from Canada.",
+        "She is Canada from.",
+        "She is from Canada."
       ],
-      "answer": 0,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "answer": 3,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-072",
@@ -2932,15 +2935,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "Are you from Chiba? に「はい」と答える文はどれか。",
       "choices": [
-        "You are from Chiba.",
-        "You are from Chiba?",
-        "該当なし",
-        "You is from Chiba."
+        "Yes, I am.",
+        "Yes, you are.",
+        "Yes, am I.",
+        "Yes, I do."
       ],
       "answer": 0,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-073",
@@ -2949,15 +2952,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "次のうち、ピリオドの使い方が正しいものはどれか。",
       "choices": [
-        "該当なし",
-        "This is my new teacher?",
-        "This is my new teacher.",
-        "Thare are my new teacher."
+        "This is my friend.",
+        "this is my friend.",
+        "This is my friend",
+        "This is my friend?"
       ],
-      "answer": 2,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-074",
@@ -2966,15 +2969,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「あなたは私の友達です。」として正しい英文はどれか。",
       "choices": [
-        "She is my friend?",
-        "該当なし",
-        "She is my friend.",
-        "She are my friend."
+        "You are my friend.",
+        "You are me friend.",
+        "You is my friend.",
+        "Are you my friend."
       ],
-      "answer": 2,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-075",
@@ -2983,15 +2986,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「彼女は私たちの先生ですか。」として正しい英文はどれか。",
       "choices": [
-        "He are a student.",
-        "該当なし",
-        "He is a student?",
-        "He is a student."
+        "She is our teacher?",
+        "Are she our teacher?",
+        "Is she our teacher?",
+        "Is she we teacher?"
       ],
-      "answer": 3,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 2,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-076",
@@ -3000,15 +3003,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "彼は私の友達ではありません。",
       "choices": [
-        "I are not a teacher.",
-        "I am not a teacher?",
-        "I am a teacher.",
-        "I am not a teacher."
+        "He are not my friend.",
+        "He is not my friend.",
+        "Is he not my friend.",
+        "He is my not friend."
       ],
-      "answer": 3,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "answer": 1,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-077",
@@ -3017,15 +3020,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "Are you a teacher? に「いいえ」と答える文はどれか。",
       "choices": [
-        "You are from Chiba?",
-        "該当なし",
-        "You is from Chiba.",
-        "You are from Chiba."
+        "No, you are not.",
+        "No, I do not.",
+        "No, not I am.",
+        "No, I am not."
       ],
       "answer": 3,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-078",
@@ -3034,15 +3037,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "次のうち、クエスチョンマークの使い方が正しいものはどれか。",
       "choices": [
-        "該当なし",
-        "This is my new teacher?",
-        "Thare are my new teacher.",
-        "This is my new teacher."
+        "You are in Class 1?",
+        "are you in Class 1?",
+        "Are you in Class 1.",
+        "Are you in Class 1?"
       ],
       "answer": 3,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-079",
@@ -3051,15 +3054,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「彼は新しい先生ですか。」として正しい英文はどれか。",
       "choices": [
-        "She are my friend.",
-        "該当なし",
-        "She is my friend?",
-        "She is my friend."
+        "Is he new teacher.",
+        "Is he a new teacher?",
+        "Are he a new teacher?",
+        "He is a new teacher?"
       ],
-      "answer": 3,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "answer": 1,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-080",
@@ -3068,15 +3071,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「私は友達です。」として最も自然な英文はどれか。",
       "choices": [
-        "該当なし",
-        "He is a student.",
-        "He is a student?",
-        "He are a student."
+        "I am a friend.",
+        "I are a friend.",
+        "I am friend.",
+        "Am I a friend."
       ],
-      "answer": 1,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-081",
@@ -3085,15 +3088,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "私は1年1組です。",
       "choices": [
-        "I am not a teacher.",
-        "I are not a teacher.",
-        "I am a teacher.",
-        "I am not a teacher?"
+        "I am in Class 1.",
+        "I are in Class 1.",
+        "Am I in Class 1.",
+        "I am Class in 1."
       ],
       "answer": 0,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-082",
@@ -3102,15 +3105,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "文の始まりとして正しいものはどれか。",
       "choices": [
-        "You is from Chiba.",
-        "You are from Chiba?",
-        "You are from Chiba.",
-        "該当なし"
+        "I am Yuki.",
+        "I am yuki",
+        "i am Yuki.",
+        "I am Yuki?"
       ],
-      "answer": 2,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-083",
@@ -3119,15 +3122,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "「私の友達」として正しい表現はどれか。",
       "choices": [
-        "This is my new teacher.",
-        "This is my new teacher?",
-        "Thare are my new teacher.",
-        "該当なし"
+        "my friend",
+        "I friend",
+        "me friend",
+        "mine friend"
       ],
       "answer": 0,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-084",
@@ -3136,15 +3139,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「彼女は音楽の先生です。」として正しい英文はどれか。",
       "choices": [
-        "She is my friend?",
-        "She are my friend.",
-        "該当なし",
-        "She is my friend."
+        "She are a music teacher.",
+        "She is music teacher.",
+        "She is a music teacher.",
+        "Is she a music teacher."
       ],
-      "answer": 3,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "answer": 2,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-085",
@@ -3153,15 +3156,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「あなたは先生ではありませんか。」に最も近い英文はどれか。",
       "choices": [
-        "He is a student?",
-        "He are a student.",
-        "該当なし",
-        "He is a student."
+        "Are you not teacher?",
+        "You are not a teacher?",
+        "You not are a teacher?",
+        "Are you not a teacher?"
       ],
       "answer": 3,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-086",
@@ -3170,15 +3173,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "あなたは音楽が好きですか。",
       "choices": [
-        "I am not a teacher?",
-        "I are not a teacher.",
-        "I am a teacher.",
-        "I am not a teacher."
+        "Are you music fan?",
+        "Are you a music fan?",
+        "Are you a music fan.",
+        "You are a music fan."
       ],
-      "answer": 3,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "answer": 1,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-087",
@@ -3187,15 +3190,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "「私はメイです。よろしく。」に最も近い英文はどれか。",
       "choices": [
-        "You are from Chiba?",
-        "You are from Chiba.",
-        "該当なし",
-        "You is from Chiba."
+        "I am Mei. Nice to meet you.",
+        "I are Mei. Nice to meet you.",
+        "I am Mei. Nice you meet.",
+        "I am Mei? Nice to meet you."
       ],
-      "answer": 1,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-088",
@@ -3204,15 +3207,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "「あなたの先生」として正しい表現はどれか。",
       "choices": [
-        "This is my new teacher?",
-        "Thare are my new teacher.",
-        "該当なし",
-        "This is my new teacher."
+        "you teacher",
+        "you're teacher",
+        "your teacher",
+        "yours teacher"
       ],
-      "answer": 3,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "answer": 2,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-089",
@@ -3221,15 +3224,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「これは私たちの教室です。」として正しい英文はどれか。",
       "choices": [
-        "She is my friend?",
-        "該当なし",
-        "She are my friend.",
-        "She is my friend."
+        "This is our classroom.",
+        "Is this our classroom.",
+        "This are our classroom.",
+        "This is we classroom."
       ],
-      "answer": 3,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-090",
@@ -3238,15 +3241,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「私たちは1年1組です。」として最も自然な英文はどれか。",
       "choices": [
-        "該当なし",
-        "He are a student.",
-        "He is a student?",
-        "He is a student."
+        "We are Class in 1.",
+        "We are in Class 1.",
+        "Are we in Class 1.",
+        "We is in Class 1."
       ],
-      "answer": 3,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 1,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-091",
@@ -3255,15 +3258,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "これは私のノートです。",
       "choices": [
-        "I am not a teacher.",
-        "I am not a teacher?",
-        "I am a teacher.",
-        "I are not a teacher."
+        "This is my notebook.",
+        "Is this my notebook.",
+        "This are my notebook.",
+        "This is me notebook."
       ],
       "answer": 0,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-092",
@@ -3272,15 +3275,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "「私たちの新しい先生」として正しい語順はどれか。",
       "choices": [
-        "該当なし",
-        "You are from Chiba?",
-        "You is from Chiba.",
-        "You are from Chiba."
+        "teacher our new",
+        "new our teacher",
+        "our new teacher",
+        "our teacher new"
       ],
-      "answer": 3,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "answer": 2,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-093",
@@ -3289,15 +3292,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "「これは私の友達です。」を疑問文にしたものはどれか。",
       "choices": [
-        "This is my new teacher?",
-        "This is my new teacher.",
-        "該当なし",
-        "Thare are my new teacher."
+        "Is my this friend?",
+        "This is my friend?",
+        "Are this my friend?",
+        "Is this my friend?"
       ],
-      "answer": 1,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "answer": 3,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-094",
@@ -3306,15 +3309,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「私は新しい生徒ではありません。」として正しい英文はどれか。",
       "choices": [
-        "She are my friend.",
-        "She is my friend?",
-        "該当なし",
-        "She is my friend."
+        "I are not a new student.",
+        "I am a not new student.",
+        "Am I not a new student.",
+        "I am not a new student."
       ],
       "answer": 3,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-095",
@@ -3323,15 +3326,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「これは新しいノートです。」として正しい英文はどれか。",
       "choices": [
-        "該当なし",
-        "He is a student.",
-        "He are a student.",
-        "He is a student?"
+        "This is a new notebook.",
+        "This is new notebook.",
+        "This are a new notebook.",
+        "Is this a new notebook."
       ],
-      "answer": 1,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-096",
@@ -3340,15 +3343,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「私は先生ではありません。」として正しい英文はどれか。",
+      "question": "私は先生ですか。",
       "choices": [
-        "I are not a teacher.",
-        "I am a teacher.",
-        "I am not a teacher.",
-        "I am not a teacher?"
+        "Am I teacher.",
+        "Are I a teacher?",
+        "I am a teacher?",
+        "Am I a teacher?"
       ],
-      "answer": 2,
-      "explanation": "主語Iに合うbe動詞はam。"
+      "answer": 3,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-097",
@@ -3357,15 +3360,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「あなたは千葉出身です。」として正しい英文はどれか。",
+      "question": "「1年2組にいます」として正しい表現はどれか。",
       "choices": [
-        "You are from Chiba?",
-        "You is from Chiba.",
-        "You are from Chiba.",
-        "該当なし"
+        "on Class 2",
+        "in Class 2",
+        "Class in 2",
+        "at Class 2"
       ],
-      "answer": 2,
-      "explanation": "主語Youに合うbe動詞はare。"
+      "answer": 1,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-098",
@@ -3374,15 +3377,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「こちらは私の新しい先生です。」として正しい英文はどれか。",
+      "question": "「彼女は生徒です。」を否定文にしたものはどれか。",
       "choices": [
-        "Thare are my new teacher.",
-        "This is my new teacher.",
-        "This is my new teacher?",
-        "該当なし"
+        "She is not a student.",
+        "Is she not a student?",
+        "She are not a student.",
+        "She is student not."
       ],
-      "answer": 1,
-      "explanation": "主語Thisに合うbe動詞はis。"
+      "answer": 0,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-099",
@@ -3391,15 +3394,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼女は私の友達です。」として正しい英文はどれか。",
+      "question": "「あなたは日本出身ですか。」として正しい英文はどれか。",
       "choices": [
-        "She is my friend.",
-        "She are my friend.",
-        "She is my friend?",
-        "該当なし"
+        "You are from Japan?",
+        "Are you from Japan.",
+        "Are you from Japan?",
+        "Are you Japan from?"
       ],
-      "answer": 0,
-      "explanation": "主語Sheに合うbe動詞はis。"
+      "answer": 2,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "eng-100",
@@ -3408,15 +3411,15 @@
       "topic": "be動詞総合",
       "difficulty": "hard",
       "targetSkill": "文法総合",
-      "question": "「彼は生徒です。」として正しい英文はどれか。",
+      "question": "「あなたはケンですか。」として正しい英文はどれか。",
       "choices": [
-        "He are a student.",
-        "該当なし",
-        "He is a student?",
-        "He is a student."
+        "Are Ken you?",
+        "You are Ken?",
+        "Are you Ken?",
+        "Are you Ken."
       ],
-      "answer": 3,
-      "explanation": "主語Heに合うbe動詞はis。"
+      "answer": 2,
+      "explanation": "be動詞・語順・大文字小文字・句読点を確認する問題。"
     },
     {
       "id": "jpn-001",
@@ -4292,15 +4295,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "接続語「しかし」の働きとして正しいものはどれか。",
       "choices": [
+        "内容をまとめる",
+        "理由を説明する",
         "例を示す",
-        "反対の内容を示す",
-        "結論を言いかえる",
-        "理由を説明する"
+        "前の内容と反対の内容を示す"
       ],
       "answer": 3,
-      "explanation": "理由を導く接続語。"
+      "explanation": "「しかし」は逆接。"
     },
     {
       "id": "jpn-053",
@@ -4309,15 +4312,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "「友達と学校へ行く」の文節数はいくつか。",
       "choices": [
-        "晴",
-        "校",
-        "泳",
-        "話"
+        "5",
+        "3",
+        "4",
+        "2"
       ],
-      "answer": 2,
-      "explanation": "泳はさんずい。"
+      "answer": 1,
+      "explanation": "友達と｜学校へ｜行く。"
     },
     {
       "id": "jpn-054",
@@ -4326,15 +4329,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "説明文で筆者の主張を見つけるとき、特に注目すべき部分はどれか。（確認1）",
       "choices": [
-        "美しい",
-        "学校へ",
-        "走る",
-        "学校"
+        "会話だけ",
+        "挿絵だけ",
+        "漢字の多い部分",
+        "結論やまとめの部分"
       ],
-      "answer": 1,
-      "explanation": "「へ」は助詞。"
+      "answer": 3,
+      "explanation": "主張は結論やまとめに出やすい。"
     },
     {
       "id": "jpn-055",
@@ -4343,15 +4346,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "指示語「これ」が指す内容を探すときに見るべきところはどれか。（確認13）",
       "choices": [
-        "花",
-        "赤い",
-        "咲く",
-        "花が"
+        "表紙だけ",
+        "前後の文脈",
+        "作者名だけ",
+        "ページ番号だけ"
       ],
       "answer": 1,
-      "explanation": "花を詳しくする。"
+      "explanation": "指示語は文脈から判断。"
     },
     {
       "id": "jpn-056",
@@ -4360,15 +4363,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "接続語「たとえば」の働きとして正しいものはどれか。",
       "choices": [
-        "結論を言いかえる",
-        "理由を説明する",
+        "具体例を示す",
+        "結論を示す",
         "反対の内容を示す",
-        "例を示す"
+        "理由を説明する"
       ],
-      "answer": 1,
-      "explanation": "理由を導く接続語。"
+      "answer": 0,
+      "explanation": "「たとえば」は例示。"
     },
     {
       "id": "jpn-057",
@@ -4377,15 +4380,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "「静かに話を聞く」の文節数はいくつか。",
       "choices": [
-        "話",
-        "泳",
-        "校",
-        "晴"
+        "5",
+        "4",
+        "2",
+        "3"
       ],
-      "answer": 1,
-      "explanation": "泳はさんずい。"
+      "answer": 3,
+      "explanation": "静かに｜話を｜聞く。"
     },
     {
       "id": "jpn-058",
@@ -4394,15 +4397,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "段落の役割として最も適切なものはどれか。（確認2）",
       "choices": [
-        "美しい",
-        "学校へ",
-        "走る",
-        "学校"
+        "漢字を増やす",
+        "内容のまとまりを示す",
+        "必ず会話を入れる",
+        "文を短くする"
       ],
       "answer": 1,
-      "explanation": "「へ」は助詞。"
+      "explanation": "段落は内容のまとまり。"
     },
     {
       "id": "jpn-059",
@@ -4411,15 +4414,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "説明文で具体例が使われる主な目的はどれか。（確認14）",
       "choices": [
-        "赤い",
-        "花が",
-        "花",
-        "咲く"
+        "結論を隠すため",
+        "漢字を増やすため",
+        "文章を長くするため",
+        "内容を分かりやすくするため"
       ],
-      "answer": 0,
-      "explanation": "花を詳しくする。"
+      "answer": 3,
+      "explanation": "具体例の役割。"
     },
     {
       "id": "jpn-060",
@@ -4428,15 +4431,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "接続語「だから」の働きとして正しいものはどれか。",
       "choices": [
-        "反対の内容を示す",
+        "話題を変える",
+        "前の内容から結論を導く",
         "例を示す",
-        "理由を説明する",
-        "結論を言いかえる"
+        "反対の内容を示す"
       ],
-      "answer": 2,
-      "explanation": "理由を導く接続語。"
+      "answer": 1,
+      "explanation": "「だから」は順接。"
     },
     {
       "id": "jpn-061",
@@ -4445,15 +4448,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "「走る」の品詞として正しいものはどれか。",
       "choices": [
-        "校",
-        "晴",
-        "泳",
-        "話"
+        "副詞",
+        "動詞",
+        "名詞",
+        "形容詞"
       ],
-      "answer": 2,
-      "explanation": "泳はさんずい。"
+      "answer": 1,
+      "explanation": "動作を表す。"
     },
     {
       "id": "jpn-062",
@@ -4462,15 +4465,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "指示語「これ」が指す内容を探すときに見るべきところはどれか。（確認3）",
       "choices": [
-        "走る",
-        "学校",
-        "美しい",
-        "学校へ"
+        "表紙だけ",
+        "ページ番号だけ",
+        "作者名だけ",
+        "前後の文脈"
       ],
       "answer": 3,
-      "explanation": "「へ」は助詞。"
+      "explanation": "指示語は文脈から判断。"
     },
     {
       "id": "jpn-063",
@@ -4479,15 +4482,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "要約するときに最も大切なことはどれか。（確認15）",
       "choices": [
-        "赤い",
-        "咲く",
-        "花が",
-        "花"
+        "中心となる内容を短くまとめる",
+        "すべての文を写す",
+        "漢字を減らす",
+        "感想だけを書く"
       ],
       "answer": 0,
-      "explanation": "花を詳しくする。"
+      "explanation": "要約は中心内容をまとめる。"
     },
     {
       "id": "jpn-064",
@@ -4496,15 +4499,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "接続語「つまり」の働きとして正しいものはどれか。",
       "choices": [
-        "結論を言いかえる",
+        "時間の順序を示す",
+        "前の内容を言いかえる",
         "反対の内容を示す",
-        "理由を説明する",
-        "例を示す"
+        "理由をつけ加える"
       ],
-      "answer": 2,
-      "explanation": "理由を導く接続語。"
+      "answer": 1,
+      "explanation": "「つまり」は要約・言いかえ。"
     },
     {
       "id": "jpn-065",
@@ -4513,15 +4516,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "「美しい」の品詞として正しいものはどれか。",
       "choices": [
-        "晴",
-        "話",
-        "泳",
-        "校"
+        "名詞",
+        "形容詞",
+        "助詞",
+        "動詞"
       ],
-      "answer": 2,
-      "explanation": "泳はさんずい。"
+      "answer": 1,
+      "explanation": "言い切りが「い」。"
     },
     {
       "id": "jpn-066",
@@ -4530,15 +4533,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "説明文で具体例が使われる主な目的はどれか。（確認4）",
       "choices": [
-        "学校",
-        "学校へ",
-        "美しい",
-        "走る"
+        "結論を隠すため",
+        "文章を長くするため",
+        "漢字を増やすため",
+        "内容を分かりやすくするため"
       ],
-      "answer": 1,
-      "explanation": "「へ」は助詞。"
+      "answer": 3,
+      "explanation": "具体例の役割。"
     },
     {
       "id": "jpn-067",
@@ -4547,15 +4550,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "説明文で筆者の主張を見つけるとき、特に注目すべき部分はどれか。（確認16）",
       "choices": [
-        "咲く",
-        "花が",
-        "花",
-        "赤い"
+        "漢字の多い部分",
+        "挿絵だけ",
+        "結論やまとめの部分",
+        "会話だけ"
       ],
-      "answer": 3,
-      "explanation": "花を詳しくする。"
+      "answer": 2,
+      "explanation": "主張は結論やまとめに出やすい。"
     },
     {
       "id": "jpn-068",
@@ -4564,15 +4567,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "接続語「また」の働きとして正しいものはどれか。",
       "choices": [
-        "例を示す",
         "反対の内容を示す",
-        "理由を説明する",
-        "結論を言いかえる"
+        "内容をつけ加える",
+        "結論を導く",
+        "理由を説明する"
       ],
-      "answer": 2,
-      "explanation": "理由を導く接続語。"
+      "answer": 1,
+      "explanation": "「また」は添加。"
     },
     {
       "id": "jpn-069",
@@ -4581,15 +4584,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "「学校」の品詞として正しいものはどれか。",
       "choices": [
-        "校",
-        "話",
-        "泳",
-        "晴"
+        "助動詞",
+        "形容詞",
+        "名詞",
+        "動詞"
       ],
       "answer": 2,
-      "explanation": "泳はさんずい。"
+      "explanation": "ものの名前。"
     },
     {
       "id": "jpn-070",
@@ -4598,15 +4601,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "要約するときに最も大切なことはどれか。（確認5）",
       "choices": [
-        "学校へ",
-        "走る",
-        "美しい",
-        "学校"
+        "中心となる内容を短くまとめる",
+        "漢字を減らす",
+        "感想だけを書く",
+        "すべての文を写す"
       ],
       "answer": 0,
-      "explanation": "「へ」は助詞。"
+      "explanation": "要約は中心内容をまとめる。"
     },
     {
       "id": "jpn-071",
@@ -4615,15 +4618,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "段落の役割として最も適切なものはどれか。（確認17）",
       "choices": [
-        "花が",
-        "咲く",
-        "花",
-        "赤い"
+        "漢字を増やす",
+        "内容のまとまりを示す",
+        "文を短くする",
+        "必ず会話を入れる"
       ],
-      "answer": 3,
-      "explanation": "花を詳しくする。"
+      "answer": 1,
+      "explanation": "段落は内容のまとまり。"
     },
     {
       "id": "jpn-072",
@@ -4632,15 +4635,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "次のうち、部首が「木」である漢字はどれか。",
       "choices": [
-        "例を示す",
-        "反対の内容を示す",
-        "理由を説明する",
-        "結論を言いかえる"
+        "晴",
+        "話",
+        "海",
+        "校"
       ],
-      "answer": 2,
-      "explanation": "理由を導く接続語。"
+      "answer": 3,
+      "explanation": "校は木へん。"
     },
     {
       "id": "jpn-073",
@@ -4649,15 +4652,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "「ゆっくり」の品詞として正しいものはどれか。",
       "choices": [
-        "晴",
-        "泳",
-        "話",
-        "校"
+        "動詞",
+        "助詞",
+        "名詞",
+        "副詞"
       ],
-      "answer": 1,
-      "explanation": "泳はさんずい。"
+      "answer": 3,
+      "explanation": "動作を詳しくする。"
     },
     {
       "id": "jpn-074",
@@ -4666,15 +4669,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "説明文で筆者の主張を見つけるとき、特に注目すべき部分はどれか。（確認6）",
       "choices": [
-        "学校",
-        "美しい",
-        "学校へ",
-        "走る"
+        "挿絵だけ",
+        "会話だけ",
+        "結論やまとめの部分",
+        "漢字の多い部分"
       ],
       "answer": 2,
-      "explanation": "「へ」は助詞。"
+      "explanation": "主張は結論やまとめに出やすい。"
     },
     {
       "id": "jpn-075",
@@ -4683,15 +4686,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "指示語「これ」が指す内容を探すときに見るべきところはどれか。（確認18）",
       "choices": [
-        "花",
-        "咲く",
-        "赤い",
-        "花が"
+        "作者名だけ",
+        "表紙だけ",
+        "前後の文脈",
+        "ページ番号だけ"
       ],
       "answer": 2,
-      "explanation": "花を詳しくする。"
+      "explanation": "指示語は文脈から判断。"
     },
     {
       "id": "jpn-076",
@@ -4700,15 +4703,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "次のうち、部首が「言」である漢字はどれか。",
       "choices": [
-        "理由を説明する",
-        "反対の内容を示す",
-        "例を示す",
-        "結論を言いかえる"
+        "話",
+        "晴",
+        "林",
+        "泳"
       ],
       "answer": 0,
-      "explanation": "理由を導く接続語。"
+      "explanation": "話は言へん。"
     },
     {
       "id": "jpn-077",
@@ -4717,15 +4720,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "「を」の品詞として正しいものはどれか。",
       "choices": [
-        "校",
-        "話",
-        "泳",
-        "晴"
+        "助詞",
+        "動詞",
+        "名詞",
+        "形容詞"
       ],
-      "answer": 2,
-      "explanation": "泳はさんずい。"
+      "answer": 0,
+      "explanation": "語と語の関係を示す。"
     },
     {
       "id": "jpn-078",
@@ -4734,15 +4737,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "段落の役割として最も適切なものはどれか。（確認7）",
       "choices": [
-        "学校へ",
-        "学校",
-        "美しい",
-        "走る"
+        "漢字を増やす",
+        "内容のまとまりを示す",
+        "必ず会話を入れる",
+        "文を短くする"
       ],
-      "answer": 0,
-      "explanation": "「へ」は助詞。"
+      "answer": 1,
+      "explanation": "段落は内容のまとまり。"
     },
     {
       "id": "jpn-079",
@@ -4751,15 +4754,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "説明文で具体例が使われる主な目的はどれか。（確認19）",
       "choices": [
-        "咲く",
-        "花",
-        "赤い",
-        "花が"
+        "文章を長くするため",
+        "結論を隠すため",
+        "内容を分かりやすくするため",
+        "漢字を増やすため"
       ],
       "answer": 2,
-      "explanation": "花を詳しくする。"
+      "explanation": "具体例の役割。"
     },
     {
       "id": "jpn-080",
@@ -4768,15 +4771,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "次のうち、部首が「日」である漢字はどれか。",
       "choices": [
-        "反対の内容を示す",
-        "例を示す",
-        "結論を言いかえる",
-        "理由を説明する"
+        "校",
+        "話",
+        "晴",
+        "泳"
       ],
-      "answer": 3,
-      "explanation": "理由を導く接続語。"
+      "answer": 2,
+      "explanation": "晴は日へん。"
     },
     {
       "id": "jpn-081",
@@ -4785,15 +4788,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "詩で、同じ言葉や似た表現をくり返す効果として適切なものはどれか。",
       "choices": [
-        "校",
-        "晴",
-        "話",
-        "泳"
+        "登場人物を増やす",
+        "意味を反対にする",
+        "リズムや印象を強める",
+        "時間を止める"
       ],
-      "answer": 3,
-      "explanation": "泳はさんずい。"
+      "answer": 2,
+      "explanation": "反復の効果。"
     },
     {
       "id": "jpn-082",
@@ -4802,15 +4805,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "指示語「これ」が指す内容を探すときに見るべきところはどれか。（確認8）",
       "choices": [
-        "学校へ",
-        "美しい",
-        "走る",
-        "学校"
+        "表紙だけ",
+        "前後の文脈",
+        "ページ番号だけ",
+        "作者名だけ"
       ],
-      "answer": 0,
-      "explanation": "「へ」は助詞。"
+      "answer": 1,
+      "explanation": "指示語は文脈から判断。"
     },
     {
       "id": "jpn-083",
@@ -4819,15 +4822,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "要約するときに最も大切なことはどれか。（確認20）",
       "choices": [
-        "咲く",
-        "花",
-        "赤い",
-        "花が"
+        "中心となる内容を短くまとめる",
+        "すべての文を写す",
+        "漢字を減らす",
+        "感想だけを書く"
       ],
-      "answer": 2,
-      "explanation": "花を詳しくする。"
+      "answer": 0,
+      "explanation": "要約は中心内容をまとめる。"
     },
     {
       "id": "jpn-084",
@@ -4836,15 +4839,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "次のうち、部首が「心」に関係する漢字はどれか。",
       "choices": [
-        "理由を説明する",
-        "例を示す",
-        "反対の内容を示す",
-        "結論を言いかえる"
+        "思",
+        "岩",
+        "林",
+        "海"
       ],
       "answer": 0,
-      "explanation": "理由を導く接続語。"
+      "explanation": "思の下部は心。"
     },
     {
       "id": "jpn-085",
@@ -4853,15 +4856,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "詩で「まるで〜のようだ」と表す方法はどれか。",
       "choices": [
-        "校",
-        "晴",
-        "泳",
-        "話"
+        "直喩",
+        "体言止め",
+        "擬人法",
+        "倒置法"
       ],
-      "answer": 2,
-      "explanation": "泳はさんずい。"
+      "answer": 0,
+      "explanation": "「ようだ」を用いるたとえ。"
     },
     {
       "id": "jpn-086",
@@ -4870,15 +4873,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "説明文で具体例が使われる主な目的はどれか。（確認9）",
       "choices": [
-        "美しい",
-        "学校",
-        "走る",
-        "学校へ"
+        "結論を隠すため",
+        "内容を分かりやすくするため",
+        "漢字を増やすため",
+        "文章を長くするため"
       ],
-      "answer": 3,
-      "explanation": "「へ」は助詞。"
+      "answer": 1,
+      "explanation": "具体例の役割。"
     },
     {
       "id": "jpn-087",
@@ -4887,15 +4890,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "説明文で筆者の主張を見つけるとき、特に注目すべき部分はどれか。（確認21）",
       "choices": [
-        "花が",
-        "花",
-        "咲く",
-        "赤い"
+        "会話だけ",
+        "漢字の多い部分",
+        "結論やまとめの部分",
+        "挿絵だけ"
       ],
-      "answer": 3,
-      "explanation": "花を詳しくする。"
+      "answer": 2,
+      "explanation": "主張は結論やまとめに出やすい。"
     },
     {
       "id": "jpn-088",
@@ -4904,15 +4907,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "次のうち、部首が「糸」である漢字はどれか。",
       "choices": [
-        "反対の内容を示す",
-        "例を示す",
-        "結論を言いかえる",
-        "理由を説明する"
+        "紙",
+        "泳",
+        "校",
+        "晴"
       ],
-      "answer": 3,
-      "explanation": "理由を導く接続語。"
+      "answer": 0,
+      "explanation": "紙は糸へん。"
     },
     {
       "id": "jpn-089",
@@ -4921,15 +4924,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "人ではないものを人のように表す方法はどれか。",
       "choices": [
-        "泳",
-        "晴",
-        "話",
-        "校"
+        "直喩",
+        "擬人法",
+        "反復法",
+        "対句"
       ],
-      "answer": 0,
-      "explanation": "泳はさんずい。"
+      "answer": 1,
+      "explanation": "ものを人のように表す。"
     },
     {
       "id": "jpn-090",
@@ -4938,15 +4941,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "要約するときに最も大切なことはどれか。（確認10）",
       "choices": [
-        "走る",
-        "学校へ",
-        "学校",
-        "美しい"
+        "感想だけを書く",
+        "中心となる内容を短くまとめる",
+        "漢字を減らす",
+        "すべての文を写す"
       ],
       "answer": 1,
-      "explanation": "「へ」は助詞。"
+      "explanation": "要約は中心内容をまとめる。"
     },
     {
       "id": "jpn-091",
@@ -4955,15 +4958,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "段落の役割として最も適切なものはどれか。（確認22）",
       "choices": [
-        "咲く",
-        "赤い",
-        "花",
-        "花が"
+        "漢字を増やす",
+        "内容のまとまりを示す",
+        "文を短くする",
+        "必ず会話を入れる"
       ],
       "answer": 1,
-      "explanation": "花を詳しくする。"
+      "explanation": "段落は内容のまとまり。"
     },
     {
       "id": "jpn-092",
@@ -4972,15 +4975,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "「大きな声で読む」を文節に分けると正しいものはどれか。",
       "choices": [
-        "例を示す",
-        "理由を説明する",
-        "結論を言いかえる",
-        "反対の内容を示す"
+        "大きな｜声｜で読む",
+        "大き｜な声で｜読む",
+        "大きな声｜で読む",
+        "大きな｜声で｜読む"
       ],
-      "answer": 1,
-      "explanation": "理由を導く接続語。"
+      "answer": 3,
+      "explanation": "文節で分ける。"
     },
     {
       "id": "jpn-093",
@@ -4989,15 +4992,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "文末を名詞で止める表現技法はどれか。",
       "choices": [
-        "校",
-        "泳",
-        "話",
-        "晴"
+        "擬人法",
+        "倒置法",
+        "直喩",
+        "体言止め"
       ],
-      "answer": 1,
-      "explanation": "泳はさんずい。"
+      "answer": 3,
+      "explanation": "名詞で止める。"
     },
     {
       "id": "jpn-094",
@@ -5006,15 +5009,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "説明文で筆者の主張を見つけるとき、特に注目すべき部分はどれか。（確認11）",
       "choices": [
-        "美しい",
-        "走る",
-        "学校",
-        "学校へ"
+        "会話だけ",
+        "挿絵だけ",
+        "結論やまとめの部分",
+        "漢字の多い部分"
       ],
-      "answer": 3,
-      "explanation": "「へ」は助詞。"
+      "answer": 2,
+      "explanation": "主張は結論やまとめに出やすい。"
     },
     {
       "id": "jpn-095",
@@ -5023,15 +5026,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "指示語「これ」が指す内容を探すときに見るべきところはどれか。（確認23）",
       "choices": [
-        "赤い",
-        "花が",
-        "咲く",
-        "花"
+        "表紙だけ",
+        "ページ番号だけ",
+        "前後の文脈",
+        "作者名だけ"
       ],
-      "answer": 0,
-      "explanation": "花を詳しくする。"
+      "answer": 2,
+      "explanation": "指示語は文脈から判断。"
     },
     {
       "id": "jpn-096",
@@ -5040,15 +5043,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "「私は本を読んだ」を文節に分けると正しいものはどれか。",
       "choices": [
-        "理由を説明する",
-        "例を示す",
-        "結論を言いかえる",
-        "反対の内容を示す"
+        "私｜は本を｜読んだ",
+        "私は本を｜読んだ",
+        "私は｜本｜を読んだ",
+        "私は｜本を｜読んだ"
       ],
-      "answer": 0,
-      "explanation": "理由を導く接続語。"
+      "answer": 3,
+      "explanation": "自然な切れ目で分ける。"
     },
     {
       "id": "jpn-097",
@@ -5057,15 +5060,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、部首が「氵（さんずい）」である漢字はどれか。",
+      "question": "通常の語順を入れ替えて印象を強める表現技法はどれか。",
       "choices": [
-        "話",
-        "晴",
-        "校",
-        "泳"
+        "倒置法",
+        "直喩",
+        "体言止め",
+        "反復法"
       ],
-      "answer": 3,
-      "explanation": "泳はさんずい。"
+      "answer": 0,
+      "explanation": "語順を入れ替える。"
     },
     {
       "id": "jpn-098",
@@ -5074,15 +5077,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "次のうち、付属語を含む文節はどれか。",
+      "question": "段落の役割として最も適切なものはどれか。（確認12）",
       "choices": [
-        "学校へ",
-        "学校",
-        "走る",
-        "美しい"
+        "必ず会話を入れる",
+        "漢字を増やす",
+        "内容のまとまりを示す",
+        "文を短くする"
       ],
-      "answer": 0,
-      "explanation": "「へ」は助詞。"
+      "answer": 2,
+      "explanation": "段落は内容のまとまり。"
     },
     {
       "id": "jpn-099",
@@ -5091,15 +5094,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "「赤い花が咲く」の修飾語に当たる文節はどれか。",
+      "question": "説明文で具体例が使われる主な目的はどれか。（確認24）",
       "choices": [
-        "花が",
-        "花",
-        "咲く",
-        "赤い"
+        "漢字を増やすため",
+        "内容を分かりやすくするため",
+        "文章を長くするため",
+        "結論を隠すため"
       ],
-      "answer": 3,
-      "explanation": "花を詳しくする。"
+      "answer": 1,
+      "explanation": "具体例の役割。"
     },
     {
       "id": "jpn-100",
@@ -5108,15 +5111,15 @@
       "topic": "文法・漢字・読解",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "接続語「なぜなら」の働きとして正しいものはどれか。",
+      "question": "「青い空が広がる」の文節数はいくつか。",
       "choices": [
-        "例を示す",
-        "理由を説明する",
-        "結論を言いかえる",
-        "反対の内容を示す"
+        "5",
+        "2",
+        "3",
+        "4"
       ],
-      "answer": 1,
-      "explanation": "理由を導く接続語。"
+      "answer": 2,
+      "explanation": "青い｜空が｜広がる。"
     },
     {
       "id": "sci-001",
@@ -5631,1192 +5634,1192 @@
     {
       "id": "sci-031",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "顕微鏡で最初に低倍率で観察する理由として最も適切なものはどれか。",
       "choices": [
-        "胚珠→種子、子房→果実",
-        "花粉→果実、花弁→種子",
-        "やく→子房、柱頭→胚珠",
-        "胚珠→果実、子房→種子"
+        "倍率を上げるほど視野が広いから",
+        "観察したいものを見つけやすいから",
+        "低倍率ではピント合わせが不要だから",
+        "像が必ず実物と同じ向きに見えるから"
       ],
-      "answer": 0,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 1,
+      "explanation": "低倍率は視野が広い。"
     },
     {
       "id": "sci-032",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "アブラナのように花弁が1枚ずつ離れている花を何というか。",
       "choices": [
-        "倍率は接眼レンズだけで決まる",
-        "像の上下左右が正しくなる",
-        "像は大きく見え、視野は狭く暗くなる",
-        "像は小さく見え、視野は広く明るくなる"
+        "合弁花",
+        "離弁花",
+        "単子葉類",
+        "裸子植物"
       ],
-      "answer": 2,
-      "explanation": "高倍率の特徴。"
+      "answer": 1,
+      "explanation": "離弁花の定義。"
     },
     {
       "id": "sci-033",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "めしべの根元のふくらんだ部分はどれか。",
       "choices": [
-        "気づいたことを一切書かない",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "あとで想像して色を足す",
-        "名前だけを書いて場所は省く"
+        "がく",
+        "子房",
+        "花弁",
+        "やく"
       ],
       "answer": 1,
-      "explanation": "条件と特徴を記録。"
+      "explanation": "めしべの根元は子房。"
     },
     {
       "id": "sci-034",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ5倍、対物レンズ16倍のときの倍率はどれか。",
       "choices": [
-        "おしべ",
-        "めしべ",
-        "がく",
-        "花弁"
+        "80倍",
+        "50倍",
+        "16倍",
+        "21倍"
       ],
-      "answer": 1,
-      "explanation": "めしべの構造。"
+      "answer": 0,
+      "explanation": "倍率は接眼×対物なので5×16=80倍。"
     },
     {
       "id": "sci-035",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ5倍、対物レンズ10倍のときの倍率はどれか。",
       "choices": [
-        "柱頭",
-        "やく",
-        "胚珠",
-        "子房"
+        "該当なし3",
+        "50倍",
+        "10倍",
+        "15倍"
       ],
       "answer": 1,
-      "explanation": "やくで花粉。"
+      "explanation": "倍率は接眼×対物なので5×10=50倍。"
     },
     {
       "id": "sci-036",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "顕微鏡でレンズをのぞきながら対物レンズをプレパラートに近づけてはいけない理由はどれか。",
       "choices": [
-        "花粉→果実、花弁→種子",
-        "やく→子房、柱頭→胚珠",
-        "胚珠→種子、子房→果実",
-        "胚珠→果実、子房→種子"
+        "レンズやプレパラートをこわすおそれがあるから",
+        "像が明るくなりすぎるから",
+        "反射鏡が動かなくなるから",
+        "倍率が低くなるから"
       ],
-      "answer": 2,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 0,
+      "explanation": "ぶつける危険がある。"
     },
     {
       "id": "sci-037",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "ツツジのように花弁がくっついている花を何というか。",
       "choices": [
-        "像は小さく見え、視野は広く明るくなる",
-        "倍率は接眼レンズだけで決まる",
-        "像は大きく見え、視野は狭く暗くなる",
-        "像の上下左右が正しくなる"
+        "裸子植物",
+        "離弁花",
+        "合弁花",
+        "双子葉類"
       ],
       "answer": 2,
-      "explanation": "高倍率の特徴。"
+      "explanation": "合弁花の定義。"
     },
     {
       "id": "sci-038",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "裸子植物の例として正しい組み合わせはどれか。",
       "choices": [
-        "名前だけを書いて場所は省く",
-        "あとで想像して色を足す",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "気づいたことを一切書かない"
+        "マツ・イチョウ",
+        "イネ・ユリ",
+        "エンドウ・タンポポ",
+        "サクラ・アブラナ"
       ],
-      "answer": 2,
-      "explanation": "条件と特徴を記録。"
+      "answer": 0,
+      "explanation": "裸子植物の例。"
     },
     {
       "id": "sci-039",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ6倍、対物レンズ11倍のときの倍率はどれか。",
       "choices": [
-        "おしべ",
-        "めしべ",
-        "花弁",
-        "がく"
+        "66倍",
+        "11倍",
+        "17倍",
+        "60倍"
       ],
-      "answer": 1,
-      "explanation": "めしべの構造。"
+      "answer": 0,
+      "explanation": "倍率は接眼×対物なので6×11=66倍。"
     },
     {
       "id": "sci-040",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ6倍、対物レンズ13倍のときの倍率はどれか。",
       "choices": [
-        "子房",
-        "やく",
-        "柱頭",
-        "胚珠"
+        "19倍",
+        "13倍",
+        "60倍",
+        "78倍"
       ],
-      "answer": 1,
-      "explanation": "やくで花粉。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので6×13=78倍。"
     },
     {
       "id": "sci-041",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "顕微鏡の視野で右下に見えるものを中央に移すとき、プレパラートを動かす向きはどれか。",
       "choices": [
-        "やく→子房、柱頭→胚珠",
-        "胚珠→果実、子房→種子",
-        "胚珠→種子、子房→果実",
-        "花粉→果実、花弁→種子"
+        "左上",
+        "左下",
+        "右上",
+        "右下"
       ],
-      "answer": 2,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 3,
+      "explanation": "像は逆向きに動く。"
     },
     {
       "id": "sci-042",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "種子をつくる植物を何というか。",
       "choices": [
-        "像の上下左右が正しくなる",
-        "像は小さく見え、視野は広く明るくなる",
-        "像は大きく見え、視野は狭く暗くなる",
-        "倍率は接眼レンズだけで決まる"
+        "胞子植物",
+        "双眼植物",
+        "種子植物",
+        "水中植物"
       ],
       "answer": 2,
-      "explanation": "高倍率の特徴。"
+      "explanation": "種子植物。"
     },
     {
       "id": "sci-043",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "被子植物の例として正しい組み合わせはどれか。",
       "choices": [
-        "気づいたことを一切書かない",
-        "あとで想像して色を足す",
-        "名前だけを書いて場所は省く",
-        "日時・場所・天気・特徴を具体的に記録する"
+        "マツ・イチョウ",
+        "スギ・ソテツだけ",
+        "サクラ・アブラナ",
+        "ミカヅキモ・ゾウリムシ"
       ],
-      "answer": 3,
-      "explanation": "条件と特徴を記録。"
+      "answer": 2,
+      "explanation": "被子植物の例。"
     },
     {
       "id": "sci-044",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ7倍、対物レンズ14倍のときの倍率はどれか。",
       "choices": [
-        "おしべ",
-        "がく",
-        "めしべ",
-        "花弁"
+        "21倍",
+        "70倍",
+        "98倍",
+        "14倍"
       ],
       "answer": 2,
-      "explanation": "めしべの構造。"
+      "explanation": "倍率は接眼×対物なので7×14=98倍。"
     },
     {
       "id": "sci-045",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ7倍、対物レンズ16倍のときの倍率はどれか。",
       "choices": [
-        "柱頭",
-        "子房",
-        "やく",
-        "胚珠"
+        "112倍",
+        "23倍",
+        "70倍",
+        "16倍"
       ],
-      "answer": 2,
-      "explanation": "やくで花粉。"
+      "answer": 0,
+      "explanation": "倍率は接眼×対物なので7×16=112倍。"
     },
     {
       "id": "sci-046",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "ルーペで観察するとき、ピントを合わせる方法として最も適切なものはどれか。",
       "choices": [
-        "胚珠→種子、子房→果実",
-        "やく→子房、柱頭→胚珠",
-        "花粉→果実、花弁→種子",
-        "胚珠→果実、子房→種子"
+        "ルーペだけを遠くへ動かす",
+        "目を閉じてルーペを動かす",
+        "観察物を必ず水に入れる",
+        "ルーペを目に近づけ、観察物を動かす"
       ],
-      "answer": 0,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 3,
+      "explanation": "ルーペは目に近づける。"
     },
     {
       "id": "sci-047",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "胚珠が子房の中にある植物を何というか。",
       "choices": [
-        "像は大きく見え、視野は狭く暗くなる",
-        "倍率は接眼レンズだけで決まる",
-        "像は小さく見え、視野は広く明るくなる",
-        "像の上下左右が正しくなる"
+        "コケ植物",
+        "裸子植物",
+        "被子植物",
+        "シダ植物"
       ],
-      "answer": 0,
-      "explanation": "高倍率の特徴。"
+      "answer": 2,
+      "explanation": "被子植物の特徴。"
     },
     {
       "id": "sci-048",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "双子葉類の特徴として正しい組み合わせはどれか。",
       "choices": [
-        "名前だけを書いて場所は省く",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "あとで想像して色を足す",
-        "気づいたことを一切書かない"
+        "平行脈・ひげ根",
+        "網状脈・主根と側根",
+        "胚珠むき出し・針葉",
+        "繊毛・べん毛"
       ],
       "answer": 1,
-      "explanation": "条件と特徴を記録。"
+      "explanation": "双子葉類の特徴。"
     },
     {
       "id": "sci-049",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ8倍、対物レンズ17倍のときの倍率はどれか。",
       "choices": [
-        "おしべ",
-        "めしべ",
-        "花弁",
-        "がく"
+        "25倍",
+        "17倍",
+        "80倍",
+        "136倍"
       ],
-      "answer": 1,
-      "explanation": "めしべの構造。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので8×17=136倍。"
     },
     {
       "id": "sci-050",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ8倍、対物レンズ11倍のときの倍率はどれか。",
       "choices": [
-        "子房",
-        "胚珠",
-        "柱頭",
-        "やく"
+        "11倍",
+        "88倍",
+        "19倍",
+        "80倍"
       ],
-      "answer": 3,
-      "explanation": "やくで花粉。"
+      "answer": 1,
+      "explanation": "倍率は接眼×対物なので8×11=88倍。"
     },
     {
       "id": "sci-051",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "双眼実体顕微鏡で観察しやすいものはどれか。",
       "choices": [
-        "花粉→果実、花弁→種子",
-        "胚珠→種子、子房→果実",
-        "やく→子房、柱頭→胚珠",
-        "胚珠→果実、子房→種子"
+        "細胞の内部構造だけ",
+        "透明でないと絶対に見えないもの",
+        "立体的でやや大きいもの",
+        "遠くの山"
       ],
-      "answer": 1,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 2,
+      "explanation": "立体的なものを観察しやすい。"
     },
     {
       "id": "sci-052",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "胚珠がむき出しになっている植物を何というか。",
       "choices": [
-        "像は大きく見え、視野は狭く暗くなる",
-        "倍率は接眼レンズだけで決まる",
-        "像は小さく見え、視野は広く明るくなる",
-        "像の上下左右が正しくなる"
+        "合弁花",
+        "被子植物",
+        "単子葉類",
+        "裸子植物"
       ],
-      "answer": 0,
-      "explanation": "高倍率の特徴。"
+      "answer": 3,
+      "explanation": "裸子植物の特徴。"
     },
     {
       "id": "sci-053",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "単子葉類の特徴として正しい組み合わせはどれか。",
       "choices": [
-        "気づいたことを一切書かない",
-        "名前だけを書いて場所は省く",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "あとで想像して色を足す"
+        "胚珠むき出し・花粉なし",
+        "網状脈・主根と側根",
+        "平行脈・ひげ根",
+        "繊毛・くつ形"
       ],
       "answer": 2,
-      "explanation": "条件と特徴を記録。"
+      "explanation": "単子葉類の特徴。"
     },
     {
       "id": "sci-054",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ9倍、対物レンズ12倍のときの倍率はどれか。",
       "choices": [
-        "おしべ",
-        "めしべ",
-        "がく",
-        "花弁"
+        "12倍",
+        "108倍",
+        "90倍",
+        "21倍"
       ],
       "answer": 1,
-      "explanation": "めしべの構造。"
+      "explanation": "倍率は接眼×対物なので9×12=108倍。"
     },
     {
       "id": "sci-055",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ9倍、対物レンズ14倍のときの倍率はどれか。",
       "choices": [
-        "胚珠",
-        "子房",
-        "やく",
-        "柱頭"
+        "14倍",
+        "23倍",
+        "126倍",
+        "90倍"
       ],
       "answer": 2,
-      "explanation": "やくで花粉。"
+      "explanation": "倍率は接眼×対物なので9×14=126倍。"
     },
     {
       "id": "sci-056",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "ミドリムシの特徴として正しいものはどれか。",
       "choices": [
-        "胚珠→種子、子房→果実",
-        "花粉→果実、花弁→種子",
-        "やく→子房、柱頭→胚珠",
-        "胚珠→果実、子房→種子"
+        "べん毛で移動し葉緑体をもつ",
+        "花粉をつくる",
+        "足で歩き種子をつくる",
+        "繊毛で移動し葉緑体をもたない"
       ],
       "answer": 0,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "explanation": "ミドリムシの特徴。"
     },
     {
       "id": "sci-057",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "マツやイチョウが含まれるなかまはどれか。",
       "choices": [
-        "像は小さく見え、視野は広く明るくなる",
-        "像の上下左右が正しくなる",
-        "像は大きく見え、視野は狭く暗くなる",
-        "倍率は接眼レンズだけで決まる"
+        "裸子植物",
+        "合弁花",
+        "単子葉類",
+        "被子植物"
       ],
-      "answer": 2,
-      "explanation": "高倍率の特徴。"
+      "answer": 0,
+      "explanation": "マツ・イチョウは裸子植物。"
     },
     {
       "id": "sci-058",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "観察結果から分類するときに大切な考え方はどれか。",
       "choices": [
-        "名前だけを書いて場所は省く",
-        "気づいたことを一切書かない",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "あとで想像して色を足す"
+        "複数の特徴を比べる",
+        "場所だけで決める",
+        "色だけで決める",
+        "名前の長さで決める"
       ],
-      "answer": 2,
-      "explanation": "条件と特徴を記録。"
+      "answer": 0,
+      "explanation": "分類は複数特徴を用いる。"
     },
     {
       "id": "sci-059",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ10倍、対物レンズ15倍のときの倍率はどれか。",
       "choices": [
-        "花弁",
-        "めしべ",
-        "おしべ",
-        "がく"
+        "150倍",
+        "100倍",
+        "15倍",
+        "25倍"
       ],
-      "answer": 1,
-      "explanation": "めしべの構造。"
+      "answer": 0,
+      "explanation": "倍率は接眼×対物なので10×15=150倍。"
     },
     {
       "id": "sci-060",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ10倍、対物レンズ17倍のときの倍率はどれか。",
       "choices": [
-        "柱頭",
-        "やく",
-        "胚珠",
-        "子房"
+        "27倍",
+        "17倍",
+        "100倍",
+        "170倍"
       ],
-      "answer": 1,
-      "explanation": "やくで花粉。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので10×17=170倍。"
     },
     {
       "id": "sci-061",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "ゾウリムシの特徴として正しいものはどれか。",
       "choices": [
-        "胚珠→果実、子房→種子",
-        "やく→子房、柱頭→胚珠",
-        "花粉→果実、花弁→種子",
-        "胚珠→種子、子房→果実"
+        "べん毛で移動する",
+        "花弁をもつ",
+        "繊毛で移動する",
+        "根で水を吸う"
       ],
-      "answer": 3,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 2,
+      "explanation": "ゾウリムシの特徴。"
     },
     {
       "id": "sci-062",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "サクラやアブラナが含まれるなかまはどれか。",
       "choices": [
-        "像は大きく見え、視野は狭く暗くなる",
-        "像の上下左右が正しくなる",
-        "像は小さく見え、視野は広く明るくなる",
-        "倍率は接眼レンズだけで決まる"
+        "シダ植物",
+        "被子植物",
+        "裸子植物",
+        "コケ植物"
       ],
-      "answer": 0,
-      "explanation": "高倍率の特徴。"
+      "answer": 1,
+      "explanation": "被子植物の例。"
     },
     {
       "id": "sci-063",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ11倍、対物レンズ16倍のときの倍率はどれか。",
       "choices": [
-        "あとで想像して色を足す",
-        "気づいたことを一切書かない",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "名前だけを書いて場所は省く"
+        "110倍",
+        "16倍",
+        "176倍",
+        "27倍"
       ],
       "answer": 2,
-      "explanation": "条件と特徴を記録。"
+      "explanation": "倍率は接眼×対物なので11×16=176倍。"
     },
     {
       "id": "sci-064",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ11倍、対物レンズ10倍のときの倍率はどれか。",
       "choices": [
-        "めしべ",
-        "おしべ",
-        "がく",
-        "花弁"
+        "10倍",
+        "21倍",
+        "110倍",
+        "該当なし3"
       ],
-      "answer": 0,
-      "explanation": "めしべの構造。"
+      "answer": 2,
+      "explanation": "倍率は接眼×対物なので11×10=110倍。"
     },
     {
       "id": "sci-065",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ11倍、対物レンズ12倍のときの倍率はどれか。",
       "choices": [
-        "やく",
-        "胚珠",
-        "柱頭",
-        "子房"
+        "23倍",
+        "110倍",
+        "132倍",
+        "12倍"
       ],
-      "answer": 0,
-      "explanation": "やくで花粉。"
+      "answer": 2,
+      "explanation": "倍率は接眼×対物なので11×12=132倍。"
     },
     {
       "id": "sci-066",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "ミカヅキモの特徴として正しいものはどれか。",
       "choices": [
-        "やく→子房、柱頭→胚珠",
-        "胚珠→果実、子房→種子",
-        "花粉→果実、花弁→種子",
-        "胚珠→種子、子房→果実"
+        "反射鏡で移動する",
+        "緑色で葉緑体をもつ",
+        "根・茎・葉がある",
+        "花粉をつくる"
       ],
-      "answer": 3,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 1,
+      "explanation": "ミカヅキモの特徴。"
     },
     {
       "id": "sci-067",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "単子葉類の葉脈の特徴として正しいものはどれか。",
       "choices": [
-        "像は大きく見え、視野は狭く暗くなる",
-        "像は小さく見え、視野は広く明るくなる",
-        "倍率は接眼レンズだけで決まる",
-        "像の上下左右が正しくなる"
+        "すべて羽状",
+        "網状脈",
+        "平行脈",
+        "葉脈がない"
       ],
-      "answer": 0,
-      "explanation": "高倍率の特徴。"
+      "answer": 2,
+      "explanation": "単子葉類は平行脈。"
     },
     {
       "id": "sci-068",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ5倍、対物レンズ11倍のときの倍率はどれか。",
       "choices": [
-        "日時・場所・天気・特徴を具体的に記録する",
-        "気づいたことを一切書かない",
-        "名前だけを書いて場所は省く",
-        "あとで想像して色を足す"
+        "55倍",
+        "16倍",
+        "11倍",
+        "50倍"
       ],
       "answer": 0,
-      "explanation": "条件と特徴を記録。"
+      "explanation": "倍率は接眼×対物なので5×11=55倍。"
     },
     {
       "id": "sci-069",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ5倍、対物レンズ13倍のときの倍率はどれか。",
       "choices": [
-        "花弁",
-        "がく",
-        "めしべ",
-        "おしべ"
+        "65倍",
+        "18倍",
+        "50倍",
+        "13倍"
       ],
-      "answer": 2,
-      "explanation": "めしべの構造。"
+      "answer": 0,
+      "explanation": "倍率は接眼×対物なので5×13=65倍。"
     },
     {
       "id": "sci-070",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ5倍、対物レンズ15倍のときの倍率はどれか。",
       "choices": [
-        "胚珠",
-        "やく",
-        "柱頭",
-        "子房"
+        "50倍",
+        "15倍",
+        "20倍",
+        "75倍"
       ],
-      "answer": 1,
-      "explanation": "やくで花粉。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので5×15=75倍。"
     },
     {
       "id": "sci-071",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "水中の小さな生物を観察する水として適切なのはどれか。",
       "choices": [
-        "花粉→果実、花弁→種子",
-        "胚珠→果実、子房→種子",
-        "胚珠→種子、子房→果実",
-        "やく→子房、柱頭→胚珠"
+        "食塩を多く溶かした水",
+        "沸騰させた直後の水",
+        "池の水草の近くの水",
+        "水道水をすぐにとったもの"
       ],
       "answer": 2,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "explanation": "水草の近くに多い。"
     },
     {
       "id": "sci-072",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "双子葉類の葉脈の特徴として正しいものはどれか。",
       "choices": [
-        "像は大きく見え、視野は狭く暗くなる",
-        "倍率は接眼レンズだけで決まる",
-        "像の上下左右が正しくなる",
-        "像は小さく見え、視野は広く明るくなる"
+        "平行脈",
+        "網状脈",
+        "葉脈がない",
+        "すべて直線"
       ],
-      "answer": 0,
-      "explanation": "高倍率の特徴。"
+      "answer": 1,
+      "explanation": "双子葉類は網状脈。"
     },
     {
       "id": "sci-073",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ6倍、対物レンズ14倍のときの倍率はどれか。",
       "choices": [
-        "名前だけを書いて場所は省く",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "気づいたことを一切書かない",
-        "あとで想像して色を足す"
+        "84倍",
+        "20倍",
+        "60倍",
+        "14倍"
       ],
-      "answer": 1,
-      "explanation": "条件と特徴を記録。"
+      "answer": 0,
+      "explanation": "倍率は接眼×対物なので6×14=84倍。"
     },
     {
       "id": "sci-074",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ6倍、対物レンズ16倍のときの倍率はどれか。",
       "choices": [
-        "めしべ",
-        "花弁",
-        "おしべ",
-        "がく"
+        "22倍",
+        "60倍",
+        "16倍",
+        "96倍"
       ],
-      "answer": 0,
-      "explanation": "めしべの構造。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので6×16=96倍。"
     },
     {
       "id": "sci-075",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ6倍、対物レンズ10倍のときの倍率はどれか。",
       "choices": [
-        "子房",
-        "胚珠",
-        "やく",
-        "柱頭"
+        "16倍",
+        "該当なし3",
+        "60倍",
+        "10倍"
       ],
       "answer": 2,
-      "explanation": "やくで花粉。"
+      "explanation": "倍率は接眼×対物なので6×10=60倍。"
     },
     {
       "id": "sci-076",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "カバーガラスを静かにかける理由として正しいものはどれか。",
       "choices": [
-        "花粉→果実、花弁→種子",
-        "胚珠→種子、子房→果実",
-        "やく→子房、柱頭→胚珠",
-        "胚珠→果実、子房→種子"
+        "倍率を必ず上げるため",
+        "レンズを暗くするため",
+        "水をすべて蒸発させるため",
+        "気泡を入れにくくし、観察物をつぶさないため"
       ],
-      "answer": 1,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 3,
+      "explanation": "気泡や破損を防ぐ。"
     },
     {
       "id": "sci-077",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "単子葉類の根の特徴として正しいものはどれか。",
       "choices": [
-        "像の上下左右が正しくなる",
-        "像は大きく見え、視野は狭く暗くなる",
-        "倍率は接眼レンズだけで決まる",
-        "像は小さく見え、視野は広く明るくなる"
+        "胚珠",
+        "ひげ根",
+        "根がない",
+        "主根と側根"
       ],
       "answer": 1,
-      "explanation": "高倍率の特徴。"
+      "explanation": "単子葉類はひげ根。"
     },
     {
       "id": "sci-078",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ7倍、対物レンズ17倍のときの倍率はどれか。",
       "choices": [
-        "日時・場所・天気・特徴を具体的に記録する",
-        "名前だけを書いて場所は省く",
-        "気づいたことを一切書かない",
-        "あとで想像して色を足す"
+        "17倍",
+        "24倍",
+        "70倍",
+        "119倍"
       ],
-      "answer": 0,
-      "explanation": "条件と特徴を記録。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので7×17=119倍。"
     },
     {
       "id": "sci-079",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ7倍、対物レンズ11倍のときの倍率はどれか。",
       "choices": [
-        "めしべ",
-        "おしべ",
-        "花弁",
-        "がく"
+        "77倍",
+        "11倍",
+        "18倍",
+        "70倍"
       ],
       "answer": 0,
-      "explanation": "めしべの構造。"
+      "explanation": "倍率は接眼×対物なので7×11=77倍。"
     },
     {
       "id": "sci-080",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ7倍、対物レンズ13倍のときの倍率はどれか。",
       "choices": [
-        "やく",
-        "子房",
-        "胚珠",
-        "柱頭"
+        "20倍",
+        "91倍",
+        "13倍",
+        "70倍"
       ],
-      "answer": 0,
-      "explanation": "やくで花粉。"
+      "answer": 1,
+      "explanation": "倍率は接眼×対物なので7×13=91倍。"
     },
     {
       "id": "sci-081",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "おしべの先端にあり、花粉を入れている部分はどれか。",
       "choices": [
-        "胚珠→果実、子房→種子",
-        "胚珠→種子、子房→果実",
-        "やく→子房、柱頭→胚珠",
-        "花粉→果実、花弁→種子"
+        "柱頭",
+        "子房",
+        "胚珠",
+        "やく"
       ],
-      "answer": 1,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 3,
+      "explanation": "花粉はおしべの先端のやくに入っている。"
     },
     {
       "id": "sci-082",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "双子葉類の根の特徴として正しいものはどれか。",
       "choices": [
-        "像は大きく見え、視野は狭く暗くなる",
-        "倍率は接眼レンズだけで決まる",
-        "像の上下左右が正しくなる",
-        "像は小さく見え、視野は広く明るくなる"
+        "花粉管",
+        "ひげ根",
+        "根がない",
+        "主根と側根"
       ],
-      "answer": 0,
-      "explanation": "高倍率の特徴。"
+      "answer": 3,
+      "explanation": "双子葉類は主根と側根。"
     },
     {
       "id": "sci-083",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ8倍、対物レンズ12倍のときの倍率はどれか。",
       "choices": [
-        "名前だけを書いて場所は省く",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "あとで想像して色を足す",
-        "気づいたことを一切書かない"
+        "80倍",
+        "12倍",
+        "96倍",
+        "20倍"
       ],
-      "answer": 1,
-      "explanation": "条件と特徴を記録。"
+      "answer": 2,
+      "explanation": "倍率は接眼×対物なので8×12=96倍。"
     },
     {
       "id": "sci-084",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ8倍、対物レンズ14倍のときの倍率はどれか。",
       "choices": [
-        "花弁",
-        "めしべ",
-        "がく",
-        "おしべ"
+        "22倍",
+        "112倍",
+        "14倍",
+        "80倍"
       ],
       "answer": 1,
-      "explanation": "めしべの構造。"
+      "explanation": "倍率は接眼×対物なので8×14=112倍。"
     },
     {
       "id": "sci-085",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ8倍、対物レンズ16倍のときの倍率はどれか。",
       "choices": [
-        "やく",
-        "子房",
-        "柱頭",
-        "胚珠"
+        "128倍",
+        "80倍",
+        "24倍",
+        "16倍"
       ],
       "answer": 0,
-      "explanation": "やくで花粉。"
+      "explanation": "倍率は接眼×対物なので8×16=128倍。"
     },
     {
       "id": "sci-086",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "花粉がめしべの先につくことを何というか。",
       "choices": [
-        "胚珠→種子、子房→果実",
-        "やく→子房、柱頭→胚珠",
-        "花粉→果実、花弁→種子",
-        "胚珠→果実、子房→種子"
+        "受粉",
+        "蒸散",
+        "発芽",
+        "分類"
       ],
       "answer": 0,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "explanation": "受粉の定義。"
     },
     {
       "id": "sci-087",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "反射鏡の主な役割はどれか。",
       "choices": [
-        "像は小さく見え、視野は広く明るくなる",
-        "倍率は接眼レンズだけで決まる",
-        "像は大きく見え、視野は狭く暗くなる",
-        "像の上下左右が正しくなる"
+        "光を取り入れて視野を明るくする",
+        "倍率を変える",
+        "花粉をつくる",
+        "プレパラートを固定する"
       ],
-      "answer": 2,
-      "explanation": "高倍率の特徴。"
+      "answer": 0,
+      "explanation": "反射鏡は光を調整する。"
     },
     {
       "id": "sci-088",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ9倍、対物レンズ15倍のときの倍率はどれか。",
       "choices": [
-        "気づいたことを一切書かない",
-        "あとで想像して色を足す",
-        "名前だけを書いて場所は省く",
-        "日時・場所・天気・特徴を具体的に記録する"
+        "90倍",
+        "24倍",
+        "135倍",
+        "15倍"
       ],
-      "answer": 3,
-      "explanation": "条件と特徴を記録。"
+      "answer": 2,
+      "explanation": "倍率は接眼×対物なので9×15=135倍。"
     },
     {
       "id": "sci-089",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ9倍、対物レンズ17倍のときの倍率はどれか。",
       "choices": [
-        "がく",
-        "花弁",
-        "おしべ",
-        "めしべ"
+        "90倍",
+        "153倍",
+        "17倍",
+        "26倍"
       ],
-      "answer": 3,
-      "explanation": "めしべの構造。"
+      "answer": 1,
+      "explanation": "倍率は接眼×対物なので9×17=153倍。"
     },
     {
       "id": "sci-090",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ9倍、対物レンズ11倍のときの倍率はどれか。",
       "choices": [
-        "やく",
-        "子房",
-        "胚珠",
-        "柱頭"
+        "20倍",
+        "99倍",
+        "11倍",
+        "90倍"
       ],
-      "answer": 0,
-      "explanation": "やくで花粉。"
+      "answer": 1,
+      "explanation": "倍率は接眼×対物なので9×11=99倍。"
     },
     {
       "id": "sci-091",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "受粉後に種子になる部分はどれか。",
       "choices": [
-        "花粉→果実、花弁→種子",
-        "やく→子房、柱頭→胚珠",
-        "胚珠→果実、子房→種子",
-        "胚珠→種子、子房→果実"
+        "胚珠",
+        "子房",
+        "花弁",
+        "がく"
       ],
-      "answer": 3,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "answer": 0,
+      "explanation": "胚珠は種子になる。"
     },
     {
       "id": "sci-092",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "接眼レンズ10倍、対物レンズ15倍の倍率はどれか。",
       "choices": [
-        "倍率は接眼レンズだけで決まる",
-        "像の上下左右が正しくなる",
-        "像は小さく見え、視野は広く明るくなる",
-        "像は大きく見え、視野は狭く暗くなる"
+        "150倍",
+        "15倍",
+        "25倍",
+        "100倍"
       ],
-      "answer": 3,
-      "explanation": "高倍率の特徴。"
+      "answer": 0,
+      "explanation": "10×15=150倍。"
     },
     {
       "id": "sci-093",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ10倍、対物レンズ10倍のときの倍率はどれか。",
       "choices": [
-        "気づいたことを一切書かない",
-        "日時・場所・天気・特徴を具体的に記録する",
-        "名前だけを書いて場所は省く",
-        "あとで想像して色を足す"
+        "20倍",
+        "該当なし3",
+        "100倍",
+        "10倍"
       ],
-      "answer": 1,
-      "explanation": "条件と特徴を記録。"
+      "answer": 2,
+      "explanation": "倍率は接眼×対物なので10×10=100倍。"
     },
     {
       "id": "sci-094",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ10倍、対物レンズ12倍のときの倍率はどれか。",
       "choices": [
-        "花弁",
-        "めしべ",
-        "がく",
-        "おしべ"
+        "120倍",
+        "100倍",
+        "22倍",
+        "12倍"
       ],
-      "answer": 1,
-      "explanation": "めしべの構造。"
+      "answer": 0,
+      "explanation": "倍率は接眼×対物なので10×12=120倍。"
     },
     {
       "id": "sci-095",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ10倍、対物レンズ14倍のときの倍率はどれか。",
       "choices": [
-        "胚珠",
-        "やく",
-        "子房",
-        "柱頭"
+        "100倍",
+        "24倍",
+        "140倍",
+        "14倍"
       ],
-      "answer": 1,
-      "explanation": "やくで花粉。"
+      "answer": 2,
+      "explanation": "倍率は接眼×対物なので10×14=140倍。"
     },
     {
       "id": "sci-096",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "受粉後の変化として正しい組み合わせはどれか。",
+      "question": "受粉後に果実になる部分はどれか。",
       "choices": [
-        "胚珠→種子、子房→果実",
-        "胚珠→果実、子房→種子",
-        "花粉→果実、花弁→種子",
-        "やく→子房、柱頭→胚珠"
+        "子房",
+        "花粉",
+        "花弁",
+        "胚珠"
       ],
       "answer": 0,
-      "explanation": "受粉後、胚珠は種子、子房は果実。"
+      "explanation": "子房は果実になる。"
     },
     {
       "id": "sci-097",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "倍率を上げたときの変化として最も適切なものはどれか。",
+      "question": "顕微鏡の倍率を高くしたとき視野はどうなるか。",
       "choices": [
-        "像の上下左右が正しくなる",
-        "倍率は接眼レンズだけで決まる",
-        "像は小さく見え、視野は広く明るくなる",
-        "像は大きく見え、視野は狭く暗くなる"
+        "必ず明るくなる",
+        "広くなる",
+        "上下左右が同じになる",
+        "せまくなる"
       ],
       "answer": 3,
-      "explanation": "高倍率の特徴。"
+      "explanation": "高倍率では視野はせまくなる。"
     },
     {
       "id": "sci-098",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "観察記録として最もよいものはどれか。",
+      "question": "接眼レンズ11倍、対物レンズ13倍のときの倍率はどれか。",
       "choices": [
-        "日時・場所・天気・特徴を具体的に記録する",
-        "あとで想像して色を足す",
-        "気づいたことを一切書かない",
-        "名前だけを書いて場所は省く"
+        "24倍",
+        "110倍",
+        "13倍",
+        "143倍"
       ],
-      "answer": 0,
-      "explanation": "条件と特徴を記録。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので11×13=143倍。"
     },
     {
       "id": "sci-099",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "花の中心にあり、柱頭・花柱・子房からなる部分はどれか。",
+      "question": "接眼レンズ11倍、対物レンズ15倍のときの倍率はどれか。",
       "choices": [
-        "めしべ",
-        "花弁",
-        "おしべ",
-        "がく"
+        "26倍",
+        "15倍",
+        "165倍",
+        "110倍"
       ],
-      "answer": 0,
-      "explanation": "めしべの構造。"
+      "answer": 2,
+      "explanation": "倍率は接眼×対物なので11×15=165倍。"
     },
     {
       "id": "sci-100",
       "subject": "理科",
-      "unit": "総合",
-      "topic": "観察・顕微鏡・植物",
+      "unit": "植物と観察",
+      "topic": "総合確認",
       "difficulty": "hard",
       "targetSkill": "総合判断",
-      "question": "おしべの先にあり花粉をつくる部分はどれか。",
+      "question": "接眼レンズ11倍、対物レンズ17倍のときの倍率はどれか。",
       "choices": [
-        "やく",
-        "柱頭",
-        "子房",
-        "胚珠"
+        "110倍",
+        "17倍",
+        "28倍",
+        "187倍"
       ],
-      "answer": 0,
-      "explanation": "やくで花粉。"
+      "answer": 3,
+      "explanation": "倍率は接眼×対物なので11×17=187倍。"
     },
     {
       "id": "soc-001",
@@ -7671,852 +7674,852 @@
     {
       "id": "soc-051",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "六大陸に含まれないものはどれか。",
       "choices": [
-        "与那国島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "択捉島"
+        "アフリカ大陸",
+        "太平洋",
+        "南アメリカ大陸",
+        "ユーラシア大陸"
       ],
       "answer": 1,
-      "explanation": "日本最南端。"
+      "explanation": "太平洋は大洋。"
     },
     {
       "id": "soc-052",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本の領域に含まれる組み合わせはどれか。",
       "choices": [
-        "南鳥島",
-        "択捉島",
-        "与那国島",
-        "沖ノ鳥島"
+        "領土・領海・排他的経済水域だけ",
+        "県庁・市役所・町役場",
+        "領土・領海・領空",
+        "大陸・海洋・半球"
       ],
-      "answer": 0,
-      "explanation": "日本最東端。"
+      "answer": 2,
+      "explanation": "領域は領土・領海・領空。"
     },
     {
       "id": "soc-053",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "経度15度の差で生じる時差はどれか。",
       "choices": [
-        "与那国島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "択捉島"
+        "15時間",
+        "2時間",
+        "30分",
+        "1時間"
       ],
-      "answer": 0,
-      "explanation": "日本最西端。"
+      "answer": 3,
+      "explanation": "15度で1時間。"
     },
     {
       "id": "soc-054",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "世界を6つの州に分けるとき、日本が含まれる州はどれか。",
       "choices": [
-        "アジア州",
         "オセアニア州",
-        "アフリカ州",
-        "ヨーロッパ州"
+        "ヨーロッパ州",
+        "アジア州",
+        "アフリカ州"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanation": "日本はアジア州。"
     },
     {
       "id": "soc-055",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本の領空の説明として正しいものはどれか。",
       "choices": [
-        "ユーラシア大陸の東、太平洋の西に位置する島国",
-        "南アメリカ大陸の東、大西洋の西に位置する半島国",
-        "アフリカ大陸の南、インド洋の西に位置する内陸国",
-        "北極海の中央に位置する大陸国"
+        "領土と領海の上空",
+        "排他的経済水域の海底だけ",
+        "赤道の上空だけ",
+        "県庁所在地の周辺だけ"
       ],
       "answer": 0,
-      "explanation": "日本の位置。"
+      "explanation": "領空は領土・領海の上空。"
     },
     {
       "id": "soc-056",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "三大洋に含まれるものはどれか。",
       "choices": [
-        "択捉島",
-        "南鳥島",
-        "与那国島",
-        "沖ノ鳥島"
+        "インド洋",
+        "地中海",
+        "日本海",
+        "北極海"
       ],
-      "answer": 3,
-      "explanation": "日本最南端。"
+      "answer": 0,
+      "explanation": "三大洋の一つ。"
     },
     {
       "id": "soc-057",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "領海の範囲として正しいものはどれか。",
       "choices": [
-        "択捉島",
-        "南鳥島",
-        "与那国島",
-        "沖ノ鳥島"
+        "沿岸から12海里まで",
+        "赤道から12度まで",
+        "県境から15kmまで",
+        "沿岸から200海里まで"
       ],
-      "answer": 1,
-      "explanation": "日本最東端。"
+      "answer": 0,
+      "explanation": "領海は12海里。"
     },
     {
       "id": "soc-058",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本が午後8時のとき、ロンドンは何時か。ただし日本は東経135度、ロンドンは0度とする。",
       "choices": [
-        "沖ノ鳥島",
-        "与那国島",
-        "択捉島",
-        "南鳥島"
+        "午前11時",
+        "午前5時",
+        "午後11時",
+        "午後5時"
       ],
-      "answer": 1,
-      "explanation": "日本最西端。"
+      "answer": 0,
+      "explanation": "135度差で9時間。"
     },
     {
       "id": "soc-059",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "ブラジルが含まれる州はどれか。",
       "choices": [
+        "北アメリカ州",
         "オセアニア州",
-        "アフリカ州",
-        "アジア州",
-        "ヨーロッパ州"
+        "南アメリカ州",
+        "アジア州"
       ],
       "answer": 2,
-      "explanation": "日本はアジア州。"
+      "explanation": "ブラジルは南アメリカ州。"
     },
     {
       "id": "soc-060",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本の領海の説明として正しいものはどれか。",
       "choices": [
-        "南アメリカ大陸の東、大西洋の西に位置する半島国",
-        "アフリカ大陸の南、インド洋の西に位置する内陸国",
-        "北極海の中央に位置する大陸国",
-        "ユーラシア大陸の東、太平洋の西に位置する島国"
+        "内陸県だけの海",
+        "本初子午線上の海",
+        "資源だけ利用できる海域",
+        "沿岸国の主権が及ぶ海"
       ],
       "answer": 3,
-      "explanation": "日本の位置。"
+      "explanation": "領海は主権が及ぶ海。"
     },
     {
       "id": "soc-061",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "赤道の緯度として正しいものはどれか。",
       "choices": [
-        "与那国島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "択捉島"
+        "0度",
+        "東経0度",
+        "南緯180度",
+        "北緯90度"
       ],
-      "answer": 1,
-      "explanation": "日本最南端。"
+      "answer": 0,
+      "explanation": "赤道は緯度0度。"
     },
     {
       "id": "soc-062",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "排他的経済水域の説明として最も適切なものはどれか。",
       "choices": [
-        "沖ノ鳥島",
-        "南鳥島",
-        "与那国島",
-        "択捉島"
+        "他国が絶対に通れない領土",
+        "赤道の別名",
+        "水産資源や鉱産資源を利用する権利がある海域",
+        "国内の県境だけを示す線"
       ],
-      "answer": 1,
-      "explanation": "日本最東端。"
+      "answer": 2,
+      "explanation": "EEZでは資源利用の権利がある。"
     },
     {
       "id": "soc-063",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本が午前9時のとき、ニューヨークは何時か。ただし日本は東経135度、ニューヨークは西経75度とする。",
       "choices": [
-        "択捉島",
-        "与那国島",
-        "南鳥島",
-        "沖ノ鳥島"
+        "前日の午後7時",
+        "同日の午前9時",
+        "前日の午前7時",
+        "同日の午後7時"
       ],
-      "answer": 1,
-      "explanation": "日本最西端。"
+      "answer": 0,
+      "explanation": "経度差210度で14時間。"
     },
     {
       "id": "soc-064",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "エジプトが含まれる州はどれか。",
       "choices": [
-        "アフリカ州",
-        "オセアニア州",
         "ヨーロッパ州",
-        "アジア州"
+        "アフリカ州",
+        "北アメリカ州",
+        "オセアニア州"
       ],
-      "answer": 3,
-      "explanation": "日本はアジア州。"
+      "answer": 1,
+      "explanation": "エジプトはアフリカ州。"
     },
     {
       "id": "soc-065",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "乾燥帯の生活に関係が深いものはどれか。",
       "choices": [
-        "ユーラシア大陸の東、太平洋の西に位置する島国",
-        "北極海の中央に位置する大陸国",
-        "南アメリカ大陸の東、大西洋の西に位置する半島国",
-        "アフリカ大陸の南、インド洋の西に位置する内陸国"
+        "水を得にくい環境への工夫",
+        "雪への対策だけ",
+        "熱帯林の伐採だけ",
+        "氷上の移動だけ"
       ],
       "answer": 0,
-      "explanation": "日本の位置。"
+      "explanation": "乾燥地域では水の確保が重要。"
     },
     {
       "id": "soc-066",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "本初子午線の経度として正しいものはどれか。",
       "choices": [
-        "沖ノ鳥島",
-        "与那国島",
-        "南鳥島",
-        "択捉島"
+        "東経135度",
+        "西経180度",
+        "0度",
+        "北緯0度"
       ],
-      "answer": 0,
-      "explanation": "日本最南端。"
+      "answer": 2,
+      "explanation": "本初子午線は経度0度。"
     },
     {
       "id": "soc-067",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本の南端の島として正しいものはどれか。",
       "choices": [
+        "沖ノ鳥島",
         "南鳥島",
-        "与那国島",
         "択捉島",
-        "沖ノ鳥島"
+        "与那国島"
       ],
       "answer": 0,
-      "explanation": "日本最東端。"
+      "explanation": "日本の南端は沖ノ鳥島。"
     },
     {
       "id": "soc-068",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "日付変更線を西から東へこえると日付はどうなるか。",
       "choices": [
-        "沖ノ鳥島",
-        "南鳥島",
-        "択捉島",
-        "与那国島"
+        "必ず2日進む",
+        "1日もどる",
+        "1日進む",
+        "同じ日付のまま"
       ],
-      "answer": 3,
-      "explanation": "日本最西端。"
+      "answer": 1,
+      "explanation": "西から東へ越えると1日戻す。"
     },
     {
       "id": "soc-069",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "オーストラリアが含まれる州はどれか。",
       "choices": [
+        "オセアニア州",
         "アジア州",
-        "アフリカ州",
-        "ヨーロッパ州",
-        "オセアニア州"
+        "南アメリカ州",
+        "アフリカ州"
       ],
       "answer": 0,
-      "explanation": "日本はアジア州。"
+      "explanation": "オーストラリアはオセアニア州。"
     },
     {
       "id": "soc-070",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "熱帯の生活に関係が深いものはどれか。",
       "choices": [
-        "ユーラシア大陸の東、太平洋の西に位置する島国",
-        "南アメリカ大陸の東、大西洋の西に位置する半島国",
-        "北極海の中央に位置する大陸国",
-        "アフリカ大陸の南、インド洋の西に位置する内陸国"
+        "極夜への対応",
+        "永久凍土への対応",
+        "高温多雨への対応",
+        "雪崩への対応"
       ],
-      "answer": 0,
-      "explanation": "日本の位置。"
+      "answer": 2,
+      "explanation": "熱帯は高温多雨。"
     },
     {
       "id": "soc-071",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "緯度の説明として正しいものはどれか。",
       "choices": [
-        "択捉島",
-        "与那国島",
-        "沖ノ鳥島",
-        "南鳥島"
+        "日付変更線を基準に時刻を決める",
+        "本初子午線を基準に東西を表す",
+        "都道府県を表す",
+        "赤道を基準に南北を表す"
       ],
-      "answer": 2,
-      "explanation": "日本最南端。"
+      "answer": 3,
+      "explanation": "緯度は赤道基準。"
     },
     {
       "id": "soc-072",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本の東端の島として正しいものはどれか。",
       "choices": [
-        "与那国島",
-        "択捉島",
+        "南鳥島",
         "沖ノ鳥島",
-        "南鳥島"
+        "与那国島",
+        "択捉島"
       ],
-      "answer": 3,
-      "explanation": "日本最東端。"
+      "answer": 0,
+      "explanation": "日本の東端は南鳥島。"
     },
     {
       "id": "soc-073",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "一年を通して気温が高く雨が多い地域に広がる森林はどれか。",
       "choices": [
-        "択捉島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "与那国島"
+        "砂漠",
+        "ツンドラ",
+        "熱帯林",
+        "タイガ"
       ],
-      "answer": 3,
-      "explanation": "日本最西端。"
+      "answer": 2,
+      "explanation": "熱帯雨林が広がる。"
     },
     {
       "id": "soc-074",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "緯線の特徴として正しいものはどれか。",
       "choices": [
-        "アジア州",
-        "アフリカ州",
-        "ヨーロッパ州",
-        "オセアニア州"
+        "北極と南極を結ぶ線",
+        "時差をなくす線",
+        "赤道に平行な線",
+        "県境を表す線"
       ],
-      "answer": 0,
-      "explanation": "日本はアジア州。"
+      "answer": 2,
+      "explanation": "緯線は赤道に平行。"
     },
     {
       "id": "soc-075",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "冷帯の自然環境として関係が深いものはどれか。",
       "choices": [
-        "アフリカ大陸の南、インド洋の西に位置する内陸国",
-        "北極海の中央に位置する大陸国",
-        "南アメリカ大陸の東、大西洋の西に位置する半島国",
-        "ユーラシア大陸の東、太平洋の西に位置する島国"
+        "砂漠",
+        "針葉樹林",
+        "熱帯林",
+        "サバナ"
       ],
-      "answer": 3,
-      "explanation": "日本の位置。"
+      "answer": 1,
+      "explanation": "冷帯にはタイガが広がる。"
     },
     {
       "id": "soc-076",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "経度の説明として正しいものはどれか。",
       "choices": [
-        "沖ノ鳥島",
-        "与那国島",
-        "択捉島",
-        "南鳥島"
+        "県庁所在地を表す",
+        "赤道を基準に南北を表す",
+        "気温だけを表す",
+        "本初子午線を基準に東西を表す"
       ],
-      "answer": 0,
-      "explanation": "日本最南端。"
+      "answer": 3,
+      "explanation": "経度は本初子午線基準。"
     },
     {
       "id": "soc-077",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "千葉県の県庁所在地はどれか。",
       "choices": [
-        "与那国島",
-        "南鳥島",
-        "沖ノ鳥島",
-        "択捉島"
+        "柏市",
+        "市川市",
+        "千葉市",
+        "船橋市"
       ],
-      "answer": 1,
-      "explanation": "日本最東端。"
+      "answer": 2,
+      "explanation": "千葉県の県庁所在地は千葉市。"
     },
     {
       "id": "soc-078",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "乾燥帯で家畜とともに移動する生活を何というか。",
       "choices": [
-        "南鳥島",
-        "択捉島",
-        "沖ノ鳥島",
-        "与那国島"
+        "稲作",
+        "焼畑",
+        "工業",
+        "遊牧"
       ],
       "answer": 3,
-      "explanation": "日本最西端。"
+      "explanation": "遊牧。"
     },
     {
       "id": "soc-079",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "経線の特徴として正しいものはどれか。",
       "choices": [
-        "アジア州",
-        "オセアニア州",
-        "アフリカ州",
-        "ヨーロッパ州"
+        "降水量を表す線",
+        "赤道に平行な線",
+        "等高線だけ",
+        "北極と南極を結ぶ線"
       ],
-      "answer": 0,
-      "explanation": "日本はアジア州。"
+      "answer": 3,
+      "explanation": "経線は南北を結ぶ。"
     },
     {
       "id": "soc-080",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "寒帯の自然環境として関係が深いものはどれか。",
       "choices": [
-        "アフリカ大陸の南、インド洋の西に位置する内陸国",
-        "ユーラシア大陸の東、太平洋の西に位置する島国",
-        "北極海の中央に位置する大陸国",
-        "南アメリカ大陸の東、大西洋の西に位置する半島国"
+        "サバナ",
+        "マングローブ",
+        "熱帯林",
+        "ツンドラ"
       ],
-      "answer": 1,
-      "explanation": "日本の位置。"
+      "answer": 3,
+      "explanation": "寒帯にはツンドラが見られる。"
     },
     {
       "id": "soc-081",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "地球儀の長所として最も適切なものはどれか。",
       "choices": [
-        "択捉島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "与那国島"
+        "地球上の形や面積のゆがみが少ない",
+        "距離が必ずすべて同じ縮尺",
+        "持ち運びが必ず地図より簡単",
+        "全世界を一度に細かく見やすい"
       ],
-      "answer": 1,
-      "explanation": "日本最南端。"
+      "answer": 0,
+      "explanation": "地球儀はゆがみが少ない。"
     },
     {
       "id": "soc-082",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "神奈川県の県庁所在地はどれか。",
       "choices": [
-        "南鳥島",
-        "択捉島",
-        "沖ノ鳥島",
-        "与那国島"
+        "相模原市",
+        "鎌倉市",
+        "横浜市",
+        "川崎市"
       ],
-      "answer": 0,
-      "explanation": "日本最東端。"
+      "answer": 2,
+      "explanation": "神奈川県の県庁所在地は横浜市。"
     },
     {
       "id": "soc-083",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "寒帯・冷帯で住居や衣服に工夫が必要な理由はどれか。",
       "choices": [
-        "南鳥島",
-        "択捉島",
-        "与那国島",
-        "沖ノ鳥島"
+        "寒さが厳しいから",
+        "雨が毎日多いから",
+        "赤道に近いから",
+        "標準時がないから"
       ],
-      "answer": 2,
-      "explanation": "日本最西端。"
+      "answer": 0,
+      "explanation": "寒さへの対応。"
     },
     {
       "id": "soc-084",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "時差を求めるときに使う基本はどれか。",
       "choices": [
-        "アフリカ州",
-        "アジア州",
-        "オセアニア州",
-        "ヨーロッパ州"
+        "面積15万km²で1時間",
+        "経度15度で1時間",
+        "人口15万人で1時間",
+        "緯度15度で1時間"
       ],
       "answer": 1,
-      "explanation": "日本はアジア州。"
+      "explanation": "時差は経度差で考える。"
     },
     {
       "id": "soc-085",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "高山地域の暮らしで見られる工夫として適切なものはどれか。",
       "choices": [
-        "南アメリカ大陸の東、大西洋の西に位置する半島国",
-        "北極海の中央に位置する大陸国",
-        "アフリカ大陸の南、インド洋の西に位置する内陸国",
-        "ユーラシア大陸の東、太平洋の西に位置する島国"
+        "海だけで生活する",
+        "時差をなくす",
+        "標高に応じた作物や家畜の利用",
+        "必ず氷上住居に住む"
       ],
-      "answer": 3,
-      "explanation": "日本の位置。"
+      "answer": 2,
+      "explanation": "標高差に応じた利用。"
     },
     {
       "id": "soc-086",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "世界地図の長所として最も適切なものはどれか。",
       "choices": [
-        "与那国島",
-        "択捉島",
-        "沖ノ鳥島",
-        "南鳥島"
+        "全体を一度に見やすい",
+        "面積のゆがみがまったくない",
+        "必ず方位が不要になる",
+        "地球の丸さを完全に表す"
       ],
-      "answer": 2,
-      "explanation": "日本最南端。"
+      "answer": 0,
+      "explanation": "世界地図は一覧しやすい。"
     },
     {
       "id": "soc-087",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "愛知県の県庁所在地はどれか。",
       "choices": [
-        "与那国島",
-        "択捉島",
-        "沖ノ鳥島",
-        "南鳥島"
+        "岡崎市",
+        "一宮市",
+        "名古屋市",
+        "豊田市"
       ],
-      "answer": 3,
-      "explanation": "日本最東端。"
+      "answer": 2,
+      "explanation": "愛知県の県庁所在地は名古屋市。"
     },
     {
       "id": "soc-088",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "気候と住居の関係として適切な例はどれか。",
       "choices": [
-        "択捉島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "与那国島"
+        "雨が多い地域では高床式住居が見られることがある",
+        "乾燥帯では水上住居だけになる",
+        "熱帯では暖房だけが重要",
+        "寒い地域では必ず窓をなくす"
       ],
-      "answer": 3,
-      "explanation": "日本最西端。"
+      "answer": 0,
+      "explanation": "気候に対応した住居。"
     },
     {
       "id": "soc-089",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "日付変更線付近で日付が変わる理由として最も適切なものはどれか。",
       "choices": [
-        "アジア州",
-        "オセアニア州",
-        "ヨーロッパ州",
-        "アフリカ州"
+        "世界の時刻と日付のずれを調整するため",
+        "県庁所在地を決めるため",
+        "大陸を分けるため",
+        "雨量を測るため"
       ],
       "answer": 0,
-      "explanation": "日本はアジア州。"
+      "explanation": "日付を調整するため。"
     },
     {
       "id": "soc-090",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "世界地図で面積がゆがむ理由として最も適切なものはどれか。",
       "choices": [
-        "北極海の中央に位置する大陸国",
-        "ユーラシア大陸の東、太平洋の西に位置する島国",
-        "アフリカ大陸の南、インド洋の西に位置する内陸国",
-        "南アメリカ大陸の東、大西洋の西に位置する半島国"
+        "大陸が動くから",
+        "国名が多いから",
+        "球体の地球を平面に表すから",
+        "海が青いから"
       ],
-      "answer": 1,
-      "explanation": "日本の位置。"
+      "answer": 2,
+      "explanation": "球面を平面にするとゆがむ。"
     },
     {
       "id": "soc-091",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "メルカトル図法の特徴として正しいものはどれか。",
       "choices": [
-        "択捉島",
-        "与那国島",
-        "南鳥島",
-        "沖ノ鳥島"
+        "高緯度地域の面積が大きく表されやすい",
+        "経線が曲線だけになる",
+        "方位がすべて使えない",
+        "赤道付近が消える"
       ],
-      "answer": 3,
-      "explanation": "日本最南端。"
+      "answer": 0,
+      "explanation": "高緯度ほど引きのばされる。"
     },
     {
       "id": "soc-092",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "兵庫県の県庁所在地はどれか。",
       "choices": [
-        "択捉島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "与那国島"
+        "神戸市",
+        "尼崎市",
+        "姫路市",
+        "西宮市"
       ],
-      "answer": 2,
-      "explanation": "日本最東端。"
+      "answer": 0,
+      "explanation": "兵庫県の県庁所在地は神戸市。"
     },
     {
       "id": "soc-093",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "北半球と南半球を分ける線はどれか。",
       "choices": [
-        "南鳥島",
-        "沖ノ鳥島",
-        "択捉島",
-        "与那国島"
+        "日付変更線",
+        "赤道",
+        "本初子午線",
+        "標準時子午線"
       ],
-      "answer": 3,
-      "explanation": "日本最西端。"
+      "answer": 1,
+      "explanation": "赤道が南北を分ける。"
     },
     {
       "id": "soc-094",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "都道府県の県庁所在地を覚えるときに注意すべきことはどれか。",
       "choices": [
-        "アフリカ州",
-        "アジア州",
-        "オセアニア州",
-        "ヨーロッパ州"
+        "都道府県名と県庁所在地名が違う場合がある",
+        "県庁所在地は必ず一番北にある",
+        "県庁所在地は毎年変わる",
+        "すべて同じ名前である"
       ],
-      "answer": 1,
-      "explanation": "日本はアジア州。"
+      "answer": 0,
+      "explanation": "名前が異なる場合がある。"
     },
     {
       "id": "soc-095",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "経度差15度のとき、時差は何時間か。",
       "choices": [
-        "アフリカ大陸の南、インド洋の西に位置する内陸国",
-        "ユーラシア大陸の東、太平洋の西に位置する島国",
-        "北極海の中央に位置する大陸国",
-        "南アメリカ大陸の東、大西洋の西に位置する半島国"
+        "2時間",
+        "1時間",
+        "該当なし3",
+        "15時間"
       ],
       "answer": 1,
-      "explanation": "日本の位置。"
+      "explanation": "経度15度で1時間の時差。"
     },
     {
       "id": "soc-096",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最南端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本の標準時子午線はどれか。",
       "choices": [
-        "与那国島",
-        "択捉島",
-        "南鳥島",
-        "沖ノ鳥島"
+        "東経0度",
+        "西経135度",
+        "東経135度",
+        "北緯35度"
       ],
-      "answer": 3,
-      "explanation": "日本最南端。"
+      "answer": 2,
+      "explanation": "日本の標準時子午線は東経135度。"
     },
     {
       "id": "soc-097",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最東端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "北海道の道庁所在地はどれか。",
       "choices": [
-        "沖ノ鳥島",
-        "南鳥島",
-        "与那国島",
-        "択捉島"
+        "釧路市",
+        "旭川市",
+        "函館市",
+        "札幌市"
       ],
-      "answer": 1,
-      "explanation": "日本最東端。"
+      "answer": 3,
+      "explanation": "北海道の道庁所在地は札幌市。"
     },
     {
       "id": "soc-098",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の最西端の島はどれか。",
+      "targetSkill": "総合判断",
+      "question": "東半球と西半球を考えるとき基準になる線として最も関係が深いものはどれか。",
       "choices": [
-        "択捉島",
-        "沖ノ鳥島",
-        "南鳥島",
-        "与那国島"
+        "北回帰線",
+        "本初子午線",
+        "南極圏",
+        "赤道"
       ],
-      "answer": 3,
-      "explanation": "日本最西端。"
+      "answer": 1,
+      "explanation": "経度0度が基準。"
     },
     {
       "id": "soc-099",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本が属する州として最も一般的なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "日本の領土の説明として正しいものはどれか。",
       "choices": [
-        "オセアニア州",
-        "アジア州",
-        "ヨーロッパ州",
-        "アフリカ州"
+        "上空だけ",
+        "資源だけ利用できる海域",
+        "国の主権が及ぶ陸地",
+        "沿岸から12海里の海"
       ],
-      "answer": 1,
-      "explanation": "日本はアジア州。"
+      "answer": 2,
+      "explanation": "領土は陸地。"
     },
     {
       "id": "soc-100",
       "subject": "社会",
-      "unit": "世界と日本の地域構成",
-      "topic": "日本の位置・領域",
+      "unit": "地理",
+      "topic": "総合確認",
       "difficulty": "hard",
-      "targetSkill": "地名・位置",
-      "question": "日本の位置の説明として最も適切なものはどれか。",
+      "targetSkill": "総合判断",
+      "question": "経度差30度のとき、時差は何時間か。",
       "choices": [
-        "南アメリカ大陸の東、大西洋の西に位置する半島国",
-        "北極海の中央に位置する大陸国",
-        "ユーラシア大陸の東、太平洋の西に位置する島国",
-        "アフリカ大陸の南、インド洋の西に位置する内陸国"
+        "1時間",
+        "30時間",
+        "2時間",
+        "3時間"
       ],
       "answer": 2,
-      "explanation": "日本の位置。"
+      "explanation": "経度15度で1時間の時差。"
     }
   ]
 }
